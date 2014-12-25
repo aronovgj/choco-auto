@@ -3,7 +3,7 @@
   <metadata>
     <id>{{PackageName}}</id>
     <title>Sumatra PDF prerelease</title>
-    <version>{{PackageVersion}}</version>
+    <version>{{PackageVersion}}{{DlVersion}}</version>
     <authors>Krzysztof Kowalczyk</authors>
     <owners>doc</owners>
 	<iconUrl>https://cdn.rawgit.com/aronovgj/chocolatey/master/icons/{{PackageName}}.png</iconUrl>
