@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>evince</id>
+    <title>Evince</title>
+    <version>2.32.0.145</version>
+    <authors>Martin Kretzschmar Jonathan Blandford Marco Pesenti Gritti Nickolay V. Shmyrev Bryan Clark 
+Carlos Garcia Campos Wouter Bolsterlee Christian Persch </authors>
+    <owners>doc</owners>
+    <summary>Evince is a document viewer for multiple document formats. The goal of evince is to replace the multiple document viewers that exist on the GNOME Desktop with a single simple application. </summary>
+    <description>Evince is a document viewer for multiple document formats. The goal of evince is to replace the multiple document viewers that exist on the GNOME Desktop with a single simple application.
+
+Evince is specifically designed to support the file following formats: PDF, Postscript, djvu, tiff, dvi, XPS, SyncTex support with gedit, comics books (cbr,cbz,cb7 and cbt). </description>
+    <projectUrl>https://wiki.gnome.org/Apps/Evince</projectUrl>
+    <tags>viewer evince pdf postscript djvu tiff dvi xps tex latex cbr cbz cb7 cbt</tags>
+    <copyright></copyright>
+    <licenseUrl>http://www.gnu.org/licenses/old-licenses/gpl-2.0.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://cdn.rawgit.com/aronovgj/chocolatey/master/icons/evince.png</iconUrl>
+    <releaseNotes></releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

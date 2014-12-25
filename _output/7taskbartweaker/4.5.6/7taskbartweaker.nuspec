@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>7taskbartweaker</id>
+    <title>7+ Taskbar Tweaker</title>
+    <version>4.5.6</version>
+    <authors>RaMMicHaeL</authors>
+    <owners>doc</owners>
+    <summary>7+ Taskbar Tweaker allows you to configure various aspects of the Windows taskbar.</summary>
+    <description>7+ Taskbar Tweaker allows you to configure various aspects of the Windows taskbar.
+Most of the configuration options it provides can’t be tweaked using the taskbar properties or the registry.
+The tweaker is designed for Windows 7 and Windows 8.</description>
+    <projectUrl>http://rammichael.com/7-taskbar-tweaker</projectUrl>
+    <tags>taskbar tweaker</tags>
+    <copyright></copyright>
+    <licenseUrl>http://www.gnu.org/licenses/old-licenses/gpl-2.0.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://cdn.rawgit.com/aronovgj/chocolatey/master/icons/7taskbartweaker.png</iconUrl>
+    <releaseNotes></releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>msiafterburner</id>
+    <title>MSI Afterburner</title>
+    <version>4.1.0</version>
+    <authors>MSI</authors>
+    <owners>doc</owners>
+    <summary>MSI Afterburner is ultimate graphics card utility, co-developed by MSI and RivaTuner teams.</summary>
+    <description>MSI Afterburner is ultimate graphics card utility, co-developed by MSI and RivaTuner teams.</description>
+    <projectUrl>http://event.msi.com/vga/afterburner</projectUrl>
+    <tags>msi afterburner msiafterburner graphics video card overclock underclock fan voltage</tags>
+    <copyright></copyright>
+    <licenseUrl>https://github.com/aronovgj/chocolatey/blob/master/msiafterburner/license.txt</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://cdn.rawgit.com/aronovgj/chocolatey/master/icons/msiafterburner.png</iconUrl>
+    <releaseNotes></releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

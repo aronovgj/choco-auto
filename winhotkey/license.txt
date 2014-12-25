@@ -1,0 +1,16 @@
+WINHOTKEY FREEWARE LICENSE AGREEMENT
+
+Please read the following terms and conditions before using this software. Using, copying, or distributing this software indicates your acceptance of the following license agreement.
+LICENSE
+
+Brian Mathis hereby grants you a non-exclusive, transferrable license to use this software, subject to compliance with this license.
+
+You may redistribute this software only in its original and unmodified form, as supplied to you by Brian Mathis. This license agreement must remain intact and unmodified in all redistributed copies.
+
+You may not misrepresent the origin of this software. If you redistribute this software, all references to Brian Mathis and associations must remain intact.
+
+You agree that Brian Mathis has no obligation, liability, or responsibility for the use of this software. Any and all costs associated with its use, copying, or distribution are your sole responsibility.
+
+THIS SOFTWARE IS SOLD AS-IS AND WITHOUT WARRANTY OF ANY KIND EXPRESSED, IMPLIED OR OTHERWISE, INCLUDING WITHOUT LIMITATION, ANY WARRANTY OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE.
+
+Copyright (C) 2004 Brian Mathis
