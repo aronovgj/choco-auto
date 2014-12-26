@@ -15,6 +15,9 @@
     <licenseUrl>https://github.com/aronovgj/chocolatey/blob/master/msiafterburner/license.txt</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://cdn.rawgit.com/aronovgj/chocolatey/master/icons/msiafterburner.png</iconUrl>
+    <dependencies>
+        <dependency id="autohotkey.portable" />
+    </dependencies>
     <releaseNotes></releaseNotes>
   </metadata>
   <files>

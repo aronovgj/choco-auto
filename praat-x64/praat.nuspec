@@ -3,24 +3,24 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>{{PackageName}}</id>
-    <title>MSI Afterburner</title>
+    <title>Praat</title>
     <version>{{PackageVersion}}</version>
-    <authors>MSI</authors>
-    <owners>doc</owners>
-    <summary>MSI Afterburner is ultimate graphics card utility, co-developed by MSI and RivaTuner teams.</summary>
-    <description>MSI Afterburner is ultimate graphics card utility, co-developed by MSI and RivaTuner teams.</description>
-    <projectUrl>http://event.msi.com/vga/afterburner</projectUrl>
-    <tags>msi afterburner msiafterburner graphics video card overclock underclock fan voltage</tags>
+    <authors>Paul Boersma, David Weenink   </authors>
+    <owners>Doc</owners>
+    <summary>PRAAT is a very flexible tool to do speech analysis.</summary>
+    <description>PRAAT is a very flexible tool to do speech analysis. It offers a wide range of standard
+and non-standard procedures, including spectrographic analysis, articulatory synthesis,
+and neural networks.</description>
+    <projectUrl>http://www.fon.hum.uva.nl/praat/</projectUrl>
+    <tags>praat sound visualization speech phonetics phonology analysis </tags>
     <copyright></copyright>
-    <licenseUrl>https://github.com/aronovgj/chocolatey/blob/master/msiafterburner/license.txt</licenseUrl>
+    <licenseUrl>http://www.fon.hum.uva.nl/praat/GNU_General_Public_License.txt</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://cdn.rawgit.com/aronovgj/chocolatey/master/icons/{{PackageName}}.png</iconUrl>
-    <dependencies>
-        <dependency id="autohotkey.portable" />
-    </dependencies>
     <releaseNotes></releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
   </files>
 </package>
+

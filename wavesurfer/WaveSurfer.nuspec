@@ -3,24 +3,22 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>{{PackageName}}</id>
-    <title>MSI Afterburner</title>
+    <title>WaveSurfer</title>
     <version>{{PackageVersion}}</version>
-    <authors>MSI</authors>
-    <owners>doc</owners>
-    <summary>MSI Afterburner is ultimate graphics card utility, co-developed by MSI and RivaTuner teams.</summary>
-    <description>MSI Afterburner is ultimate graphics card utility, co-developed by MSI and RivaTuner teams.</description>
-    <projectUrl>http://event.msi.com/vga/afterburner</projectUrl>
-    <tags>msi afterburner msiafterburner graphics video card overclock underclock fan voltage</tags>
+    <authors>Jonas Beskow, Kare Sjolander</authors>
+    <owners>Doc</owners>
+    <summary>WaveSurfer is an open source tool for sound visualization and manipulation.</summary>
+    <description>WaveSurfer is an open source tool for sound visualization and manipulation. Typical applications are speech/sound analysis and sound annotation/transcription. WaveSurfer may be extended by plug-ins as well as embedded in other applications.</description>
+    <projectUrl>http://www.speech.kth.se/wavesurfer</projectUrl>
+    <tags>wave surfer wavesurfer sound visualization speech phonetics phonology </tags>
     <copyright></copyright>
-    <licenseUrl>https://github.com/aronovgj/chocolatey/blob/master/msiafterburner/license.txt</licenseUrl>
+    <licenseUrl>http://opensource.org/licenses/BSD-3-Clause</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://cdn.rawgit.com/aronovgj/chocolatey/master/icons/{{PackageName}}.png</iconUrl>
-    <dependencies>
-        <dependency id="autohotkey.portable" />
-    </dependencies>
     <releaseNotes></releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
   </files>
 </package>
+

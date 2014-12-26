@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id>sumatrapdfpre</id>
-    <title>Sumatra PDF prerelease</title>
-    <version>3.1.10082</version>
+    <id>{{PackageName}}</id>
+    <title>Sumatra PDF</title>
+    <version>{{PackageVersion}}-preview</version>
     <authors>Krzysztof Kowalczyk</authors>
     <owners>doc</owners>
-	<iconUrl>https://cdn.rawgit.com/aronovgj/chocolatey/master/icons/sumatrapdfpre.png</iconUrl>
+	<iconUrl>https://cdn.rawgit.com/aronovgj/chocolatey/master/icons/{{PackageName}}.png</iconUrl>
         <summary>Sumatra PDF is a free PDF, eBook (ePub, Mobi), XPS, DjVu, CHM, Comic Book (CBZ and CBR) reader for Windows. 
 
 Pre-release, might be unstable. Install at your own responsibility.</summary>

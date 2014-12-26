@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>wavesurfer</id>
+    <title>WaveSurfer</title>
+    <version>1.8.84.20141226</version>
+    <authors>Jonas Beskow, Kare Sjolander</authors>
+    <owners>Doc</owners>
+    <summary>WaveSurfer is an open source tool for sound visualization and manipulation.</summary>
+    <description>WaveSurfer is an open source tool for sound visualization and manipulation. Typical applications are speech/sound analysis and sound annotation/transcription. WaveSurfer may be extended by plug-ins as well as embedded in other applications.</description>
+    <projectUrl>http://www.speech.kth.se/wavesurfer</projectUrl>
+    <tags>wave surfer wavesurfer sound visualization speech phonetics phonology </tags>
+    <copyright></copyright>
+    <licenseUrl>http://opensource.org/licenses/BSD-3-Clause</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://cdn.rawgit.com/aronovgj/chocolatey/master/icons/wavesurfer.png</iconUrl>
+    <releaseNotes></releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
+
