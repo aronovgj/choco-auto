@@ -11,7 +11,15 @@ try {
         Stop-Process -ProcessName MSIAfterburner*
     }
     Start-Process 'AutoHotkey' $ahkFile
-    $unpath = "${Env:ProgramFiles(x86)}\MSI Afterburner\Uninstall.exe"
+	if (Test-Path "${Env:ProgramFiles(x86)}\MSI Afterburner")
+	{
+		$unpath = "${Env:ProgramFiles(x86)}\MSI Afterburner\Uninstall.exe"
+	}
+	else
+	{
+		$unpath = "${Env:ProgramFiles}\MSI Afterburner\Uninstall.exe"
+	}
+
     Uninstall-ChocolateyPackage "$packageName" "$installerType" "$silentArgs" "$unpath" -validExitCodes $validExitCodes
     Write-ChocolateySuccess "$packageName"
     } catch {
