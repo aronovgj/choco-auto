@@ -5,8 +5,7 @@
     <id>{{PackageName}}</id>
     <title>Evince</title>
     <version>{{PackageVersion}}</version>
-    <authors>Martin Kretzschmar Jonathan Blandford Marco Pesenti Gritti Nickolay V. Shmyrev Bryan Clark 
-Carlos Garcia Campos Wouter Bolsterlee Christian Persch </authors>
+    <authors>Martin Kretzschmar, Jonathan Blandford, Marco Pesenti Gritti, Nickolay, V. Shmyrev, Bryan Clark, Carlos Garcia Campos, Wouter Bolsterlee, Christian Persch </authors>
     <owners>doc</owners>
     <summary>Evince is a document viewer for multiple document formats. The goal of evince is to replace the multiple document viewers that exist on the GNOME Desktop with a single simple application. </summary>
     <description>Evince is a document viewer for multiple document formats. The goal of evince is to replace the multiple document viewers that exist on the GNOME Desktop with a single simple application.
