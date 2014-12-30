@@ -8,13 +8,14 @@
     <authors>Brian Mathis</authors>
     <owners>doc</owners>
     <summary>WinHotKey allows you to assign "hot keys" that do various things.</summary>
-    <description>WinHotKey allows you to assign "hot keys" that do various things. Actions that can be done with a hotkey are:
+    <description>
+WinHotKey allows you to assign "hot keys" that do various things. Actions that can be done with a hotkey are:
 
-    Launch a Program
-    Open a document
-    Open a folder
-    Automatically type something (Sorry, this feature doesn't work on Vista, Windows 7, or later)
-    Control other windows on the screen
+- Launch a Program
+- Open a document
+- Open a folder
+- Automatically type something (Sorry, this feature doesn't work on Vista, Windows 7, or later)
+- Control other windows on the screen
 
 The main goal of this tool is to be easy to use. There are many other hotkey programs out there, but most of them do not provide a sufficient level of "ease of use". This walks the user through the options, while remaining a powerful tool.
 
@@ -24,6 +25,9 @@ When running, the program sits in the system tray. Double-clicking on the system
     <copyright></copyright>
     <licenseUrl>https://github.com/aronovgj/chocolatey/blob/master/winhotkey/license.txt</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
+	<dependencies>
+        <dependency id="autohotkey.portable" />
+    </dependencies>
     <iconUrl>https://cdn.rawgit.com/aronovgj/chocolatey/master/icons/winhotkey.jpeg</iconUrl>
     <releaseNotes></releaseNotes>
   </metadata>

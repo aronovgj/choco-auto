@@ -10,11 +10,11 @@
 	A small tool which adds support for over 900 new programs into the popular program CCleaner.
 	</summary>
     <description>
-	A small tool which adds support for over 900 new programs into the popular program CCleaner.
+A small tool which adds support for over 900 new programs into the popular program CCleaner.
 	
-	The tool uses the winapp2.ini system built into CCleaner to easily add new rules and definitions for programs.
+The tool uses the winapp2.ini system built into CCleaner to easily add new rules and definitions for programs.
 	
-	The rules were sourced mainly from the Piriform Support Forum, with several sourced from other places around the internet.
+The rules were sourced mainly from the Piriform Support Forum, with several sourced from other places around the internet.
 	</description>
     <projectUrl>http://singularlabs.com/software/ccenhancer/download/</projectUrl>
     <tags>plugin add-on cleaner ccleaner</tags>

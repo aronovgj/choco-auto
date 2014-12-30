@@ -16,6 +16,9 @@ The tweaker is designed for Windows 7 and Windows 8.</description>
     <copyright></copyright>
     <licenseUrl>http://www.gnu.org/licenses/old-licenses/gpl-2.0.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
+	<dependencies>
+        <dependency id="autohotkey.portable" />
+    </dependencies>
     <iconUrl>https://cdn.rawgit.com/aronovgj/chocolatey/master/icons/{{PackageName}}.png</iconUrl>
     <releaseNotes></releaseNotes>
   </metadata>

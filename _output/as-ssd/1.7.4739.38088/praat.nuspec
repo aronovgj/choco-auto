@@ -8,9 +8,12 @@
     <authors>Alex Schepeljanski</authors>
     <owners>Doc</owners>
     <summary>AS SSD is a reliable lightweight SSD-benchmarking Program.</summary>
-    <description>AS SSD is a reliable lightweight SSD-benchmarking Program.
+    <description>
+AS SSD is a reliable lightweight SSD-benchmarking Program.	
+
+The Program is available in German and English. To switch language go to 
 	
-	The Program is available in German and English. To switch language go to "Sprache -> Englisch"</description>
+	Sprache -> Englisch</description>
     <projectUrl>http://www.alex-is.de/PHP/fusion/downloads.php?cat_id=4&amp;download_id=9</projectUrl>
     <tags>as ssd benchmark read write </tags>
     <copyright></copyright>
