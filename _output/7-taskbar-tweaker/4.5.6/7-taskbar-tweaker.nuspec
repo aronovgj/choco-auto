@@ -19,7 +19,7 @@ The tweaker is designed for Windows 7 and Windows 8.</description>
 	<dependencies>
         <dependency id="autohotkey.portable" />
     </dependencies>
-    <iconUrl>https://cdn.rawgit.com/aronovgj/chocolatey/master/icons/7-taskbar-tweaker.png</iconUrl>
+    <iconUrl>https://cdn.rawgit.com/aronovgj/chocolatey/34f87e5f6b8aadb5586cf6a7fcc1eef446688ddc/icons/7-taskbar-tweaker.png</iconUrl>
     <releaseNotes></releaseNotes>
   </metadata>
   <files>

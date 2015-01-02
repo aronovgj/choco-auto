@@ -4,8 +4,7 @@ $silentArgs = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-'
 $validExitCodes = @(0) #please insert other valid exit codes here, exit codes for ms http://msdn.microsoft.com/en-us/library/aa368542(VS.85).aspx
 
 try {
-  $processor = Get-WmiObject Win32_Processor
-  $is64bit = $processor.AddressWidth -eq 64
+  $is64bit = Get-ProcessorBits 64;
   if ($is64bit) {
     $unpath = "${Env:ProgramFiles(x86)}\CrystalDiskInfo\unins000.exe"
   } else {
