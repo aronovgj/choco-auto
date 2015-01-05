@@ -72,8 +72,8 @@
     <WebsiteUrl />
     <UserAgent>Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19</UserAgent>
     <UserNotes />
-    <LastFileSize>4579936</LastFileSize>
-    <LastFileDate>2014-12-24T02:37:54+01:00</LastFileDate>
+    <LastFileSize>4583008</LastFileSize>
+    <LastFileDate>2014-12-29T18:40:45.5607772</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate>2014-12-26T04:48:03.5766184</DownloadDate>
@@ -140,13 +140,13 @@ var sumBuiltOn = "</EndText>
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>E:\git\choco-auto\SumatraPDF-prerelease-10085-install.exe</PreviousLocation>
+    <PreviousLocation>E:\git\choco-auto\SumatraPDF-prerelease-10089-install.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2014-12-27T14:29:12.1699773+01:00</LastUpdated>
+    <LastUpdated>2014-12-29T18:40:45.5607772</LastUpdated>
     <TargetPath>E:\git\choco-auto\</TargetPath>
     <FixedDownloadUrl>http://kjkpub.s3.amazonaws.com/sumatrapdf/prerel/SumatraPDF-prerelease-{dlversion}-install.exe</FixedDownloadUrl>
-    <Name>sumatrapdf</Name>
+    <Name>sumatrapdf.prerelease</Name>
   </ApplicationJob>
 </Jobs>
