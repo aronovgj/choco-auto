@@ -15,7 +15,7 @@
           <string>LastUpdateCheck</string>
         </key>
         <value>
-          <string>AAEAAAD/////AQAAAAAAAAAEAQAAAA9TeXN0ZW0uRGF0ZVRpbWUCAAAABXRpY2tzCGRhdGVEYXRhAAAJEMHM2QH69dEIwczZAfr10YgL</string>
+          <string>AAEAAAD/////AQAAAAAAAAAEAQAAAA9TeXN0ZW0uRGF0ZVRpbWUCAAAABXRpY2tzCGRhdGVEYXRhAAAJEA3/ZgHV/9EIDf9mAdX/0YgL</string>
         </value>
       </item>
       <item>
@@ -257,7 +257,7 @@
           <string>MainForm/Location</string>
         </key>
         <value>
-          <string>System.Drawing.Point:822,161</string>
+          <string>System.Drawing.Point:414,356</string>
         </value>
       </item>
       <item>
@@ -353,7 +353,7 @@
           <string>olvJobs/Target:Width</string>
         </key>
         <value>
-          <string>System.Int32:121</string>
+          <string>System.Int32:104</string>
         </value>
       </item>
       <item>
@@ -441,7 +441,7 @@
           <string>SetPlaceholderDialog/Location</string>
         </key>
         <value>
-          <string>System.Drawing.Point:1208,521</string>
+          <string>System.Drawing.Point:780,415</string>
         </value>
       </item>
       <item>
@@ -481,7 +481,7 @@
           <string>EditVariablesDialog/Location</string>
         </key>
         <value>
-          <string>System.Drawing.Point:359,341</string>
+          <string>System.Drawing.Point:2182,207</string>
         </value>
       </item>
       <item>
@@ -505,7 +505,7 @@
           <string>ApplicationJobDialog/Location</string>
         </key>
         <value>
-          <string>System.Drawing.Point:601,156</string>
+          <string>System.Drawing.Point:2055,148</string>
         </value>
       </item>
       <item>
