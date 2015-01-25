@@ -23,7 +23,7 @@ When running, the program sits in the system tray. Double-clicking on the system
     <projectUrl>http://directedge.us/content/winhotkey</projectUrl>
     <tags>hotkey key winhotkey</tags>
     <copyright></copyright>
-    <licenseUrl>https://github.com/aronovgj/chocolatey/blob/master/winhotkey/license.txt</licenseUrl>
+    <licenseUrl>http://directedge.us/content/winhotkey-license</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
 	<dependencies>
         <dependency id="autohotkey.portable" />

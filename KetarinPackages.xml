@@ -782,7 +782,7 @@
     <UserAgent>Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19</UserAgent>
     <UserNotes />
     <LastFileSize>3014272</LastFileSize>
-    <LastFileDate>2015-01-01T22:43:24.9347462</LastFileDate>
+    <LastFileDate>2015-01-19T15:09:41.7452459</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -827,17 +827,31 @@
       </item>
       <item>
         <key>
-          <string>linkversion</string>
+          <string>num</string>
         </key>
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>RegularExpression</VariableType>
-            <Regex>/CrystalDiskInfo([0-9]_[0-9]_[0-9])-en.exe/"&gt;C</Regex>
-            <Url>http://sourceforge.jp/projects/crystaldiskinfo/releases/62506</Url>
-            <StartText>CrystalDiskInfo</StartText>
-            <EndText>-en.exe/"&gt;</EndText>
-            <Name>linkversion</Name>
+            <VariableType>StartEnd</VariableType>
+            <Regex />
+            <Url>http://crystalmark.info/redirect.php?product=CrystalDiskInfoInstaller-en</Url>
+            <StartText>crystaldiskinfo/downloads/</StartText>
+            <EndText>/CrystalDiskInfo</EndText>
+            <Name>num</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>nopush</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>--nopush</TextualContent>
+            <Name>nopush</Name>
           </UrlVariable>
         </value>
       </item>
@@ -852,9 +866,9 @@
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-01-01T22:43:24.9347462</LastUpdated>
+    <LastUpdated>2015-01-19T15:09:41.7452459</LastUpdated>
     <TargetPath>E:\git\choco-auto\</TargetPath>
-    <FixedDownloadUrl>http://sourceforge.jp/frs/redir.php?m=jaist&amp;f=%2Fcrystaldiskinfo%2F62506%2FCrystalDiskInfo{linkversion}-en.exe</FixedDownloadUrl>
+    <FixedDownloadUrl>http://sourceforge.jp/frs/redir.php?m=jaist&amp;f=%2Fcrystaldiskinfo%2F{num}%2FCrystalDiskInfo{version:replace:.:_}-en.exe</FixedDownloadUrl>
     <Name>crystaldiskinfo</Name>
   </ApplicationJob>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="6328dcb6-0782-43e4-9c27-c3ba5f555d0f">
@@ -931,8 +945,8 @@
     <WebsiteUrl />
     <UserAgent>Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19</UserAgent>
     <UserNotes />
-    <LastFileSize>173182168</LastFileSize>
-    <LastFileDate>2015-01-15T19:13:57.3828261</LastFileDate>
+    <LastFileSize>174156504</LastFileSize>
+    <LastFileDate>2015-01-21T20:13:30.9500459</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -986,7 +1000,7 @@
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-01-15T19:13:57.3828261</LastUpdated>
+    <LastUpdated>2015-01-21T20:13:30.9500459</LastUpdated>
     <TargetPath>E:\git\choco-auto\</TargetPath>
     <FixedDownloadUrl>http://dl.emsisoft.com/EmsisoftAntiMalwareSetup.exe</FixedDownloadUrl>
     <Name>emsisoft-anti-malware</Name>

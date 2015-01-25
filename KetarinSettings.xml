@@ -15,7 +15,7 @@
           <string>LastUpdateCheck</string>
         </key>
         <value>
-          <string>AAEAAAD/////AQAAAAAAAAAEAQAAAA9TeXN0ZW0uRGF0ZVRpbWUCAAAABXRpY2tzCGRhdGVEYXRhAAAJEA3/ZgHV/9EIDf9mAdX/0YgL</string>
+          <string>AAEAAAD/////AQAAAAAAAAAEAQAAAA9TeXN0ZW0uRGF0ZVRpbWUCAAAABXRpY2tzCGRhdGVEYXRhAAAJEHsr6/RXBNIIeyvr9FcE0ogL</string>
         </value>
       </item>
       <item>
@@ -257,7 +257,7 @@
           <string>MainForm/Location</string>
         </key>
         <value>
-          <string>System.Drawing.Point:414,356</string>
+          <string>System.Drawing.Point:2659,279</string>
         </value>
       </item>
       <item>
@@ -481,7 +481,7 @@
           <string>EditVariablesDialog/Location</string>
         </key>
         <value>
-          <string>System.Drawing.Point:2182,207</string>
+          <string>System.Drawing.Point:2174,348</string>
         </value>
       </item>
       <item>

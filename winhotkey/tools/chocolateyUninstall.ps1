@@ -3,21 +3,31 @@ $fileType = 'exe'
 $silentArgs = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART'
 $scriptPath = Split-Path -parent $MyInvocation.MyCommand.Definition
 $ahkFile = "$scriptPath\killwinhotkey.ahk"
+$registryPath32 = 'HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\WinHotKey_is1'
+$registryPathWow6432 = 'HKLM:\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\WinHotKey_is1'
 
-if (Test-Path "${env:programfiles(x86)}\WinHotKey")
-{
-    $uninstallerPath = "${env:programfiles(x86)}\WinHotKey\unins000.exe"
-}
-else
-{
-	$uninstallerPath = "${env:programfiles}\WinHotKey\unins000.exe"
-}
 
 try {
-	Start-Process 'AutoHotkey' $ahkFile
-	Uninstall-ChocolateyPackage $packageName $fileType $silentArgs $uninstallerPath
+ 
+  if (Test-Path $registryPath32) {
+    $registryPath = $registryPath32
+  }
+ 
+  if (Test-Path $registryPathWow6432) {
+    $registryPath = $registryPathWow6432
+  }
+ 
+  if ($registryPath) {
+    $uninstallString = (Get-ItemProperty -Path $registryPath -Name 'UninstallString').UninstallString
+  }
+ 
+  if ($uninstallString) {
+  	Start-Process 'AutoHotkey' $ahkFile
+    Uninstall-ChocolateyPackage $packageName $fileType $silentArgs $uninstallString
 	Write-ChocolateySuccess $packageName
-	} catch {
-	Write-ChocolateyFailure $packageName $($_.Exception.Message)
-	throw
+    }
+ 
+} catch {
+  Write-ChocolateyFailure $packageName $($_.Exception.Message)
+  throw
 }
