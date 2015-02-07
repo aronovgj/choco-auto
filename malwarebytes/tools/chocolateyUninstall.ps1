@@ -25,6 +25,5 @@ try {
   }
  
 } catch {
-  Write-ChocolateyFailure $packageName $($_.Exception.Message)
-  throw
+  throw $_.Exception
 }

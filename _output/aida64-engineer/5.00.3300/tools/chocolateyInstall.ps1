@@ -6,11 +6,7 @@ $validExitCodes = @(0) #please insert other valid exit codes here, exit codes fo
 
 try {
 
-	Install-ChocolateyPackage $packageName $installerType $silentArgs $url -validExitCodes $validExitCodes
-	
-	Write-ChocolateySuccess $packageName
-	
+	Install-ChocolateyPackage $packageName $installerType $silentArgs $url -validExitCodes $validExitCodes	
 } catch {
-	Write-ChocolateyFailure $packageName $($_.Exception.Message)
-	throw 
+	throw $_.Exception 
 }

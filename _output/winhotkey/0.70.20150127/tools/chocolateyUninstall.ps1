@@ -24,10 +24,8 @@ try {
   if ($uninstallString) {
   	Start-Process 'AutoHotkey' $ahkFile
     Uninstall-ChocolateyPackage $packageName $fileType $silentArgs $uninstallString
-	Write-ChocolateySuccess $packageName
     }
  
 } catch {
-  Write-ChocolateyFailure $packageName $($_.Exception.Message)
-  throw
+  throw $_.Exception
 }

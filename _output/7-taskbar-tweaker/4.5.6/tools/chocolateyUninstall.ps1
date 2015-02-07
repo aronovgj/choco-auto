@@ -6,8 +6,6 @@ $validExitCodes = @(0) #please insert other valid exit codes here, exit codes fo
 try{
   $unpath = "$env:APPDATA\7+ Taskbar Tweaker\uninstall.exe"
   Uninstall-ChocolateyPackage "$packageName" "$installerType" "$silentArgs" "$unpath" -validExitCodes $validExitCodes
-  Write-ChocolateySuccess "$packageName"
 } catch {
-  Write-ChocolateyFailure "$packageName" "$($_.Exception.Message)"
-  throw 
+  throw $_.Exception 
 }

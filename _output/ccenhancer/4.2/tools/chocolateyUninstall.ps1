@@ -4,11 +4,7 @@ $shortcut_to_remove = "CCEnhancer-4.2.exe.lnk"
 
 try {
 
-	Remove-Item "$desktop\$shortcut_to_remove"
-  
-	Write-ChocolateySuccess $packageName
-	
+	Remove-Item "$desktop\$shortcut_to_remove"	
 } catch {
-	Write-ChocolateyFailure $packageName $($_.Exception.Message)
-	throw 
+	throw $_.Exception 
 }

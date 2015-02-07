@@ -17,8 +17,6 @@ try {
     $file = "${env:temp}\afterburner\MSIAfterburnerSetup410.exe"
     Install-ChocolateyInstallPackage $packageName $fileType $silentArgs $file 
     Remove-Item $unpackdir -Recurse -Force
-    Write-ChocolateySuccess $packageName
 } catch {
-    Write-ChocolateyFailure $packageName $($_.Exception.Message)
-    throw 
+    throw $_.Exception 
 }
