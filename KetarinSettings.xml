@@ -15,7 +15,7 @@
           <string>LastUpdateCheck</string>
         </key>
         <value>
-          <string>AAEAAAD/////AQAAAAAAAAAEAQAAAA9TeXN0ZW0uRGF0ZVRpbWUCAAAABXRpY2tzCGRhdGVEYXRhAAAJEHsr6/RXBNIIeyvr9FcE0ogL</string>
+          <string>AAEAAAD/////AQAAAAAAAAAEAQAAAA9TeXN0ZW0uRGF0ZVRpbWUCAAAABXRpY2tzCGRhdGVEYXRhAAAJEGyTJ4yGG9IIbJMnjIYb0ogL</string>
         </value>
       </item>
       <item>
@@ -73,7 +73,7 @@
           <string>UpdateAtStartup</string>
         </key>
         <value>
-          <string>System.Boolean:True</string>
+          <string>System.Boolean:False</string>
         </value>
       </item>
       <item>
@@ -249,7 +249,7 @@
           <string>MainForm/Size</string>
         </key>
         <value>
-          <string>System.Drawing.Size:695,511</string>
+          <string>System.Drawing.Size:807,511</string>
         </value>
       </item>
       <item>
@@ -257,7 +257,7 @@
           <string>MainForm/Location</string>
         </key>
         <value>
-          <string>System.Drawing.Point:2659,279</string>
+          <string>System.Drawing.Point:800,287</string>
         </value>
       </item>
       <item>
@@ -353,7 +353,7 @@
           <string>olvJobs/Target:Width</string>
         </key>
         <value>
-          <string>System.Int32:104</string>
+          <string>System.Int32:266</string>
         </value>
       </item>
       <item>
@@ -377,7 +377,7 @@
           <string>olvJobs/Category:Width</string>
         </key>
         <value>
-          <string>System.Int32:50</string>
+          <string>System.Int32:0</string>
         </value>
       </item>
       <item>
@@ -473,7 +473,7 @@
           <string>EditVariablesDialog/Size</string>
         </key>
         <value>
-          <string>System.Drawing.Size:1222,707</string>
+          <string>System.Drawing.Size:1222,783</string>
         </value>
       </item>
       <item>
@@ -481,7 +481,7 @@
           <string>EditVariablesDialog/Location</string>
         </key>
         <value>
-          <string>System.Drawing.Point:2174,348</string>
+          <string>System.Drawing.Point:1961,208</string>
         </value>
       </item>
       <item>
@@ -505,7 +505,7 @@
           <string>ApplicationJobDialog/Location</string>
         </key>
         <value>
-          <string>System.Drawing.Point:2055,148</string>
+          <string>System.Drawing.Point:1396,371</string>
         </value>
       </item>
       <item>
@@ -785,7 +785,7 @@
           <string>olvErrors/Application:Width</string>
         </key>
         <value>
-          <string>System.Int32:98</string>
+          <string>System.Int32:148</string>
         </value>
       </item>
       <item>
@@ -809,7 +809,7 @@
           <string>olvErrors/Error:Width</string>
         </key>
         <value>
-          <string>System.Int32:1221</string>
+          <string>System.Int32:1171</string>
         </value>
       </item>
       <item>
@@ -1065,7 +1065,7 @@
           <string>LogDialog/Location</string>
         </key>
         <value>
-          <string>System.Drawing.Point:396,201</string>
+          <string>System.Drawing.Point:278,452</string>
         </value>
       </item>
       <item>

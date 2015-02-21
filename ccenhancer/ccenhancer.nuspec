@@ -19,6 +19,9 @@ The rules were sourced mainly from the Piriform Support Forum, with several sour
     <projectUrl>http://singularlabs.com/software/ccenhancer/download/</projectUrl>
     <tags>plugin add-on cleaner ccleaner</tags>
     <copyright></copyright>
+	<dependencies>
+		<dependency id="ccleaner" />
+	</dependencies>
     <licenseUrl>http://en.wikipedia.org/wiki/Freeware</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
 	<iconUrl>https://cdn.rawgit.com/aronovgj/chocolatey/master/icons/{{PackageName}}.png</iconUrl>

@@ -648,7 +648,7 @@
     <UserAgent>Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19</UserAgent>
     <UserNotes />
     <LastFileSize>1577464</LastFileSize>
-    <LastFileDate>2014-12-25T16:54:14.2707279</LastFileDate>
+    <LastFileDate>2015-02-18T19:34:08.4957373</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -670,8 +670,9 @@
             <VariableType>StartEnd</VariableType>
             <Regex />
             <Url>http://www.cpuid.com/softwares/cpu-z.html</Url>
-            <StartText>="/downloads/cpu-z/</StartText>
-            <EndText>-setup-en.exe"&gt;1.71.1 setup, english</EndText>
+            <StartText>&lt;h4&gt;DOWNLOAD&lt;/h4&gt;
+                        &lt;div class="subtitle"&gt;Version </StartText>
+            <EndText> for windows&amp;reg</EndText>
             <TextualContent />
             <Name>version</Name>
           </UrlVariable>
@@ -698,13 +699,13 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>E:\git\choco-auto\cpu-z_1.71.1-setup-en.exe</PreviousLocation>
+    <PreviousLocation>E:\git\choco-auto\cpu-z_1.71.1-en.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2014-12-25T16:54:14.2707279</LastUpdated>
+    <LastUpdated>2015-02-18T19:34:08.4957373</LastUpdated>
     <TargetPath>E:\git\choco-auto\</TargetPath>
-    <FixedDownloadUrl>ftp://ftp.cpuid.com/cpu-z/cpu-z_{version}-setup-en.exe</FixedDownloadUrl>
+    <FixedDownloadUrl>ftp://ftp.cpuid.com/cpu-z/cpu-z_{version}-en.exe</FixedDownloadUrl>
     <Name>cpu-z</Name>
   </ApplicationJob>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="8e82be7e-8f72-4a9a-82bc-66c9026cb5e3">
@@ -945,8 +946,8 @@
     <WebsiteUrl />
     <UserAgent>Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19</UserAgent>
     <UserNotes />
-    <LastFileSize>174156504</LastFileSize>
-    <LastFileDate>2015-01-21T20:13:30.9500459</LastFileDate>
+    <LastFileSize>176641832</LastFileSize>
+    <LastFileDate>2015-02-21T19:28:41.7823165</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -1000,7 +1001,7 @@
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-01-21T20:13:30.9500459</LastUpdated>
+    <LastUpdated>2015-02-21T19:28:41.7823165</LastUpdated>
     <TargetPath>E:\git\choco-auto\</TargetPath>
     <FixedDownloadUrl>http://dl.emsisoft.com/EmsisoftAntiMalwareSetup.exe</FixedDownloadUrl>
     <Name>emsisoft-anti-malware</Name>
@@ -1272,6 +1273,140 @@
     <TargetPath>E:\git\choco-auto\</TargetPath>
     <FixedDownloadUrl>http://www.hdtune.com/files/hdtune_255.exe</FixedDownloadUrl>
     <Name>hdtune</Name>
+  </ApplicationJob>
+  <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="85ede574-acf5-4f58-8046-571fa482e499">
+    <SourceTemplate><![CDATA[<Jobs>
+  <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="0fb30714-8ed0-4611-8f1b-cb8fec9dae91">
+    <WebsiteUrl />
+    <UserAgent>Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19</UserAgent>
+    <UserNotes />
+    <LastFileSize>384846</LastFileSize>
+    <LastFileDate>2012-05-23T02:09:37.7748325</LastFileDate>
+    <IgnoreFileInformation>false</IgnoreFileInformation>
+    <DownloadBeta>Default</DownloadBeta>
+    <DownloadDate xsi:nil="true" />
+    <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
+    <VariableChangeIndicator />
+    <CanBeShared>true</CanBeShared>
+    <ShareApplication>false</ShareApplication>
+    <ExclusiveDownload>false</ExclusiveDownload>
+    <HttpReferer />
+    <SetupInstructions />
+    <Variables>
+      <item>
+        <key>
+          <string>version</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>StartEnd</VariableType>
+            <Regex />
+            <Url><placeholder name="Url with version information" value="http://www.alex-is.de/PHP/fusion/downloads.php?cat_id=4&amp;download_id=9" /></Url>
+            <StartText>&lt;TABLE cellspacing ="1" cellpadding ="6" border = "0"&gt;
+  &lt;TR&gt;
+    &lt;TH class="Title" align="center" width=90&gt;7-Zip </StartText>
+            <EndText>&lt;BR&gt;</EndText>
+            <TextualContent />
+            <Name>version</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>url64</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>""</TextualContent>
+            <Name>url64</Name>
+          </UrlVariable>
+        </value>
+      </item>
+    </Variables>
+    <ExecuteCommand />
+    <ExecutePreCommand />
+    <ExecuteCommandType>Batch</ExecuteCommandType>
+    <ExecutePreCommandType>Batch</ExecutePreCommandType>
+    <Category />
+    <SourceType>FixedUrl</SourceType>
+    <PreviousLocation />
+    <DeletePreviousFile>true</DeletePreviousFile>
+    <Enabled>true</Enabled>
+    <FileHippoId />
+    <LastUpdated>2012-05-23T02:09:37.7748325</LastUpdated>
+    <TargetPath>E:\git\choco-auto\</TargetPath>
+    <FixedDownloadUrl><placeholder name="Download Url - Optional" value="http://www.alex-is.de/progs/AS%20SSD%20Benchmark.zip" /></FixedDownloadUrl>
+    <Name><placeholder name="Name" value="as-ssd" /></Name>
+  </ApplicationJob>
+</Jobs>]]></SourceTemplate>
+    <WebsiteUrl />
+    <UserAgent>Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19</UserAgent>
+    <UserNotes />
+    <LastFileSize>84394827</LastFileSize>
+    <LastFileDate>2015-02-21T21:24:55.1511704</LastFileDate>
+    <IgnoreFileInformation>false</IgnoreFileInformation>
+    <DownloadBeta>Default</DownloadBeta>
+    <DownloadDate xsi:nil="true" />
+    <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
+    <VariableChangeIndicator />
+    <CanBeShared>true</CanBeShared>
+    <ShareApplication>false</ShareApplication>
+    <ExclusiveDownload>false</ExclusiveDownload>
+    <HttpReferer />
+    <SetupInstructions />
+    <Variables>
+      <item>
+        <key>
+          <string>version</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>StartEnd</VariableType>
+            <Regex />
+            <Url>https://languagetool.org/download/CHANGES.txt</Url>
+            <StartText>LanguageTool Change Log
+
+</StartText>
+            <EndText> (</EndText>
+            <TextualContent />
+            <Name>version</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>url64</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>""</TextualContent>
+            <Name>url64</Name>
+          </UrlVariable>
+        </value>
+      </item>
+    </Variables>
+    <ExecuteCommand />
+    <ExecutePreCommand />
+    <ExecuteCommandType>Batch</ExecuteCommandType>
+    <ExecutePreCommandType>Batch</ExecutePreCommandType>
+    <Category />
+    <SourceType>FixedUrl</SourceType>
+    <PreviousLocation>E:\git\choco-auto\LanguageTool-2.8.zip</PreviousLocation>
+    <DeletePreviousFile>true</DeletePreviousFile>
+    <Enabled>true</Enabled>
+    <FileHippoId />
+    <LastUpdated>2015-02-21T21:24:55.1511704</LastUpdated>
+    <TargetPath>E:\git\choco-auto\</TargetPath>
+    <FixedDownloadUrl>https://languagetool.org/download/LanguageTool-{version}.zip</FixedDownloadUrl>
+    <Name>languagetool</Name>
   </ApplicationJob>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="26651005-5909-436a-995c-14e223d92c38">
     <SourceTemplate><![CDATA[<?xml version="1.0" encoding="utf-8"?>
@@ -1546,8 +1681,8 @@
     <WebsiteUrl />
     <UserAgent>chocolatey</UserAgent>
     <UserNotes />
-    <LastFileSize>5399422</LastFileSize>
-    <LastFileDate>2014-12-30T18:12:40.3932057</LastFileDate>
+    <LastFileSize>5421496</LastFileSize>
+    <LastFileDate>2015-02-21T19:29:02.6275088</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -1616,11 +1751,11 @@ Latest changes in Praat.&lt;/p&gt;
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>E:\git\choco-auto\praat5404_win32.zip</PreviousLocation>
+    <PreviousLocation>E:\git\choco-auto\praat5406_win32.zip</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2014-12-30T18:12:40.3932057</LastUpdated>
+    <LastUpdated>2015-02-21T19:29:02.6275088</LastUpdated>
     <TargetPath>E:\git\choco-auto\</TargetPath>
     <FixedDownloadUrl>http://www.fon.hum.uva.nl/praat/praat{nodots}.zip</FixedDownloadUrl>
     <Name>praat</Name>
@@ -1697,8 +1832,8 @@ Latest changes in Praat.&lt;/p&gt;
     <WebsiteUrl />
     <UserAgent>Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19</UserAgent>
     <UserNotes />
-    <LastFileSize>4579936</LastFileSize>
-    <LastFileDate>2015-01-09T14:51:14.0171459</LastFileDate>
+    <LastFileSize>4734560</LastFileSize>
+    <LastFileDate>2015-02-11T08:44:42.472742</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate>2014-12-26T04:48:03.5766184</DownloadDate>
@@ -1779,11 +1914,11 @@ var sumBuiltOn = "</EndText>
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>E:\git\choco-auto\SumatraPDF-prerelease-10097-install.exe</PreviousLocation>
+    <PreviousLocation>E:\git\choco-auto\SumatraPDF-prerelease-10127-install.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-01-09T14:51:14.0171459</LastUpdated>
+    <LastUpdated>2015-02-11T08:44:42.472742</LastUpdated>
     <TargetPath>E:\git\choco-auto\</TargetPath>
     <FixedDownloadUrl>http://kjkpub.s3.amazonaws.com/sumatrapdf/prerel/SumatraPDF-prerelease-{dlversion}-install.exe</FixedDownloadUrl>
     <Name>sumatrapdf.prerelease</Name>
@@ -1930,7 +2065,7 @@ var sumBuiltOn = "</EndText>
     <UserAgent>Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19</UserAgent>
     <UserNotes />
     <LastFileSize>845428</LastFileSize>
-    <LastFileDate>2014-12-30T02:25:45.3692766</LastFileDate>
+    <LastFileDate>2015-01-25T21:08:29.9929766</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -1984,7 +2119,7 @@ var sumBuiltOn = "</EndText>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2014-12-30T02:25:45.3692766</LastUpdated>
+    <LastUpdated>2015-01-25T21:08:29.9929766</LastUpdated>
     <TargetPath>E:\git\choco-auto\</TargetPath>
     <FixedDownloadUrl>http://directedge.us/files/whk/WinHotKey{version}.exe</FixedDownloadUrl>
     <Name>winhotkey</Name>

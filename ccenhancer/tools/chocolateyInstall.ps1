@@ -2,10 +2,8 @@
 $url = '{{DownloadUrl}}'
 $unzipLocation = $(Split-Path -parent $MyInvocation.MyCommand.Definition)
 
-try {
-	
+try {	
 	Install-ChocolateyZipPackage $packageName $url $unzipLocation
-
 } catch {
 	throw $_.Exception 
 }

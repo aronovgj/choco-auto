@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id>{{PackageName}}</id>
+    <id>cpu-z</id>
     <title>CPU-Z</title>
-    <version>{{PackageVersion}}</version>
+    <version>1.71.1</version>
     <authors>CPUID</authors>
     <owners>doc</owners>
     <summary>
