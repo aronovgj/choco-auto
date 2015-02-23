@@ -10,7 +10,7 @@
     <summary>WaveSurfer is an open source tool for sound visualization and manipulation.</summary>
     <description>WaveSurfer is an open source tool for sound visualization and manipulation. Typical applications are speech/sound analysis and sound annotation/transcription. WaveSurfer may be extended by plug-ins as well as embedded in other applications.</description>
     <projectUrl>http://www.speech.kth.se/wavesurfer</projectUrl>
-    <tags>wave surfer wavesurfer sound visualization speech phonetics phonology </tags>
+    <tags>wave surfer wavesurfer sound visualization speech analyze phonetics phonology </tags>
     <copyright></copyright>
     <licenseUrl>http://opensource.org/licenses/BSD-3-Clause</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

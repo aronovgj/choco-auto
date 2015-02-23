@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>virustotal-windows-uploader</id>
+    <title>VirusTotal Windows Uploader</title>
+    <version>2.2</version>
+    <authors>VirusTotal</authors>
+    <owners>doc</owners>
+    <summary>Right click to scan with VirusTotal</summary>
+    <description>To upload a file to VirusTotal, you can visit the home site and use the main file scan form. You can make this process even easier with the free VirusTotal Uploader utility. After installing it, you can simply right-click any file under 32MB and choose VirusTotal from the Send To Windows menu. The scan results will be displayed in your browser as usual. </description>
+    <projectUrl>https://www.virustotal.com/en/documentation/desktop-applications/</projectUrl>
+    <tags>virus total scan context menu uploader</tags>
+    <copyright></copyright>
+    <licenseUrl>http://www.apache.org/licenses/LICENSE-2.0</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://raw.githubusercontent.com/aronovgj/chocolatey/7af564c417f2f7f04ab458e41ec102a1ea9e8118/icons/virustotal.jpg</iconUrl>
+    <releaseNotes></releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

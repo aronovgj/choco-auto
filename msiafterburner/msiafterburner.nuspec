@@ -10,7 +10,7 @@
     <summary>MSI Afterburner is ultimate graphics card utility, co-developed by MSI and RivaTuner teams.</summary>
     <description>MSI Afterburner is ultimate graphics card utility, co-developed by MSI and RivaTuner teams.</description>
     <projectUrl>http://event.msi.com/vga/afterburner</projectUrl>
-    <tags>msi afterburner msiafterburner graphics video card overclock underclock fan voltage</tags>
+    <tags>msi afterburner msiafterburner graphics gpu video card overclock underclock fan voltage</tags>
     <copyright></copyright>
     <licenseUrl>https://github.com/aronovgj/chocolatey/blob/master/msiafterburner/license.txt</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
