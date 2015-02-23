@@ -14,7 +14,7 @@
     <copyright></copyright>
     <licenseUrl>http://www.apache.org/licenses/LICENSE-2.0</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>https://raw.githubusercontent.com/aronovgj/chocolatey/7af564c417f2f7f04ab458e41ec102a1ea9e8118/icons/virustotal.jpg</iconUrl>
+    <iconUrl>https://rawgit.com/aronovgj/chocolatey/7af564c417f2f7f04ab458e41ec102a1ea9e8118/icons/virustotal.jpg</iconUrl>
     <releaseNotes></releaseNotes>
   </metadata>
   <files>
