@@ -18,7 +18,8 @@ p = subprocess.Popen("clist -lo", stdout = subprocess.PIPE, shell = True)
 #save output from cmd
 (output, err) = p.communicate()
 
-l=[]
+proglist = []
+prelist = []
 #format output to proper string, deleting version numbers after the program names
 s = output.split('\r\n')
 for entry in s[:-2]:
@@ -30,14 +31,20 @@ for entry in s[:-2]:
         appendix = parts[1]
         # check for previews
         if ('-' in appendix):
-            prog = prog + ' --pre'
-        l.append(prog)
+            prelist.append(prog)
+        else:
+            proglist.append(prog)
 
-s = ' '.join(l)
+progliststring = ' '.join(proglist)
+preliststring = ' '.join(prelist)
 
 #create new bat
 file=open("installs.bat", "w")
 #write chocolatey install command and the packages to be installed to .bat
-file.write(chocoinst + "\n\n" + "cinst " + s + "\n\n" + "::number of packages: " + str(len(l)))
+file.write(chocoinst + "\n\n" + "cinst " + progliststring)
+#write command to install prereleases
+file.write("\n\n" + "cinst --pre " + preliststring)
+#write number of packages
+file.write("\n\n" + "::number of packages: " + str(len(proglist) + len(prelist)))
 #save file
 file.close()
