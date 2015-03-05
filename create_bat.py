@@ -8,6 +8,8 @@ import re
 chocoinst = r"""@powershell -NoProfile -ExecutionPolicy unrestricted -Command "iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.ps1'))" && SET PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"""
 warning = ['Config has insecure allowGlobalConfirmation set to true.', ' This setting lowers the integrity of the security of your system. If', ' this is not intended, please change the setting using the feature', ' command.']
 chocoversion = "Chocolatey v([0-9].{0,1})*"
+proglist = []
+prelist = []
 
 #check if .bat already exists. if yes, delete it
 if os.path.isfile("installs.bat") == True:
@@ -18,8 +20,7 @@ p = subprocess.Popen("clist -lo", stdout = subprocess.PIPE, shell = True)
 #save output from cmd
 (output, err) = p.communicate()
 
-proglist = []
-prelist = []
+
 #format output to proper string, deleting version numbers after the program names
 s = output.split('\r\n')
 for entry in s[:-2]:
