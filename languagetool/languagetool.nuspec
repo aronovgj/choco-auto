@@ -20,7 +20,7 @@
 		</dependencies>
 		<copyright>Daniel Naber</copyright>
         <tags>languagetool proof-reading tool</tags>
-		<iconUrl>https://raw.githubusercontent.com/aronovgj/chocolatey/d0926ef69d9a971a0d3baab050b64a18fab4b482/icons/languagetool.png</iconUrl>
+		<iconUrl>https://rawgit.com/aronovgj/chocolatey/20c8590e563295debb7998b3b48282c9beaecee3/icons/languagetool.svg</iconUrl>
     </metadata>
   <files>
     <file src="tools\**" target="tools" />

@@ -1,0 +1,11 @@
+<SearchPlugin xmlns="http://www.mozilla.org/2006/browser/search/" xmlns:os="http://a9.com/-/spec/opensearch/1.1/">
+<os:ShortName>Chocolatey</os:ShortName>
+<os:Description>Chocolatey package search</os:Description>
+<os:InputEncoding>UTF-8</os:InputEncoding>
+<os:Image width="16" height="16">data:image/x-icon;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACyklEQVQ4jZWSS2iUVxiGn3P+fyZzy8QoSbTiEEGJBgOijQbdpDYgdlHqZVFvceEllagoEetKDRXsBXTRTSmtmpZqLajoRhQtiFcIijdEgxgJjYnJZJxLZsL8/z/f6SLNxJS66Ls853zPed+XT1387vPdbrKnhdKqP1Z9ee4g/1OqfUNtaqTnadSqjLG+5aspc5uaEwB3f98dSw0mAwXlEwCfbSF2SGqaPo1XVzemxwA2wfKTqdLYthIJ/zK3qTlxYu+i5uGBN63ZXKrWiAQwSt75UB5e7kiUTa64WlO/sr1xy5GXyhhDT+ep6lj9ulfH9zR8M/Ty/r7kkItbgEAEtAWYdywrCPoUJeUf9NcsXvGxMmb09nrH/g1Prvz062ByhCVr2gRx9e2zRxHPQemJuQ0QsiBcOetPe+ywv/vR1r5XQyz7op1lGw9oAG3ZXP7xMKHov4oD8gUwqb4FRbaTy1Q6Hvj/eS0i4g+WCe+RpcFzPCk6yGeHX4ejzLl15muMkTSiuHn6SCQQBilAPgfGgNYQLoWMA70pQxHgiuf4/JBJvOHi0bYICgIhtBFQgSCLP2lm2sw6up/c4NqFM8SzoP2MA7SyMAYsG0JR9FhbokpYe/A8tYuWA7Dks1YCM5byw6FdREuEYgdGidYKbD2aTynIZCBWv6I4PKbVm3Yye94c8llv3MHbEUueD4BtKzyBvAfxQcOsUPV/lhgtr0B4Nu4gFCnrGhEfr1OG+DBk8qMZH9y8hOs6E4YH+nroevyQqVURuwhoWNrw87SpVUIBtDJYCgJBRfez53zbtp6/urvIZYd58fQB7dtXIbk0dXXzrxY3EeC3Q2t2dHbe+b63t5+8I6MbYyCThmi5TemkCpLxPkI++LBhYdfmzS0fTQAAXO/Y1Xjvbmdr4m2y1hW0Vgq/3z/J81ztFRxdFo6mp0+vOrXp8LFjUJP4GyblIkgiok3AAAAAAElFTkSuQmCC</os:Image>
+<SearchForm>https://chocolatey.org/packages</SearchForm>
+<os:Url type="text/html" method="GET" template="https://chocolatey.org/packages" resultDomain="chocolatey.org">
+  <os:Param name="q" value="{searchTerms}"/>
+</os:Url><os:Url type="application/x-suggestions+json" method="GET" template="https://chocolatey.org/packages?q={searchTerms}" resultDomain="chocolatey.org">
+</os:Url>
+</SearchPlugin>
