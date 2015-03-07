@@ -1,13 +1,13 @@
-# watchdog for the log directory of chocolateypackageupdater. creates new log in
+# watchdog for the log directory of chocolateypackageupdater. copies log to 
 # 'C:\\ProgramData\\sortedchocolateypackageupdater\\', sorts it by name/date
 # and adds information about what kind of log message it is.
 
 import time
 import re
+import os
 from watchdog.observers import Observer
 from watchdog.events import LoggingEventHandler
 from watchdog.events import FileSystemEventHandler
-import os
 from operator import itemgetter
 from compiler.ast import flatten
 
@@ -23,14 +23,11 @@ def split_list(filename):
         l.append(line.split(' ',3))
     #split time
     for entry in l:
-        try:
-            entry[1]=entry[1].split(':',3)
-        except:
-            print entry[1]
+        entry[1]=entry[1].split(':',3)
     #flatten time sublist 
     for i in l:
         flatlist.append(flatten(i))
-    os.remove(path + filename)
+    #os.remove(path + filename)
     return flatlist
 
 def sort_list(flatlist):    
@@ -53,7 +50,6 @@ def write_info(line):
 def write_list(newlist, filename):
     if not os.path.exists(destpath):
         os.makedirs(destpath)
-
     filenew = open(destpath + filename, "w")
     for line in newlist:
         # restore format
