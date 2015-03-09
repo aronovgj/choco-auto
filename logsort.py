@@ -64,8 +64,9 @@ class MyHandler(FileSystemEventHandler):
     def on_modified(self, event):        
         s = str(event)
         fileregex = "ketarin\.\d{8}_\d{4}\.log"
-        filename = re.findall(fileregex, s)[0]        
-        if (filename != ('chocolatey.package.updater.log')):
+        filename = re.findall(fileregex, s)
+        if filename != []:            
+            filename = re.findall(fileregex, s)[0]
             split = split_list(filename)
             sort = sort_list(split)
             write_list(sort, filename)
