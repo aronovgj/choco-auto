@@ -11,16 +11,22 @@ from watchdog.events import FileSystemEventHandler
 from operator import itemgetter
 from compiler.ast import flatten
 
+other_messages = []
 def split_list(filename):
     l=[]
     flatlist = []
-    
     fileold = open(path + filename).readlines()
     fileold.pop(0)
     fileold.pop(len(fileold)-1)
     #split date, time, id
     for line in fileold:
-        l.append(line.split(' ',3))
+        #filter lines not starting with date
+        if re.match(r"^\d{2}.\d{2}.\d{4}\s\d{2}:\d{2}:\d{2}:",line):
+            l.append(line.split(' ', 3))
+        else:
+            #if lines not starting with date, append to other list to
+            #print these messages at the end of the new file
+            other_messages.append(line)
     #split time
     for entry in l:
         entry[1]=entry[1].split(':',3)
@@ -55,6 +61,8 @@ def write_list(newlist, filename):
         # restore format
         line=line[0] + " " +line[1] + ":" + line[2]+":" + line[3]+":" + line[4]+" " + line[5]  + " " + line[6]
         line = write_info(line)
+        filenew.write(line)
+    for line in other_messages:
         filenew.write(line)
     filenew.close()
 
