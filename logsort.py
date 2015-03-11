@@ -64,6 +64,7 @@ def write_list(newlist, filename):
         filenew.write(line)
     for line in other_messages:
         filenew.write(line)
+    del other_messages[:]
     filenew.close()
 
 
