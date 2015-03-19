@@ -7,26 +7,22 @@ $ahkFile = "$scriptPath\msiafterburneruninstall.ahk"
 $registryPath32 = 'HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Afterburner'
 $registryPathWow6432 = 'HKLM:\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Afterburner'
 
-try {
-    $ProcessActive = Get-Process MSIAfterburner* -ErrorAction SilentlyContinue
-    if($ProcessActive -ne $null){
-        Stop-Process -ProcessName MSIAfterburner*
-		}	
-	
-    Start-Process 'AutoHotkey' $ahkFile	
-	
-	if (Test-Path $registryPath32) {
-		$registryPath = $registryPath32
-		} 
-	if (Test-Path $registryPathWow6432) {
-		$registryPath = $registryPathWow6432
-		} 
-	if ($registryPath) {
-		$uninstallString = (Get-ItemProperty -Path $registryPath -Name 'UninstallString').UninstallString
-		} 
-	if ($uninstallString) {
-		Uninstall-ChocolateyPackage $packageName $installerType $silentArgs $uninstallString
-		} 
-} catch {
-	throw $_.Exception
-}
+$ProcessActive = Get-Process MSIAfterburner* -ErrorAction SilentlyContinue
+if($ProcessActive -ne $null){
+	Stop-Process -ProcessName MSIAfterburner*
+	}	
+
+Start-Process 'AutoHotkey' $ahkFile	
+
+if (Test-Path $registryPath32) {
+	$registryPath = $registryPath32
+	} 
+if (Test-Path $registryPathWow6432) {
+	$registryPath = $registryPathWow6432
+	} 
+if ($registryPath) {
+	$uninstallString = (Get-ItemProperty -Path $registryPath -Name 'UninstallString').UninstallString
+	} 
+if ($uninstallString) {
+	Uninstall-ChocolateyPackage $packageName $installerType $silentArgs $uninstallString
+	} 

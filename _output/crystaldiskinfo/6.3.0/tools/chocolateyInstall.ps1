@@ -1,6 +1,10 @@
 $packageName = 'crystaldiskinfo'
-$installerType = 'EXE'
-$url = 'http://sourceforge.jp/frs/redir.php?m=jaist&f=/crystaldiskinfo/62506/CrystalDiskInfo6_3_0-en.exe'
-$silentArgs = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-'
-$validExitCodes = @(0) #please insert other valid exit codes here, exit codes for ms http://msdn.microsoft.com/en-us/library/aa368542(VS.85).aspx
-Install-ChocolateyPackage "$packageName" "$installerType" "$silentArgs" "$url"  -validExitCodes $validExitCodes
+$url = 'http://sourceforge.jp/frs/redir.php?m=jaist&f=/crystaldiskinfo/62506/CrystalDiskInfo6_3_0.zip'
+$destdir = $(Split-Path -parent $MyInvocation.MyCommand.Definition)
+Install-ChocolateyZipPackage "$packageName" "$url" "$destdir"
+
+#install start menu shortcut
+$programs = [environment]::GetFolderPath([environment+specialfolder]::Programs)
+$shortcutFilePath = Join-Path $programs "CrystalDiskInfo.lnk"
+$targetPath = Join-Path $destdir "DiskInfo.exe"
+Install-ChocolateyShortcut -shortcutFilePath $shortcutFilePath -targetPath $targetPath

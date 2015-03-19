@@ -5,12 +5,14 @@
 import time
 import re
 import os
+import gntp.notifier
 from watchdog.observers import Observer
 from watchdog.events import LoggingEventHandler
 from watchdog.events import FileSystemEventHandler
 from operator import itemgetter
 from compiler.ast import flatten
 
+notify = []
 other_messages = []
 def split_list(filename):
     l=[]
@@ -24,6 +26,8 @@ def split_list(filename):
         if re.match(r"^\d{2}.\d{2}.\d{4}\s\d{2}:\d{2}:\d{2}:",line):
             l.append(line.split(' ', 3))
         else:
+            if("has been installed" in line):
+                notify.append(line)
             #if lines not starting with date, append to other list to
             #print these messages at the end of the new file
             other_messages.append(line)
@@ -47,7 +51,9 @@ def sort_list(flatlist):
 # writes info at the start of a line
 def write_info(line):
     if 'Failed' in line:
+        gntp.notifier.mini(line)
         line = '=====================[ERROR]=====================\n' + line
+        #notify if failed        
     else:
         line = '[INFO]' + line
     return line
@@ -64,7 +70,11 @@ def write_list(newlist, filename):
         filenew.write(line)
     for line in other_messages:
         filenew.write(line)
+    #notify if installed
+    for line in notify:
+        gntp.notifier.mini(line)
     del other_messages[:]
+    del notify[:]
     filenew.close()
 
 

@@ -1,4 +1,4 @@
-$linkName = "CrystalDiskInfo.lnk"
+$linkName = "AS SSD.lnk"
 $programs = [environment]::GetFolderPath([environment+specialfolder]::Programs)
 $shortcutFilePath = Join-Path $programs $linkName
 
