@@ -1,5 +1,5 @@
-$packageName = '{{PackageName}}'
-$url = '{{DownloadUrl}}'
+$packageName = 'rainmeter'
+$url = 'https://github.com/rainmeter/rainmeter/releases/download/v3.2.1.2386/Rainmeter-3.2.1.exe'
 $silentArgs = '/S /PORTABLE=0 /STARTUP=1'
 $osBitness = Get-ProcessorBits
 if ($osBitness -eq 64) {

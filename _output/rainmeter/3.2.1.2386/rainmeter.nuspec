@@ -2,8 +2,8 @@
 <!-- Do not remove this test for UTF-8: if “O” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
     <metadata>
-		<id>{{PackageName}}</id>
-        <version>{{PackageVersion}}</version>
+		<id>rainmeter</id>
+        <version>3.2.1.2386</version>
         <title>Rainmeter</title>
         <authors>Rainmeter</authors>
         <owners>doc</owners>
@@ -16,7 +16,6 @@ The packaged MSIAfterburner.dll are needed for certain Plugins to show GPU stats
 		</description>
         <summary>Rainmeter, desktop customization tool.</summary>
         <releaseNotes>http://rainmeter.net/release-3-1
-http://rainmeter.net/release-3-2
 http://rainmeter.net/beta-3-2
 		</releaseNotes>
 		<copyright>Rainmeter</copyright>
