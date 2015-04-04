@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id>{{PackageName}}</id>
+    <id>geforce-game-ready-driver</id>
     <title>Geforce Game Ready Driver</title>
-    <version>{{PackageVersion}}</version>
+    <version>347.88</version>
     <authors>NVIDIA</authors>
     <owners>doc</owners>
 	<iconUrl>https://rawgit.com/aronovgj/chocolatey/49602c5025372cf63d1db2ae423105dca821dee3/icons/nvidia.png</iconUrl>

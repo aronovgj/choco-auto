@@ -1,8 +1,8 @@
-﻿$packageName = '{{PackageName}}'
-$url = '{{DownloadUrl}}'
+﻿$packageName = 'geforce-game-ready-driver'
+$url = 'http://us.download.nvidia.com/Windows/347.88/347.88-desktop-win8-win7-winvista-32bit-international-whql.exe'
 $fileType = 'exe'
 $silentArgs = '/s'
-$url64 = '{{DownloadUrlx64}}'
+$url64 = 'http://us.download.nvidia.com/Windows/347.88/347.88-desktop-win8-win7-winvista-64bit-international-whql.exe'
 
 $osBitness = Get-ProcessorBits
 if ($osBitness -eq 64) {
