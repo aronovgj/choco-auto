@@ -74,8 +74,8 @@
     <WebsiteUrl />
     <UserAgent>Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19</UserAgent>
     <UserNotes />
-    <LastFileSize>1153071</LastFileSize>
-    <LastFileDate>2014-12-30T21:41:26.7736737</LastFileDate>
+    <LastFileSize>1245215</LastFileSize>
+    <LastFileDate>2015-04-07T22:12:42.7641672</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -131,7 +131,7 @@
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2014-12-30T21:41:26.7736737</LastUpdated>
+    <LastUpdated>2015-04-07T22:12:42.7641672</LastUpdated>
     <TargetPath>E:\git\choco-auto\</TargetPath>
     <FixedDownloadUrl>http://www.rammichael.com/downloads/7tt_setup.exe</FixedDownloadUrl>
     <Name>7-taskbar-tweaker</Name>
@@ -210,8 +210,8 @@
     <WebsiteUrl />
     <UserAgent>Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19</UserAgent>
     <UserNotes />
-    <LastFileSize>15823640</LastFileSize>
-    <LastFileDate>2015-01-15T23:48:30.7400482</LastFileDate>
+    <LastFileSize>15885112</LastFileSize>
+    <LastFileDate>2015-03-24T00:33:40.3534692</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -257,20 +257,6 @@
       </item>
       <item>
         <key>
-          <string>nopush</string>
-        </key>
-        <value>
-          <UrlVariable>
-            <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>Textual</VariableType>
-            <Regex />
-            <TextualContent>--nopush</TextualContent>
-            <Name>nopush</Name>
-          </UrlVariable>
-        </value>
-      </item>
-      <item>
-        <key>
           <string>dlversion</string>
         </key>
         <value>
@@ -293,11 +279,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>E:\git\choco-auto\aida64engineer500.exe</PreviousLocation>
+    <PreviousLocation>E:\git\choco-auto\aida64engineer520.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-01-15T23:48:30.7400482</LastUpdated>
+    <LastUpdated>2015-03-24T00:33:40.3534692</LastUpdated>
     <TargetPath>E:\git\choco-auto\</TargetPath>
     <FixedDownloadUrl>http://download.aida64.com/aida64engineer{dlversion:replace:.:}.exe</FixedDownloadUrl>
     <Name>aida64-engineer</Name>
@@ -376,8 +362,8 @@
     <WebsiteUrl />
     <UserAgent>Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19</UserAgent>
     <UserNotes />
-    <LastFileSize>286305</LastFileSize>
-    <LastFileDate>2014-12-29T05:20:42.678865</LastFileDate>
+    <LastFileSize>289591</LastFileSize>
+    <LastFileDate>2015-05-13T23:12:21.7867806</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -432,7 +418,7 @@
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2014-12-29T05:20:42.678865</LastUpdated>
+    <LastUpdated>2015-05-13T23:12:21.7867806</LastUpdated>
     <TargetPath>E:\git\choco-auto\</TargetPath>
     <FixedDownloadUrl>http://www.alex-is.de/progs/AS%20SSD%20Benchmark.zip</FixedDownloadUrl>
     <Name>as-ssd</Name>
@@ -512,7 +498,7 @@
     <UserAgent>Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19</UserAgent>
     <UserNotes />
     <LastFileSize>199270</LastFileSize>
-    <LastFileDate>2014-12-25T16:54:05.949252</LastFileDate>
+    <LastFileDate>2015-02-27T21:56:56.232246</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -568,7 +554,7 @@
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2014-12-25T16:54:05.949252</LastUpdated>
+    <LastUpdated>2015-02-27T21:56:56.232246</LastUpdated>
     <TargetPath>E:\git\choco-auto\</TargetPath>
     <FixedDownloadUrl>https://singularlabs.com/download/10320/</FixedDownloadUrl>
     <Name>ccenhancer</Name>
@@ -647,8 +633,8 @@
     <WebsiteUrl />
     <UserAgent>Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19</UserAgent>
     <UserNotes />
-    <LastFileSize>1577464</LastFileSize>
-    <LastFileDate>2015-02-18T19:34:08.4957373</LastFileDate>
+    <LastFileSize>1582736</LastFileSize>
+    <LastFileDate>2015-02-27T22:03:22.093316</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -699,11 +685,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>E:\git\choco-auto\cpu-z_1.71.1-en.exe</PreviousLocation>
+    <PreviousLocation>E:\git\choco-auto\cpu-z_1.72-en.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-02-18T19:34:08.4957373</LastUpdated>
+    <LastUpdated>2015-02-27T22:03:22.093316</LastUpdated>
     <TargetPath>E:\git\choco-auto\</TargetPath>
     <FixedDownloadUrl>ftp://ftp.cpuid.com/cpu-z/cpu-z_{version}-en.exe</FixedDownloadUrl>
     <Name>cpu-z</Name>
@@ -782,8 +768,8 @@
     <WebsiteUrl />
     <UserAgent>Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19</UserAgent>
     <UserNotes />
-    <LastFileSize>3014272</LastFileSize>
-    <LastFileDate>2015-01-19T15:09:41.7452459</LastFileDate>
+    <LastFileSize>2863750</LastFileSize>
+    <LastFileDate>2015-04-01T21:04:29.2305899</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -842,20 +828,6 @@
           </UrlVariable>
         </value>
       </item>
-      <item>
-        <key>
-          <string>nopush</string>
-        </key>
-        <value>
-          <UrlVariable>
-            <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>Textual</VariableType>
-            <Regex />
-            <TextualContent>--nopush</TextualContent>
-            <Name>nopush</Name>
-          </UrlVariable>
-        </value>
-      </item>
     </Variables>
     <ExecuteCommand />
     <ExecutePreCommand />
@@ -863,13 +835,13 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>E:\git\choco-auto\CrystalDiskInfo6_3_0-en.exe</PreviousLocation>
+    <PreviousLocation>E:\git\choco-auto\CrystalDiskInfo6_3_2.zip</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-01-19T15:09:41.7452459</LastUpdated>
+    <LastUpdated>2015-04-01T21:04:29.2305899</LastUpdated>
     <TargetPath>E:\git\choco-auto\</TargetPath>
-    <FixedDownloadUrl>http://sourceforge.jp/frs/redir.php?m=jaist&amp;f=%2Fcrystaldiskinfo%2F{num}%2FCrystalDiskInfo{version:replace:.:_}-en.exe</FixedDownloadUrl>
+    <FixedDownloadUrl>http://sourceforge.jp/frs/redir.php?m=jaist&amp;f=%2Fcrystaldiskinfo%2F{num}%2FCrystalDiskInfo{version:replace:.:_}.zip</FixedDownloadUrl>
     <Name>crystaldiskinfo</Name>
   </ApplicationJob>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="6328dcb6-0782-43e4-9c27-c3ba5f555d0f">
@@ -946,8 +918,8 @@
     <WebsiteUrl />
     <UserAgent>Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19</UserAgent>
     <UserNotes />
-    <LastFileSize>176641832</LastFileSize>
-    <LastFileDate>2015-02-21T19:28:41.7823165</LastFileDate>
+    <LastFileSize>161119864</LastFileSize>
+    <LastFileDate>2015-05-17T21:10:29.0866093</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -1001,7 +973,7 @@
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-02-21T19:28:41.7823165</LastUpdated>
+    <LastUpdated>2015-05-17T21:10:29.0866093</LastUpdated>
     <TargetPath>E:\git\choco-auto\</TargetPath>
     <FixedDownloadUrl>http://dl.emsisoft.com/EmsisoftAntiMalwareSetup.exe</FixedDownloadUrl>
     <Name>emsisoft-anti-malware</Name>
@@ -1081,7 +1053,7 @@
     <UserAgent>Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19</UserAgent>
     <UserNotes />
     <LastFileSize>33129472</LastFileSize>
-    <LastFileDate>2014-12-30T02:28:52.4259757</LastFileDate>
+    <LastFileDate>2015-02-27T21:57:32.1232989</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -1135,10 +1107,146 @@
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2014-12-30T02:28:52.4259757</LastUpdated>
+    <LastUpdated>2015-02-27T21:57:32.1232989</LastUpdated>
     <TargetPath>E:\git\choco-auto\</TargetPath>
     <FixedDownloadUrl>ftp://ftp.gnome.org/pub/gnome/binaries/win32/evince/2.32/evince-2.32.0.145.msi</FixedDownloadUrl>
     <Name>evince</Name>
+  </ApplicationJob>
+  <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="39188b16-f66a-43fd-93f7-ab8d11e3252c">
+    <SourceTemplate><![CDATA[<?xml version="1.0" encoding="utf-8"?>
+<Jobs>
+  <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="0fb30714-8ed0-4611-8f1b-cb8fec9dae91">
+    <WebsiteUrl />
+    <UserAgent>Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19</UserAgent>
+    <UserNotes />
+    <LastFileSize>384846</LastFileSize>
+    <LastFileDate>2012-05-23T02:09:37.7748325</LastFileDate>
+    <IgnoreFileInformation>false</IgnoreFileInformation>
+    <DownloadBeta>Default</DownloadBeta>
+    <DownloadDate xsi:nil="true" />
+    <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
+    <VariableChangeIndicator />
+    <CanBeShared>true</CanBeShared>
+    <ShareApplication>false</ShareApplication>
+    <ExclusiveDownload>false</ExclusiveDownload>
+    <HttpReferer />
+    <SetupInstructions />
+    <Variables>
+      <item>
+        <key>
+          <string>version</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>StartEnd</VariableType>
+            <Regex />
+            <Url><placeholder name="Url with version information" value="http://www.nvidia.com/Download/processFind.aspx?psid=85&amp;pfid=630&amp;osid=41&amp;lid=1&amp;whql=&amp;lang=en-us" /></Url>
+            <StartText>&lt;TABLE cellspacing ="1" cellpadding ="6" border = "0"&gt;
+  &lt;TR&gt;
+    &lt;TH class="Title" align="center" width=90&gt;7-Zip </StartText>
+            <EndText>&lt;BR&gt;</EndText>
+            <TextualContent />
+            <Name>version</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>url64</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>""</TextualContent>
+            <Name>url64</Name>
+          </UrlVariable>
+        </value>
+      </item>
+    </Variables>
+    <ExecuteCommand />
+    <ExecutePreCommand />
+    <ExecuteCommandType>Batch</ExecuteCommandType>
+    <ExecutePreCommandType>Batch</ExecutePreCommandType>
+    <Category />
+    <SourceType>FixedUrl</SourceType>
+    <PreviousLocation />
+    <DeletePreviousFile>true</DeletePreviousFile>
+    <Enabled>true</Enabled>
+    <FileHippoId />
+    <LastUpdated>2012-05-23T02:09:37.7748325</LastUpdated>
+    <TargetPath>E:\git\choco-auto\</TargetPath>
+    <FixedDownloadUrl><placeholder name="Download Url - Optional" value="us.download.nvidia.com/Windows/347.88/347.88-desktop-win8-win7-winvista-64bit-international-whql.exe" /></FixedDownloadUrl>
+    <Name><placeholder name="Name" value="geforce-game-ready-driver" /></Name>
+  </ApplicationJob>
+</Jobs>
+]]></SourceTemplate>
+    <WebsiteUrl />
+    <UserAgent>Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19</UserAgent>
+    <UserNotes />
+    <LastFileSize>222938344</LastFileSize>
+    <LastFileDate>2015-04-13T16:13:55.5866888</LastFileDate>
+    <IgnoreFileInformation>false</IgnoreFileInformation>
+    <DownloadBeta>Default</DownloadBeta>
+    <DownloadDate xsi:nil="true" />
+    <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
+    <VariableChangeIndicator />
+    <CanBeShared>true</CanBeShared>
+    <ShareApplication>false</ShareApplication>
+    <ExclusiveDownload>false</ExclusiveDownload>
+    <HttpReferer />
+    <SetupInstructions />
+    <Variables>
+      <item>
+        <key>
+          <string>version</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>StartEnd</VariableType>
+            <Regex>td class="gridItem"&gt;(\d{3}\.\d{2})&lt;/td&gt;</Regex>
+            <Url>http://www.nvidia.com/Download/processFind.aspx?psid=85&amp;pfid=630&amp;osid=41&amp;lid=1&amp;whql=&amp;lang=en-us</Url>
+            <StartText>WHQL&lt;/sup&gt;&lt;/b&gt;&lt;/td&gt;
+												&lt;td class="gridItem"&gt;</StartText>
+            <EndText>&lt;/td&gt;
+</EndText>
+            <TextualContent>{certversion:replace:-WHQL:}</TextualContent>
+            <Name>version</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>url64</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>http://us.download.nvidia.com/Windows/{version}/{version}-desktop-win8-win7-winvista-64bit-international-whql.exe</TextualContent>
+            <Name>url64</Name>
+          </UrlVariable>
+        </value>
+      </item>
+    </Variables>
+    <ExecuteCommand />
+    <ExecutePreCommand />
+    <ExecuteCommandType>Batch</ExecuteCommandType>
+    <ExecutePreCommandType>Batch</ExecutePreCommandType>
+    <Category />
+    <SourceType>FixedUrl</SourceType>
+    <PreviousLocation>E:\git\choco-auto\350.12-desktop-win8-win7-winvista-32bit-international-whql.exe</PreviousLocation>
+    <DeletePreviousFile>true</DeletePreviousFile>
+    <Enabled>true</Enabled>
+    <FileHippoId />
+    <LastUpdated>2015-04-13T16:13:55.5866888</LastUpdated>
+    <TargetPath>E:\git\choco-auto\</TargetPath>
+    <FixedDownloadUrl>http://us.download.nvidia.com/Windows/{version}/{version}-desktop-win8-win7-winvista-32bit-international-whql.exe</FixedDownloadUrl>
+    <Name>geforce-game-ready-driver</Name>
   </ApplicationJob>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="4e63d96a-d4a2-4cc3-9912-48a1c4bc4e36">
     <SourceTemplate><![CDATA[<?xml version="1.0" encoding="utf-8"?>
@@ -1215,7 +1323,7 @@
     <UserAgent>Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19</UserAgent>
     <UserNotes />
     <LastFileSize>642632</LastFileSize>
-    <LastFileDate>2014-12-25T16:54:32.8447903</LastFileDate>
+    <LastFileDate>2015-02-27T21:57:02.1225829</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -1269,7 +1377,7 @@
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2014-12-25T16:54:32.8447903</LastUpdated>
+    <LastUpdated>2015-02-27T21:57:02.1225829</LastUpdated>
     <TargetPath>E:\git\choco-auto\</TargetPath>
     <FixedDownloadUrl>http://www.hdtune.com/files/hdtune_255.exe</FixedDownloadUrl>
     <Name>hdtune</Name>
@@ -1346,8 +1454,8 @@
     <WebsiteUrl />
     <UserAgent>Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19</UserAgent>
     <UserNotes />
-    <LastFileSize>84394827</LastFileSize>
-    <LastFileDate>2015-02-21T21:24:55.1511704</LastFileDate>
+    <LastFileSize>89114481</LastFileSize>
+    <LastFileDate>2015-03-30T13:23:26.7001286</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -1366,9 +1474,9 @@
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>StartEnd</VariableType>
-            <Regex />
-            <Url>https://languagetool.org/download/CHANGES.txt</Url>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>LanguageTool stand-alone for your &lt;strong&gt;Desktop&lt;/strong&gt;&lt;/div&gt;&lt;div title="released \d{4}\-\d{2}\-\d{2}" class="meta"&gt;Version (\d\.\d) &amp;mdash</Regex>
+            <Url>https://languagetool.org/</Url>
             <StartText>LanguageTool Change Log
 
 </StartText>
@@ -1399,11 +1507,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>E:\git\choco-auto\LanguageTool-2.8.zip</PreviousLocation>
+    <PreviousLocation>E:\git\choco-auto\LanguageTool-2.9.zip</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-02-21T21:24:55.1511704</LastUpdated>
+    <LastUpdated>2015-03-30T13:23:26.7001286</LastUpdated>
     <TargetPath>E:\git\choco-auto\</TargetPath>
     <FixedDownloadUrl>https://languagetool.org/download/LanguageTool-{version}.zip</FixedDownloadUrl>
     <Name>languagetool</Name>
@@ -1482,8 +1590,8 @@
     <WebsiteUrl />
     <UserAgent>Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19</UserAgent>
     <UserNotes />
-    <LastFileSize>20447072</LastFileSize>
-    <LastFileDate>2015-01-06T16:28:03.1462301</LastFileDate>
+    <LastFileSize>21546080</LastFileSize>
+    <LastFileDate>2015-04-23T13:17:21.5340039</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -1502,8 +1610,8 @@
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>StartEnd</VariableType>
-            <Regex />
+            <VariableType>RegularExpression</VariableType>
+            <Regex>description" content="Malwarebytes Anti-Malware (\d+.\d+.\d+.\d*)(\s/\s\d.\d.\d.\d*\s(Beta|RC\s\d))?\s-\sFree</Regex>
             <Url>http://www.softpedia.com/get/Antivirus/Malwarebytes-Anti-Malware.shtml</Url>
             <StartText>description" content="Malwarebytes Anti-Malware </StartText>
             <EndText> - Free anti-malware </EndText>
@@ -1533,11 +1641,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>E:\git\choco-auto\mbam-setup-2.0.4.1028.exe</PreviousLocation>
+    <PreviousLocation>E:\git\choco-auto\mbam-setup-2.1.6.1022.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-01-06T16:28:03.1462301</LastUpdated>
+    <LastUpdated>2015-04-23T13:17:21.5340039</LastUpdated>
     <TargetPath>E:\git\choco-auto\</TargetPath>
     <FixedDownloadUrl>http://data-cdn.mbamupdates.com/v2/mbam/consumer/data/mbam-setup-{version}.exe</FixedDownloadUrl>
     <Name>malwarebytes</Name>
@@ -1617,7 +1725,7 @@
     <UserAgent>Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19</UserAgent>
     <UserNotes />
     <LastFileSize>36210245</LastFileSize>
-    <LastFileDate>2014-12-29T03:10:22.6605855</LastFileDate>
+    <LastFileDate>2015-03-27T11:14:16.9227973</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -1639,9 +1747,8 @@
             <VariableType>StartEnd</VariableType>
             <Regex />
             <Url>http://event.msi.com/vga/afterburner/download.htm</Url>
-            <StartText>&lt;ul&gt;
-                  &lt;p&gt;&lt;span class="t2"&gt;Version </StartText>
-            <EndText>&lt;/span&gt;&lt;/p&gt;</EndText>
+            <StartText>latest version of MSI Afterburner (</StartText>
+            <EndText>) here</EndText>
             <TextualContent />
             <Name>version</Name>
           </UrlVariable>
@@ -1661,6 +1768,20 @@
           </UrlVariable>
         </value>
       </item>
+      <item>
+        <key>
+          <string>dlversion</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>{version:replace:.:}</TextualContent>
+            <Name>dlversion</Name>
+          </UrlVariable>
+        </value>
+      </item>
     </Variables>
     <ExecuteCommand />
     <ExecutePreCommand />
@@ -1668,21 +1789,21 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>E:\git\choco-auto\MSIAfterburnerSetup410.zip</PreviousLocation>
+    <PreviousLocation>E:\git\choco-auto\MSIAfterburnerSetup.zip</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2014-12-29T03:10:22.6605855</LastUpdated>
+    <LastUpdated>2015-03-27T11:14:16.9227973</LastUpdated>
     <TargetPath>E:\git\choco-auto\</TargetPath>
-    <FixedDownloadUrl>http://download.msi.com/uti_exe/vga/MSIAfterburnerSetup410.zip</FixedDownloadUrl>
+    <FixedDownloadUrl>http://download.msi.com/uti_exe/vga/MSIAfterburnerSetup.zip</FixedDownloadUrl>
     <Name>msiafterburner</Name>
   </ApplicationJob>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="067879f0-922c-44d9-b9a7-47b84462cf88">
     <WebsiteUrl />
     <UserAgent>chocolatey</UserAgent>
     <UserNotes />
-    <LastFileSize>5421496</LastFileSize>
-    <LastFileDate>2015-02-21T19:29:02.6275088</LastFileDate>
+    <LastFileSize>5493583</LastFileSize>
+    <LastFileDate>2015-03-24T19:34:09.7437846</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -1751,14 +1872,161 @@ Latest changes in Praat.&lt;/p&gt;
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>E:\git\choco-auto\praat5406_win32.zip</PreviousLocation>
+    <PreviousLocation>E:\git\choco-auto\praat5408_win32.zip</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-02-21T19:29:02.6275088</LastUpdated>
+    <LastUpdated>2015-03-24T19:34:09.7437846</LastUpdated>
     <TargetPath>E:\git\choco-auto\</TargetPath>
     <FixedDownloadUrl>http://www.fon.hum.uva.nl/praat/praat{nodots}.zip</FixedDownloadUrl>
     <Name>praat</Name>
+  </ApplicationJob>
+  <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="2c992510-a984-465e-9668-e8565b2de3c2">
+    <SourceTemplate><![CDATA[<Jobs>
+  <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="0fb30714-8ed0-4611-8f1b-cb8fec9dae91">
+    <WebsiteUrl />
+    <UserAgent>Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19</UserAgent>
+    <UserNotes />
+    <LastFileSize>384846</LastFileSize>
+    <LastFileDate>2012-05-23T02:09:37.7748325</LastFileDate>
+    <IgnoreFileInformation>false</IgnoreFileInformation>
+    <DownloadBeta>Default</DownloadBeta>
+    <DownloadDate xsi:nil="true" />
+    <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
+    <VariableChangeIndicator />
+    <CanBeShared>true</CanBeShared>
+    <ShareApplication>false</ShareApplication>
+    <ExclusiveDownload>false</ExclusiveDownload>
+    <HttpReferer />
+    <SetupInstructions />
+    <Variables>
+      <item>
+        <key>
+          <string>version</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>StartEnd</VariableType>
+            <Regex />
+            <Url><placeholder name="Url with version information" value="http://rainmeter.net/" /></Url>
+            <StartText>&lt;TABLE cellspacing ="1" cellpadding ="6" border = "0"&gt;
+  &lt;TR&gt;
+    &lt;TH class="Title" align="center" width=90&gt;7-Zip </StartText>
+            <EndText>&lt;BR&gt;</EndText>
+            <TextualContent />
+            <Name>version</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>url64</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>""</TextualContent>
+            <Name>url64</Name>
+          </UrlVariable>
+        </value>
+      </item>
+    </Variables>
+    <ExecuteCommand />
+    <ExecutePreCommand />
+    <ExecuteCommandType>Batch</ExecuteCommandType>
+    <ExecutePreCommandType>Batch</ExecutePreCommandType>
+    <Category />
+    <SourceType>FixedUrl</SourceType>
+    <PreviousLocation />
+    <DeletePreviousFile>true</DeletePreviousFile>
+    <Enabled>true</Enabled>
+    <FileHippoId />
+    <LastUpdated>2012-05-23T02:09:37.7748325</LastUpdated>
+    <TargetPath>E:\git\choco-auto\</TargetPath>
+    <FixedDownloadUrl><placeholder name="Download Url - Optional" value="https://github.com/rainmeter/rainmeter/releases/download/v3.1.0.2290/Rainmeter-3.1.exe" /></FixedDownloadUrl>
+    <Name><placeholder name="Name" value="rainmeter" /></Name>
+  </ApplicationJob>
+</Jobs>]]></SourceTemplate>
+    <WebsiteUrl />
+    <UserAgent>Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19</UserAgent>
+    <UserNotes />
+    <LastFileSize>2330992</LastFileSize>
+    <LastFileDate>2015-04-28T20:12:11.7917948</LastFileDate>
+    <IgnoreFileInformation>false</IgnoreFileInformation>
+    <DownloadBeta>Default</DownloadBeta>
+    <DownloadDate xsi:nil="true" />
+    <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
+    <VariableChangeIndicator />
+    <CanBeShared>true</CanBeShared>
+    <ShareApplication>false</ShareApplication>
+    <ExclusiveDownload>false</ExclusiveDownload>
+    <HttpReferer />
+    <SetupInstructions />
+    <Variables>
+      <item>
+        <key>
+          <string>version</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>v([0-9].[0-9].[0-9].[0-9]*)"&gt;[0-9].[0-9]?\.?[0-9]? final release</Regex>
+            <Url>https://github.com/rainmeter/rainmeter/releases/</Url>
+            <StartText>&lt;br&gt;
+					&lt;b&gt;</StartText>
+            <EndText> Final Release</EndText>
+            <TextualContent />
+            <Name>version</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>url64</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>""</TextualContent>
+            <Name>url64</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>linkversion</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>v[0-9].[0-9].[0-9].[0-9]*"&gt;([0-9].[0-9]?\.?[0-9]?) final release</Regex>
+            <Url>https://github.com/rainmeter/rainmeter/releases/</Url>
+            <Name>linkversion</Name>
+          </UrlVariable>
+        </value>
+      </item>
+    </Variables>
+    <ExecuteCommand />
+    <ExecutePreCommand />
+    <ExecuteCommandType>Batch</ExecuteCommandType>
+    <ExecutePreCommandType>Batch</ExecutePreCommandType>
+    <Category />
+    <SourceType>FixedUrl</SourceType>
+    <PreviousLocation>E:\git\choco-auto\Rainmeter-3.2.1.exe</PreviousLocation>
+    <DeletePreviousFile>true</DeletePreviousFile>
+    <Enabled>true</Enabled>
+    <FileHippoId />
+    <LastUpdated>2015-04-28T20:12:11.7917948</LastUpdated>
+    <TargetPath>E:\git\choco-auto\</TargetPath>
+    <FixedDownloadUrl>https://github.com/rainmeter/rainmeter/releases/download/v{version}/Rainmeter-{linkversion}.exe</FixedDownloadUrl>
+    <Name>rainmeter</Name>
   </ApplicationJob>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="7ed60d87-fb62-4c4d-aa45-080e8cc45efb">
     <SourceTemplate><![CDATA[<Jobs>
@@ -1832,8 +2100,8 @@ Latest changes in Praat.&lt;/p&gt;
     <WebsiteUrl />
     <UserAgent>Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19</UserAgent>
     <UserNotes />
-    <LastFileSize>4734560</LastFileSize>
-    <LastFileDate>2015-02-11T08:44:42.472742</LastFileDate>
+    <LastFileSize>4742232</LastFileSize>
+    <LastFileDate>2015-05-13T19:08:04.6384397</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate>2014-12-26T04:48:03.5766184</DownloadDate>
@@ -1914,21 +2182,299 @@ var sumBuiltOn = "</EndText>
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>E:\git\choco-auto\SumatraPDF-prerelease-10127-install.exe</PreviousLocation>
+    <PreviousLocation>E:\git\choco-auto\SumatraPDF-prerelease-10149-install.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-02-11T08:44:42.472742</LastUpdated>
+    <LastUpdated>2015-05-13T19:08:04.6384397</LastUpdated>
     <TargetPath>E:\git\choco-auto\</TargetPath>
     <FixedDownloadUrl>http://kjkpub.s3.amazonaws.com/sumatrapdf/prerel/SumatraPDF-prerelease-{dlversion}-install.exe</FixedDownloadUrl>
-    <Name>sumatrapdf.prerelease</Name>
+    <Name>sumatrapdf</Name>
+  </ApplicationJob>
+  <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="d4a1ccac-5a2a-4d1e-8e36-131169d5a8b5">
+    <SourceTemplate><![CDATA[<Jobs>
+  <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="0fb30714-8ed0-4611-8f1b-cb8fec9dae91">
+    <WebsiteUrl />
+    <UserAgent>Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19</UserAgent>
+    <UserNotes />
+    <LastFileSize>384846</LastFileSize>
+    <LastFileDate>2012-05-23T02:09:37.7748325</LastFileDate>
+    <IgnoreFileInformation>false</IgnoreFileInformation>
+    <DownloadBeta>Default</DownloadBeta>
+    <DownloadDate xsi:nil="true" />
+    <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
+    <VariableChangeIndicator />
+    <CanBeShared>true</CanBeShared>
+    <ShareApplication>false</ShareApplication>
+    <ExclusiveDownload>false</ExclusiveDownload>
+    <HttpReferer />
+    <SetupInstructions />
+    <Variables>
+      <item>
+        <key>
+          <string>version</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>StartEnd</VariableType>
+            <Regex />
+            <Url><placeholder name="Url with version information" value="http://event.msi.com/vga/afterburner/download.htm" /></Url>
+            <StartText>&lt;TABLE cellspacing ="1" cellpadding ="6" border = "0"&gt;
+  &lt;TR&gt;
+    &lt;TH class="Title" align="center" width=90&gt;7-Zip </StartText>
+            <EndText>&lt;BR&gt;</EndText>
+            <TextualContent />
+            <Name>version</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>url64</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>""</TextualContent>
+            <Name>url64</Name>
+          </UrlVariable>
+        </value>
+      </item>
+    </Variables>
+    <ExecuteCommand />
+    <ExecutePreCommand />
+    <ExecuteCommandType>Batch</ExecuteCommandType>
+    <ExecutePreCommandType>Batch</ExecutePreCommandType>
+    <Category />
+    <SourceType>FixedUrl</SourceType>
+    <PreviousLocation />
+    <DeletePreviousFile>true</DeletePreviousFile>
+    <Enabled>true</Enabled>
+    <FileHippoId />
+    <LastUpdated>2012-05-23T02:09:37.7748325</LastUpdated>
+    <TargetPath>E:\git\choco-auto\</TargetPath>
+    <FixedDownloadUrl><placeholder name="Download Url - Optional" value="http://download.msi.com/uti_exe/vga/MSIAfterburnerSetup410.zip" /></FixedDownloadUrl>
+    <Name><placeholder name="Name" value="msiafterburner" /></Name>
+  </ApplicationJob>
+</Jobs>]]></SourceTemplate>
+    <WebsiteUrl />
+    <UserAgent>Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19</UserAgent>
+    <UserNotes />
+    <LastFileSize>12475533</LastFileSize>
+    <LastFileDate>2015-05-18T02:29:47.2897297</LastFileDate>
+    <IgnoreFileInformation>false</IgnoreFileInformation>
+    <DownloadBeta>Default</DownloadBeta>
+    <DownloadDate xsi:nil="true" />
+    <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
+    <VariableChangeIndicator />
+    <CanBeShared>true</CanBeShared>
+    <ShareApplication>false</ShareApplication>
+    <ExclusiveDownload>false</ExclusiveDownload>
+    <HttpReferer />
+    <SetupInstructions />
+    <Variables>
+      <item>
+        <key>
+          <string>version</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>Version&lt;/b&gt;:. &lt;b&gt;&lt;span style="color: blue;"&gt;(\d\.\d.\d)&lt;/span&gt;</Regex>
+            <Url>http://vipersaudio.com/blog/?page_id=59</Url>
+            <StartText>latest version of MSI Afterburner (</StartText>
+            <EndText>) here</EndText>
+            <TextualContent />
+            <Name>version</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>url64</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>""</TextualContent>
+            <Name>url64</Name>
+          </UrlVariable>
+        </value>
+      </item>
+    </Variables>
+    <ExecuteCommand />
+    <ExecutePreCommand />
+    <ExecuteCommandType>Batch</ExecuteCommandType>
+    <ExecutePreCommandType>Batch</ExecutePreCommandType>
+    <Category />
+    <SourceType>FixedUrl</SourceType>
+    <PreviousLocation>E:\git\choco-auto\V4W_Setup.zip</PreviousLocation>
+    <DeletePreviousFile>true</DeletePreviousFile>
+    <Enabled>true</Enabled>
+    <FileHippoId />
+    <LastUpdated>2015-05-18T02:29:47.2897297</LastUpdated>
+    <TargetPath>E:\git\choco-auto\</TargetPath>
+    <FixedDownloadUrl>http://vipersaudio.com/swupdate/viper4windows/V4W_Setup.zip</FixedDownloadUrl>
+    <Name>viper4windows</Name>
+  </ApplicationJob>
+  <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="cb8f7600-6577-4423-90b7-381e6bada9fe">
+    <SourceTemplate><![CDATA[<Jobs>
+  <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="0fb30714-8ed0-4611-8f1b-cb8fec9dae91">
+    <WebsiteUrl />
+    <UserAgent>Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19</UserAgent>
+    <UserNotes />
+    <LastFileSize>384846</LastFileSize>
+    <LastFileDate>2012-05-23T02:09:37.7748325</LastFileDate>
+    <IgnoreFileInformation>false</IgnoreFileInformation>
+    <DownloadBeta>Default</DownloadBeta>
+    <DownloadDate xsi:nil="true" />
+    <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
+    <VariableChangeIndicator />
+    <CanBeShared>true</CanBeShared>
+    <ShareApplication>false</ShareApplication>
+    <ExclusiveDownload>false</ExclusiveDownload>
+    <HttpReferer />
+    <SetupInstructions />
+    <Variables>
+      <item>
+        <key>
+          <string>version</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>StartEnd</VariableType>
+            <Regex />
+            <Url><placeholder name="Url with version information" value="http://rammichael.com/downloads/7tt_setup.exe?changelog" /></Url>
+            <StartText>&lt;TABLE cellspacing ="1" cellpadding ="6" border = "0"&gt;
+  &lt;TR&gt;
+    &lt;TH class="Title" align="center" width=90&gt;7-Zip </StartText>
+            <EndText>&lt;BR&gt;</EndText>
+            <TextualContent />
+            <Name>version</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>url64</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>""</TextualContent>
+            <Name>url64</Name>
+          </UrlVariable>
+        </value>
+      </item>
+    </Variables>
+    <ExecuteCommand />
+    <ExecutePreCommand />
+    <ExecuteCommandType>Batch</ExecuteCommandType>
+    <ExecutePreCommandType>Batch</ExecutePreCommandType>
+    <Category />
+    <SourceType>FixedUrl</SourceType>
+    <PreviousLocation />
+    <DeletePreviousFile>true</DeletePreviousFile>
+    <Enabled>true</Enabled>
+    <FileHippoId />
+    <LastUpdated>2012-05-23T02:09:37.7748325</LastUpdated>
+    <TargetPath>E:\git\choco-auto\</TargetPath>
+    <FixedDownloadUrl><placeholder name="Download Url - Optional" value="rammichael.com/downloads/7tt_setup.exe" /></FixedDownloadUrl>
+    <Name><placeholder name="Name" value="7taskbartweaker" /></Name>
+  </ApplicationJob>
+</Jobs>]]></SourceTemplate>
+    <WebsiteUrl />
+    <UserAgent>Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19</UserAgent>
+    <UserNotes />
+    <LastFileSize>142744</LastFileSize>
+    <LastFileDate>2015-02-27T21:59:23.2206533</LastFileDate>
+    <IgnoreFileInformation>false</IgnoreFileInformation>
+    <DownloadBeta>Default</DownloadBeta>
+    <DownloadDate xsi:nil="true" />
+    <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
+    <VariableChangeIndicator />
+    <CanBeShared>true</CanBeShared>
+    <ShareApplication>false</ShareApplication>
+    <ExclusiveDownload>false</ExclusiveDownload>
+    <HttpReferer />
+    <SetupInstructions />
+    <Variables>
+      <item>
+        <key>
+          <string>version</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>StartEnd</VariableType>
+            <Regex />
+            <Url>https://www.virustotal.com/en/documentation/desktop-applications/</Url>
+            <StartText>small" href="/static/bin/vtuploader</StartText>
+            <EndText>.exe"&gt;</EndText>
+            <TextualContent />
+            <Name>version</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>url64</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>""</TextualContent>
+            <Name>url64</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>nopush</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>--nopush</TextualContent>
+            <Name>nopush</Name>
+          </UrlVariable>
+        </value>
+      </item>
+    </Variables>
+    <ExecuteCommand />
+    <ExecutePreCommand />
+    <ExecuteCommandType>Batch</ExecuteCommandType>
+    <ExecutePreCommandType>Batch</ExecutePreCommandType>
+    <Category />
+    <SourceType>FixedUrl</SourceType>
+    <PreviousLocation>E:\git\choco-auto\vtuploader2.2.exe</PreviousLocation>
+    <DeletePreviousFile>true</DeletePreviousFile>
+    <Enabled>true</Enabled>
+    <FileHippoId />
+    <LastUpdated>2015-02-27T21:59:23.2206533</LastUpdated>
+    <TargetPath>E:\git\choco-auto\</TargetPath>
+    <FixedDownloadUrl>https://www.virustotal.com/static/bin/vtuploader{version}.exe</FixedDownloadUrl>
+    <Name>virustotal-windows-uploader</Name>
   </ApplicationJob>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="64576894-a74e-44d5-8d6f-2305937a156d">
     <WebsiteUrl />
     <UserAgent />
     <UserNotes />
     <LastFileSize>6045120</LastFileSize>
-    <LastFileDate>2014-12-30T01:24:36.5754336</LastFileDate>
+    <LastFileDate>2015-02-27T21:57:37.5656102</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -1985,7 +2531,7 @@ var sumBuiltOn = "</EndText>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2014-12-30T01:24:36.5754336</LastUpdated>
+    <LastUpdated>2015-02-27T21:57:37.5656102</LastUpdated>
     <TargetPath>E:\git\choco-auto\</TargetPath>
     <FixedDownloadUrl>http://garr.dl.sourceforge.net/project/wavesurfer/wavesurfer/1.8.8p4/wavesurfer-1.8.8p4-win-i386.zip</FixedDownloadUrl>
     <Name>wavesurfer</Name>
@@ -2065,7 +2611,7 @@ var sumBuiltOn = "</EndText>
     <UserAgent>Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19</UserAgent>
     <UserNotes />
     <LastFileSize>845428</LastFileSize>
-    <LastFileDate>2015-01-25T21:08:29.9929766</LastFileDate>
+    <LastFileDate>2015-02-27T22:05:31.8067352</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -2119,9 +2665,141 @@ var sumBuiltOn = "</EndText>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-01-25T21:08:29.9929766</LastUpdated>
+    <LastUpdated>2015-02-27T22:05:31.8067352</LastUpdated>
     <TargetPath>E:\git\choco-auto\</TargetPath>
     <FixedDownloadUrl>http://directedge.us/files/whk/WinHotKey{version}.exe</FixedDownloadUrl>
     <Name>winhotkey</Name>
+  </ApplicationJob>
+  <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="466a3ef7-7a77-4f23-a274-80f11d9db4d8">
+    <SourceTemplate><![CDATA[<Jobs>
+  <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="0fb30714-8ed0-4611-8f1b-cb8fec9dae91">
+    <WebsiteUrl />
+    <UserAgent>Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19</UserAgent>
+    <UserNotes />
+    <LastFileSize>384846</LastFileSize>
+    <LastFileDate>2012-05-23T02:09:37.7748325</LastFileDate>
+    <IgnoreFileInformation>false</IgnoreFileInformation>
+    <DownloadBeta>Default</DownloadBeta>
+    <DownloadDate xsi:nil="true" />
+    <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
+    <VariableChangeIndicator />
+    <CanBeShared>true</CanBeShared>
+    <ShareApplication>false</ShareApplication>
+    <ExclusiveDownload>false</ExclusiveDownload>
+    <HttpReferer />
+    <SetupInstructions />
+    <Variables>
+      <item>
+        <key>
+          <string>version</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>StartEnd</VariableType>
+            <Regex />
+            <Url><placeholder name="Url with version information" value="http://crystalmark.info/download/index-e.html" /></Url>
+            <StartText>&lt;TABLE cellspacing ="1" cellpadding ="6" border = "0"&gt;
+  &lt;TR&gt;
+    &lt;TH class="Title" align="center" width=90&gt;7-Zip </StartText>
+            <EndText>&lt;BR&gt;</EndText>
+            <TextualContent />
+            <Name>version</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>url64</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>""</TextualContent>
+            <Name>url64</Name>
+          </UrlVariable>
+        </value>
+      </item>
+    </Variables>
+    <ExecuteCommand />
+    <ExecutePreCommand />
+    <ExecuteCommandType>Batch</ExecuteCommandType>
+    <ExecutePreCommandType>Batch</ExecutePreCommandType>
+    <Category />
+    <SourceType>FixedUrl</SourceType>
+    <PreviousLocation />
+    <DeletePreviousFile>true</DeletePreviousFile>
+    <Enabled>true</Enabled>
+    <FileHippoId />
+    <LastUpdated>2012-05-23T02:09:37.7748325</LastUpdated>
+    <TargetPath>E:\git\choco-auto\</TargetPath>
+    <FixedDownloadUrl><placeholder name="Download Url - Optional" value="http://www.sourceforge.jp/frs/redir.php?m=iij&amp;f=%2Fcrystaldiskinfo%2F61888%2FCrystalDiskInfo{version}-en.exe" /></FixedDownloadUrl>
+    <Name><placeholder name="Name" value="crystaldiskinfo" /></Name>
+  </ApplicationJob>
+</Jobs>]]></SourceTemplate>
+    <WebsiteUrl />
+    <UserAgent>Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19</UserAgent>
+    <UserNotes />
+    <LastFileSize>2212362</LastFileSize>
+    <LastFileDate>2015-04-03T18:30:06.4820033</LastFileDate>
+    <IgnoreFileInformation>false</IgnoreFileInformation>
+    <DownloadBeta>Default</DownloadBeta>
+    <DownloadDate xsi:nil="true" />
+    <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
+    <VariableChangeIndicator />
+    <CanBeShared>true</CanBeShared>
+    <ShareApplication>false</ShareApplication>
+    <ExclusiveDownload>false</ExclusiveDownload>
+    <HttpReferer />
+    <SetupInstructions />
+    <Variables>
+      <item>
+        <key>
+          <string>version</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>StartEnd</VariableType>
+            <Regex />
+            <Url>http://download.wsusoffline.net/</Url>
+            <StartText>zip"&gt;Version </StartText>
+            <EndText>&lt;/a&gt; (&lt;a href</EndText>
+            <TextualContent />
+            <Name>version</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>url64</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>""</TextualContent>
+            <Name>url64</Name>
+          </UrlVariable>
+        </value>
+      </item>
+    </Variables>
+    <ExecuteCommand />
+    <ExecutePreCommand />
+    <ExecuteCommandType>Batch</ExecuteCommandType>
+    <ExecutePreCommandType>Batch</ExecutePreCommandType>
+    <Category />
+    <SourceType>FixedUrl</SourceType>
+    <PreviousLocation>E:\git\choco-auto\wsusoffline96.zip</PreviousLocation>
+    <DeletePreviousFile>true</DeletePreviousFile>
+    <Enabled>true</Enabled>
+    <FileHippoId />
+    <LastUpdated>2015-04-03T18:30:06.4820033</LastUpdated>
+    <TargetPath>E:\git\choco-auto\</TargetPath>
+    <FixedDownloadUrl>http://download.wsusoffline.net/wsusoffline{version:replace:.:}.zip</FixedDownloadUrl>
+    <Name>wsus-offline-update</Name>
   </ApplicationJob>
 </Jobs>
