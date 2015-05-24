@@ -1,6 +1,6 @@
 ﻿<?xml version='1.0' encoding='utf-8'?>
 <Jobs>
-  <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="d4a1ccac-5a2a-4d1e-8e36-131169d5a8b5">
+  <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="c1f90119-42d6-4940-a270-f4f5454d751b">
     <SourceTemplate><![CDATA[<Jobs>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="0fb30714-8ed0-4611-8f1b-cb8fec9dae91">
     <WebsiteUrl />
@@ -28,7 +28,7 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>StartEnd</VariableType>
             <Regex />
-            <Url><placeholder name="Url with version information" value="http://event.msi.com/vga/afterburner/download.htm" /></Url>
+            <Url><placeholder name="Url with version information" value="http://www.adobe.com/support/downloads/product.jsp?platform=windows&amp;product=10" /></Url>
             <StartText>&lt;TABLE cellspacing ="1" cellpadding ="6" border = "0"&gt;
   &lt;TR&gt;
     &lt;TH class="Title" align="center" width=90&gt;7-Zip </StartText>
@@ -65,15 +65,15 @@
     <FileHippoId />
     <LastUpdated>2012-05-23T02:09:37.7748325</LastUpdated>
     <TargetPath>E:\git\choco-auto\</TargetPath>
-    <FixedDownloadUrl><placeholder name="Download Url - Optional" value="http://download.msi.com/uti_exe/vga/MSIAfterburnerSetup410.zip" /></FixedDownloadUrl>
-    <Name><placeholder name="Name" value="msiafterburner" /></Name>
+    <FixedDownloadUrl><placeholder name="Download Url - Optional" value="http://www.adobe.com/support/downloads/product.jsp?platform=windows&amp;product=10" /></FixedDownloadUrl>
+    <Name><placeholder name="Name" value="" /></Name>
   </ApplicationJob>
 </Jobs>]]></SourceTemplate>
     <WebsiteUrl />
     <UserAgent>Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19</UserAgent>
     <UserNotes />
-    <LastFileSize>12475533</LastFileSize>
-    <LastFileDate>2015-05-18T02:29:47.2897297</LastFileDate>
+    <LastFileSize>154029728</LastFileSize>
+    <LastFileDate>2015-03-26T12:57:43+01:00</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -92,11 +92,11 @@
         <value>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>RegularExpression</VariableType>
-            <Regex>Version&lt;/b&gt;:. &lt;b&gt;&lt;span style="color: blue;"&gt;(\d\.\d.\d)&lt;/span&gt;</Regex>
-            <Url>http://vipersaudio.com/blog/?page_id=59</Url>
-            <StartText>latest version of MSI Afterburner (</StartText>
-            <EndText>) here</EndText>
+            <VariableType>StartEnd</VariableType>
+            <Regex />
+            <Url>https://get.adobe.com/reader/</Url>
+            <StartText>mainInstaller: "Reader_DC_</StartText>
+            <EndText>_English_for_Windows</EndText>
             <TextualContent />
             <Name>version</Name>
           </UrlVariable>
@@ -116,6 +116,66 @@
           </UrlVariable>
         </value>
       </item>
+      <item>
+        <key>
+          <string>dllink</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>StartEnd</VariableType>
+            <Regex />
+            <Url>http://www.adobe.com/support/downloads/thankyou.jsp?ftpID={ftpid}&amp;fileID={fileid}</Url>
+            <StartText>submit wide" href="</StartText>
+            <EndText>"&gt;Download Now&lt;/a&gt;&lt;/</EndText>
+            <Name>dllink</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>ftpid</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>StartEnd</VariableType>
+            <Regex />
+            <Url>http://www.adobe.com/support/downloads/product.jsp?platform=windows&amp;product=10</Url>
+            <StartText>&gt;&lt;a href="detail.jsp?ftpID=</StartText>
+            <EndText>"&gt;Adobe Acrobat Reader MUI DC</EndText>
+            <Name>ftpid</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>fileid</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>RegularExpression</VariableType>
+            <Regex>thankyou\.jsp\?ftpid=\d{4}\&amp;amp;fileid=(\d{4})"&gt;proceed</Regex>
+            <Url>http://www.adobe.com/support/downloads/detail.jsp?ftpID={ftpid}</Url>
+            <Name>fileid</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>nopush</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>--nopush</TextualContent>
+            <Name>nopush</Name>
+          </UrlVariable>
+        </value>
+      </item>
     </Variables>
     <ExecuteCommand />
     <ExecutePreCommand />
@@ -123,13 +183,13 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>E:\git\choco-auto\V4W_Setup.zip</PreviousLocation>
+    <PreviousLocation>E:\git\choco-auto\AcroRdrDC1500720033_MUI.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-05-18T02:29:47.2897297</LastUpdated>
+    <LastUpdated>2015-05-25T00:47:34.2537016+02:00</LastUpdated>
     <TargetPath>E:\git\choco-auto\</TargetPath>
-    <FixedDownloadUrl>http://vipersaudio.com/swupdate/viper4windows/V4W_Setup.zip</FixedDownloadUrl>
-    <Name>viper4windows</Name>
+    <FixedDownloadUrl>{dllink}</FixedDownloadUrl>
+    <Name>adobereader</Name>
   </ApplicationJob>
 </Jobs>

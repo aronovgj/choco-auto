@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id>{{PackageName}}</id>
+    <id>ccenhancer</id>
     <title>CCEnhancer</title>
-    <version>{{PackageVersion}}</version>
+    <version>4.3</version>
     <authors>SingularLabs</authors>
     <owners>doc</owners>
     <summary>
-	A small tool which adds support for over 1000 new programs into the popular program CCleaner.
+	A small tool which adds support for over 900 new programs into the popular program CCleaner.
 	</summary>
     <description>
-A small tool which adds support for over 1000 new programs into the popular program CCleaner.
+A small tool which adds support for over 900 new programs into the popular program CCleaner.
 	
 The tool uses the winapp2.ini system built into CCleaner to easily add new rules and definitions for programs.
 	
@@ -24,6 +24,6 @@ The rules were sourced mainly from the Piriform Support Forum, with several sour
 	</dependencies>
     <licenseUrl>http://en.wikipedia.org/wiki/Freeware</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-	<iconUrl>https://cdn.rawgit.com/aronovgj/chocolatey/master/icons/{{PackageName}}.png</iconUrl>
+	<iconUrl>https://cdn.rawgit.com/aronovgj/chocolatey/master/icons/ccenhancer.png</iconUrl>
   </metadata>
 </package>
