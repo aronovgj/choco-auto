@@ -1,7 +1,7 @@
 ﻿$packageName = '{{PackageName}}'
 $url = '{{DownloadUrl}}'
 $fileType = 'exe'
-$silentArgs = '/s'
+$silentArgs = '-s -noreboot'
 $url64 = '{{DownloadUrlx64}}'
 
 $osBitness = Get-ProcessorBits
@@ -9,7 +9,7 @@ if ($osBitness -eq 64) {
 	$url = $url64
 }
 
-new-item "${env:temp}\nvidiadriver" -itemtype directory
+new-item "${env:temp}\nvidiadriver" -itemtype directory -Force
 $unpackfile = "${env:temp}\nvidiadriver\nvidiadriver.zip"
 $unpackdir = "${env:temp}\nvidiadriver"
 Get-ChocolateyWebFile $packageName $unpackfile $url
