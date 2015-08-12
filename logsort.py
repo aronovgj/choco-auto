@@ -1,6 +1,7 @@
 # watchdog for the log directory of chocolateypackageupdater. copies log to 
 # 'C:\\ProgramData\\sortedchocolateypackageupdater\\', sorts it by name/date
 # and adds information about what kind of log message it is.
+#needs watchdog and gntp (get it with pip)
 
 import time
 import re
