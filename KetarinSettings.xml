@@ -15,7 +15,7 @@
           <string>LastUpdateCheck</string>
         </key>
         <value>
-          <string>AAEAAAD/////AQAAAAAAAAAEAQAAAA9TeXN0ZW0uRGF0ZVRpbWUCAAAABXRpY2tzCGRhdGVEYXRhAAAJEGyTJ4yGG9IIbJMnjIYb0ogL</string>
+          <string>AAEAAAD/////AQAAAAAAAAAEAQAAAA9TeXN0ZW0uRGF0ZVRpbWUCAAAABXRpY2tzCGRhdGVEYXRhAAAJENH9LNxLptII0f0s3Eum0ogL</string>
         </value>
       </item>
       <item>
@@ -89,7 +89,7 @@
           <string>ConnectionTimeout</string>
         </key>
         <value>
-          <string>AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uRGVjaW1hbAQAAAAFZmxhZ3MCaGkCbG8DbWlkAAAAAAgICAgAAAAAAAAAAAoAAAAAAAAACw==</string>
+          <string>AAEAAAD/////AQAAAAAAAAAEAQAAAA5TeXN0ZW0uRGVjaW1hbAQAAAAFZmxhZ3MCaGkCbG8DbWlkAAAAAAgICAgAAAAAAAAAAB4AAAAAAAAACw==</string>
         </value>
       </item>
       <item>
@@ -97,7 +97,7 @@
           <string>ThreadCount</string>
         </key>
         <value>
-          <string>System.Int32:1</string>
+          <string>System.Int32:20</string>
         </value>
       </item>
       <item>
@@ -105,7 +105,7 @@
           <string>RetryCount</string>
         </key>
         <value>
-          <string>System.Int32:2</string>
+          <string>System.Int32:3</string>
         </value>
       </item>
       <item>
@@ -249,7 +249,7 @@
           <string>MainForm/Size</string>
         </key>
         <value>
-          <string>System.Drawing.Size:807,511</string>
+          <string>System.Drawing.Size:840,1050</string>
         </value>
       </item>
       <item>
@@ -257,7 +257,7 @@
           <string>MainForm/Location</string>
         </key>
         <value>
-          <string>System.Drawing.Point:800,287</string>
+          <string>System.Drawing.Point:756,13</string>
         </value>
       </item>
       <item>
@@ -353,7 +353,7 @@
           <string>olvJobs/Target:Width</string>
         </key>
         <value>
-          <string>System.Int32:266</string>
+          <string>System.Int32:316</string>
         </value>
       </item>
       <item>
@@ -473,7 +473,7 @@
           <string>EditVariablesDialog/Size</string>
         </key>
         <value>
-          <string>System.Drawing.Size:1222,783</string>
+          <string>System.Drawing.Size:929,860</string>
         </value>
       </item>
       <item>
@@ -481,7 +481,7 @@
           <string>EditVariablesDialog/Location</string>
         </key>
         <value>
-          <string>System.Drawing.Point:1961,208</string>
+          <string>System.Drawing.Point:723,182</string>
         </value>
       </item>
       <item>
@@ -497,7 +497,7 @@
           <string>ApplicationJobDialog/Size</string>
         </key>
         <value>
-          <string>System.Drawing.Size:423,429</string>
+          <string>System.Drawing.Size:887,429</string>
         </value>
       </item>
       <item>
@@ -505,7 +505,7 @@
           <string>ApplicationJobDialog/Location</string>
         </key>
         <value>
-          <string>System.Drawing.Point:1396,371</string>
+          <string>System.Drawing.Point:1952,524</string>
         </value>
       </item>
       <item>
@@ -577,7 +577,7 @@
           <string>ImportFromDatabaseDialog/Size</string>
         </key>
         <value>
-          <string>System.Drawing.Size:330,340</string>
+          <string>System.Drawing.Size:386,340</string>
         </value>
       </item>
       <item>
@@ -593,7 +593,7 @@
           <string>olvApplications/Application name:Width</string>
         </key>
         <value>
-          <string>System.Int32:122</string>
+          <string>System.Int32:178</string>
         </value>
       </item>
       <item>
@@ -657,7 +657,7 @@
           <string>olvApplications/LastSortColumn</string>
         </key>
         <value>
-          <string>System.String:Application name</string>
+          <string>System.String:Uses</string>
         </value>
       </item>
       <item>
@@ -1057,7 +1057,7 @@
           <string>LogDialog/Size</string>
         </key>
         <value>
-          <string>System.Drawing.Size:1422,775</string>
+          <string>System.Drawing.Size:1522,608</string>
         </value>
       </item>
       <item>
@@ -1065,7 +1065,7 @@
           <string>LogDialog/Location</string>
         </key>
         <value>
-          <string>System.Drawing.Point:278,452</string>
+          <string>System.Drawing.Point:343,171</string>
         </value>
       </item>
       <item>
@@ -1074,6 +1074,62 @@
         </key>
         <value>
           <string>System.Int32:0</string>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>PostUpdateCommand</string>
+        </key>
+        <value>
+          <string>System.String:</string>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>PostUpdateCommandType</string>
+        </key>
+        <value>
+          <string>System.String:Batch</string>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>DefaultCommand</string>
+        </key>
+        <value>
+          <string>System.String:</string>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>DefaultCommandType</string>
+        </key>
+        <value>
+          <string>System.String:Batch</string>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>olvJobs/Test:Visibility</string>
+        </key>
+        <value>
+          <string>System.Boolean:True</string>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>olvJobs/Test:Width</string>
+        </key>
+        <value>
+          <string>System.Int32:60</string>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>olvJobs/Test:LastDisplayIndex</string>
+        </key>
+        <value>
+          <string>System.Int32:-1</string>
         </value>
       </item>
     </dictionary>
