@@ -1531,36 +1531,85 @@
         </key>
         <value>
           <UrlVariable>
-            <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>StartEnd</VariableType>
-            <Regex>td class="gridItem"&gt;(\d{3}\.\d{2})&lt;/td&gt;</Regex>
-            <Url>http://www.nvidia.com/Download/processFind.aspx?psid=85&amp;pfid=630&amp;osid=41&amp;lid=1&amp;whql=&amp;lang=en-us</Url>
-            <StartText>WHQL&lt;/sup&gt;&lt;/b&gt;&lt;/td&gt;
-												&lt;td class="gridItem"&gt;</StartText>
-            <EndText>&lt;/td&gt;
-</EndText>
-            <TextualContent>{certversion:replace:-WHQL:}</TextualContent>
+            <Url>http://gfwsl.geforce.com/services_toolkit/services/com/nvidia/services/AjaxDriverService.php?func=DriverManualLookup&amp;psid=95&amp;pfid=694&amp;osID=40&amp;languageCode=1033&amp;beta=0&amp;isWHQL=1&amp;dltype=-1&amp;sort1=0&amp;numberOfResults=1</Url>
+            <StartText>"Version" : "</StartText>
+            <EndText>",</EndText>
             <Name>version</Name>
           </UrlVariable>
         </value>
       </item>
       <item>
         <key>
-          <string>url64</string>
+          <string>urlDesktop</string>
         </key>
         <value>
           <UrlVariable>
-            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>StartEnd</VariableType>
+            <Url>http://gfwsl.geforce.com/services_toolkit/services/com/nvidia/services/AjaxDriverService.php?func=DriverManualLookup&amp;psid=95&amp;pfid=694&amp;osID=40&amp;languageCode=1033&amp;beta=0&amp;isWHQL=1&amp;dltype=-1&amp;sort1=0&amp;numberOfResults=1</Url>
+            <StartText>"DownloadURL" : "</StartText>
+            <EndText>",</EndText>
+            <Name>urlDesktop</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>urlDesktopWin10</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <VariableType>StartEnd</VariableType>
+            <Url>http://gfwsl.geforce.com/services_toolkit/services/com/nvidia/services/AjaxDriverService.php?func=DriverManualLookup&amp;psid=95&amp;pfid=694&amp;osID=56&amp;languageCode=1033&amp;beta=0&amp;isWHQL=1&amp;dltype=-1&amp;sort1=0&amp;numberOfResults=1</Url>
+            <StartText>"DownloadURL" : "</StartText>
+            <EndText>",</EndText>
+            <Name>urlDesktopWin10</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>urlNotebook</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <VariableType>StartEnd</VariableType>
+            <Url>http://gfwsl.geforce.com/services_toolkit/services/com/nvidia/services/AjaxDriverService.php?func=DriverManualLookup&amp;psid=92&amp;pfid=680&amp;osID=40&amp;languageCode=1033&amp;beta=0&amp;isWHQL=1&amp;dltype=-1&amp;sort1=0&amp;numberOfResults=1</Url>
+            <StartText>"DownloadURL" : "</StartText>
+            <EndText>",</EndText>
+            <Name>urlNotebook</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>urlNotebookWin10</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <VariableType>StartEnd</VariableType>
+            <Url>http://gfwsl.geforce.com/services_toolkit/services/com/nvidia/services/AjaxDriverService.php?func=DriverManualLookup&amp;psid=92&amp;pfid=680&amp;osID=56&amp;languageCode=1033&amp;beta=0&amp;isWHQL=1&amp;dltype=-1&amp;sort1=0&amp;numberOfResults=1</Url>
+            <StartText>"DownloadURL" : "</StartText>
+            <EndText>",</EndText>
+            <Name>urlNotebookWin10</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>nopush</string>
+        </key>
+        <value>
+          <UrlVariable>
             <VariableType>Textual</VariableType>
-            <Regex />
-            <TextualContent>http://us.download.nvidia.com/Windows/{version}/{version}-desktop-win8-win7-winvista-64bit-international-whql.exe</TextualContent>
-            <Name>url64</Name>
+            <TextualContent>--nopush</TextualContent>
+            <Name>nopush</Name>
           </UrlVariable>
         </value>
       </item>
     </Variables>
     <ExecuteCommand />
-    <ExecutePreCommand />
+    <ExecutePreCommand>chocopkgup /p {appname} /v {version} /u "{urlDesktop}" /u64 "{urlDesktopWin10}" /c {urlNotebook} /c64 {urlNotebookWin10}</ExecutePreCommand>
     <ExecuteCommandType>Batch</ExecuteCommandType>
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
@@ -1571,7 +1620,7 @@
     <FileHippoId />
     <LastUpdated>2015-08-13T16:03:17.8061645</LastUpdated>
     <TargetPath>E:\git\choco-auto\</TargetPath>
-    <FixedDownloadUrl>http://us.download.nvidia.com/Windows/{version}/{version}-desktop-win8-win7-winvista-32bit-international-whql.exe</FixedDownloadUrl>
+    <FixedDownloadUrl>{urlDesktop}</FixedDownloadUrl>
     <Name>geforce-game-ready-driver</Name>
   </ApplicationJob>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="4e63d96a-d4a2-4cc3-9912-48a1c4bc4e36">
