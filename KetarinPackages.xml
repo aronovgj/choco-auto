@@ -1609,7 +1609,7 @@
       </item>
     </Variables>
     <ExecuteCommand />
-    <ExecutePreCommand>chocopkgup /p {appname} /v {version} /u "{urlDesktop}" /u64 "{urlDesktopWin10}" /c {urlNotebook} /c64 {urlNotebookWin10}</ExecutePreCommand>
+    <ExecutePreCommand>chocopkgup /p {appname} /v {version} /u {urlDesktop} /u64 {urlDesktopWin10} /c {urlNotebook} /c64 {urlNotebookWin10}</ExecutePreCommand>
     <ExecuteCommandType>Batch</ExecuteCommandType>
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />

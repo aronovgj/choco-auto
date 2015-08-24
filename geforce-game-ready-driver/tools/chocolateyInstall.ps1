@@ -1,10 +1,10 @@
 ﻿$packageName = '{{PackageName}}'
 $fileType = 'exe'
 $silentArgs = '-s -noreboot'
-$urlDesktop = '{{DownloadUrl}}'         #0
-$urlDesktopWin10 = '{{DownloadUrlx64}}' #1
-$urlNotebook = '{{Checksum}}'           #2
-$urlNotebookWin10 = '{{Checksumx64}}'   #3
+$urlDesktop = '{{DownloadUrl}}'
+$urlDesktopWin10 = '{{DownloadUrlx64}}'
+$urlNotebook = '{{Checksum}}'
+$urlNotebookWin10 = '{{Checksumx64}}'
 
 function Get-GraphicsCardType {
   $cards = @(gwmi win32_VideoController)
