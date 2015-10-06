@@ -9,7 +9,7 @@ Get-ChocolateyWebFile $packageName $filePath $url $url64
 
 
 #install start menu shortcut
-$targetPath = (Get-ChildItem -Path $destDir | Where-Object {$_.Name -match "HitmanPro"}).fullname
+$targetPath = (Get-ChildItem -Path $destDir | Where-Object {$_.Name -eq 'hitmanpro.exe'}).fullname
 $programs = [environment]::GetFolderPath([environment+specialfolder]::Programs)
 $shortcutFilePath = Join-Path $programs $linkName 
 Install-ChocolateyShortcut -shortcutFilePath $shortcutFilePath -targetPath $targetPath
