@@ -1,6 +1,6 @@
-$packageName = '{{PackageName}}'
-$url = '{{DownloadUrl}}'
-$url64 = 'http://www.fon.hum.uva.nl/praat/praat{{DownloadUrlx64}}.zip'
+$packageName = 'praat'
+$url = 'http://www.fon.hum.uva.nl/praat/praat6000_win32.zip'
+$url64 = 'http://www.fon.hum.uva.nl/praat/praat6000_win64.zip'
 $fileName = "Praat.exe"
 $linkName = "Praat.lnk"
 $destdir = $(Split-Path -parent $MyInvocation.MyCommand.Definition)

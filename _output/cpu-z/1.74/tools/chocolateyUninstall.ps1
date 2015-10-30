@@ -1,10 +1,12 @@
-$packageName = '{{PackageName}}'
+$packageName = 'cpu-z'
 $installerType = 'EXE'
 $silentArgs = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-'
+$validExitCodes = @(0) 
 
-$registryPath32 = 'HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Malwarebytes Anti-Malware_is1'
-$registryPathWow6432 = 'HKLM:\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\Malwarebytes Anti-Malware_is1'
+$registryPath32 = 'HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\CPUID CPU-Z_is1'
+$registryPathWow6432 = 'HKLM:\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\CPUID CPU-Z_is1'
 
+ 
 if (Test-Path $registryPath32) {
 $registryPath = $registryPath32
 }

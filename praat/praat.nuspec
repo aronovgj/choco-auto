@@ -9,8 +9,6 @@
     <owners>Doc</owners>
     <summary>PRAAT is a very flexible tool to do speech analysis.</summary>
     <description>PRAAT is a very flexible tool to do speech analysis. It offers a wide range of standard and non-standard procedures, including spectrographic analysis, articulatory synthesis, and neural networks.
-For console version:
-https://chocolatey.org/packages/praatcon
 	</description>
     <projectUrl>http://www.fon.hum.uva.nl/praat/</projectUrl>
     <tags>praat sound visualization speech phonetics phonology analysis </tags>
