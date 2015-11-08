@@ -1,4 +1,4 @@
-MICROSOFT SOFTWARE LICENSE TERMS
+﻿MICROSOFT SOFTWARE LICENSE TERMS
 MICROSOFT WINDOWS KITS 
 Below are separate sets of License Terms. Only one set applies to you. To determine which License Terms apply to you scroll to the kit name you are attempting to download. The License Terms are listed in the following order
 Microsoft Windows Assessment and Deployment Kit for Windows 8.1
