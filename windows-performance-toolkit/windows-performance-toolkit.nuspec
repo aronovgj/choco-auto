@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>windows-performance-toolkit</id>
+    <title>testpackage</title>
+    <version>Windows Performance Toolkit</version>
+    <authors>Microsoft</authors>
+    <owners>doc</owners>
+    <summary>The Windows® Performance Toolkit consists of two independent tools: Windows® Performance Recorder (WPR) and Windows® Performance Analyzer (WPA). In addition, support is maintained for the previous command-line tool, Xperf. However, Xperfview is no longer supported. All recordings must be opened and analyzed by using WPA.</summary>
+    <description>
+The Windows® Performance Toolkit consists of two independent tools: Windows® Performance Recorder (WPR) and Windows® Performance Analyzer (WPA). In addition, support is maintained for the previous command-line tool, Xperf. However, Xperfview is no longer supported. All recordings must be opened and analyzed by using WPA.
+    </description>
+    <projectUrl>https://msdn.microsoft.com/de-de/library/hh162945.aspx</projectUrl>
+    <tags>performance toolkit tune speed boot</tags>
+    <licenseUrl></licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+  </metadata>
+</package>
