@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>emsisoft-emergency-kit</id>
+    <title>Emsisoft Emergency Kit Scanner</title>
+    <version>10.0.0.5488</version>
+    <authors>Emsisoft</authors>
+    <owners>doc</owners>
+    <summary>The Emsisoft Emergency Kit Scanner includes the powerful Emsisoft Scanner complete with graphical user interface. Scan the infected PC for Viruses, Trojans, Spyware, Adware, Worms, Dialers, Keyloggers and other malicious programs.</summary>
+    <description>
+The Emsisoft Emergency Kit contains a collection of programs that can be used without software installation to scan for malware and clean infected computers: Emsisoft Emergency Kit Scanner and Emsisoft Commandline Scanner.
+
+Emsisoft Emergency Kit Scanner
+
+The Emsisoft Emergency Kit Scanner includes the powerful Emsisoft Scanner complete with graphical user interface. Scan the infected PC for Viruses, Trojans, Spyware, Adware, Worms, Dialers, Keyloggers and other malicious programs.
+Emsisoft Commandline Scanner
+
+This scanner contains the same functionality as the Emergency Kit Scanner but without a graphical user interface. The commandline tool is made for professional users and is perfect for batch jobs.
+
+To run the Emsisoft Commandline Scanner, perform the following actions:
+
+- Open a command prompt window (Run: cmd.exe)
+- Switch to the drive of the USB Stick (e.g.: f:), then to the folder of the executable files (e.g.: cd run)
+- Run the scanner by typing: a2cmd.exe
+
+Next you will see a help page describing all available parameters.
+
+The following parameter is an example of scanning drive c:\ with Memory, Traces (Registry) scan enabled, and archive support active. Detected Malware is moved to quarantine.
+
+a2cmd.exe /f="c:\" /m /t /a /q="c:\quarantine\"
+	</description>
+    <projectUrl>http://www.emsisoft.com</projectUrl>
+    <tags>anti-spyware anti-malware malware-remover real-time-protection virus, emergency kit scanner</tags>
+    <copyright></copyright>
+    <licenseUrl>https://my.emsisoft.com/en_us/eula.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>	<iconUrl>https://cdn.rawgit.com/aronovgj/chocolatey/master/icons/emsisoft-anti-malware.png</iconUrl>
+  </metadata>
+</package>
