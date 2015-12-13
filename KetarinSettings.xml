@@ -15,7 +15,7 @@
           <string>LastUpdateCheck</string>
         </key>
         <value>
-          <string>AAEAAAD/////AQAAAAAAAAAEAQAAAA9TeXN0ZW0uRGF0ZVRpbWUCAAAABXRpY2tzCGRhdGVEYXRhAAAJENH9LNxLptII0f0s3Eum0ogL</string>
+          <string>AAEAAAD/////AQAAAAAAAAAEAQAAAA9TeXN0ZW0uRGF0ZVRpbWUCAAAABXRpY2tzCGRhdGVEYXRhAAAJEK/y7CNP/NIIr/LsI0/80ogL</string>
         </value>
       </item>
       <item>
@@ -249,7 +249,7 @@
           <string>MainForm/Size</string>
         </key>
         <value>
-          <string>System.Drawing.Size:840,1050</string>
+          <string>System.Drawing.Size:929,1080</string>
         </value>
       </item>
       <item>
@@ -257,7 +257,7 @@
           <string>MainForm/Location</string>
         </key>
         <value>
-          <string>System.Drawing.Point:756,13</string>
+          <string>System.Drawing.Point:1910,2</string>
         </value>
       </item>
       <item>
@@ -353,7 +353,7 @@
           <string>olvJobs/Target:Width</string>
         </key>
         <value>
-          <string>System.Int32:316</string>
+          <string>System.Int32:388</string>
         </value>
       </item>
       <item>
@@ -473,7 +473,7 @@
           <string>EditVariablesDialog/Size</string>
         </key>
         <value>
-          <string>System.Drawing.Size:929,860</string>
+          <string>System.Drawing.Size:1493,897</string>
         </value>
       </item>
       <item>
@@ -481,7 +481,7 @@
           <string>EditVariablesDialog/Location</string>
         </key>
         <value>
-          <string>System.Drawing.Point:723,182</string>
+          <string>System.Drawing.Point:2133,125</string>
         </value>
       </item>
       <item>
@@ -497,7 +497,7 @@
           <string>ApplicationJobDialog/Size</string>
         </key>
         <value>
-          <string>System.Drawing.Size:887,429</string>
+          <string>System.Drawing.Size:887,672</string>
         </value>
       </item>
       <item>
@@ -505,7 +505,7 @@
           <string>ApplicationJobDialog/Location</string>
         </key>
         <value>
-          <string>System.Drawing.Point:1952,524</string>
+          <string>System.Drawing.Point:2097,276</string>
         </value>
       </item>
       <item>
@@ -769,7 +769,7 @@
           <string>ErrorsDialog/Size</string>
         </key>
         <value>
-          <string>System.Drawing.Size:1357,200</string>
+          <string>System.Drawing.Size:960,294</string>
         </value>
       </item>
       <item>
@@ -809,7 +809,7 @@
           <string>olvErrors/Error:Width</string>
         </key>
         <value>
-          <string>System.Int32:1171</string>
+          <string>System.Int32:774</string>
         </value>
       </item>
       <item>
@@ -825,7 +825,7 @@
           <string>olvErrors/LastSortColumn</string>
         </key>
         <value>
-          <string>System.String:Application</string>
+          <string>System.String:Error</string>
         </value>
       </item>
       <item>
@@ -1130,6 +1130,14 @@
         </key>
         <value>
           <string>System.Int32:-1</string>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>CopyFileInstructionDialog/Size</string>
+        </key>
+        <value>
+          <string>System.Drawing.Size:392,152</string>
         </value>
       </item>
     </dictionary>
