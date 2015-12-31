@@ -31,6 +31,8 @@ GeForce GTX 590, GeForce GTX 580, GeForce GTX 570, GeForce GTX 560 Ti, GeForce G
 GeForce 400 Series:
 
 GeForce GTX 480, GeForce GTX 470, GeForce GTX 465, GeForce GTX 460 SE v2, GeForce GTX 460 SE, GeForce GTX 460, GeForce GTS 450, GeForce GT 440, GeForce GT 430, GeForce GT 420
+
+Thanks @Link-Satonaka for Windows 10 Support.
   </description>
     <projectUrl>http://www.nvidia.com/Download/index.aspx?lang=en-us</projectUrl>
     <packageSourceUrl>https://github.com/aronovgj/choco-auto/tree/master/geforce-game-ready-driver</packageSourceUrl>
@@ -39,12 +41,7 @@ GeForce GTX 480, GeForce GTX 470, GeForce GTX 465, GeForce GTX 460 SE v2, GeForc
     <licenseUrl>http://www.nvidia.com/content/DriverDownload-March2009/licence.php?lang=us</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://rawgit.com/aronovgj/chocolatey/49602c5025372cf63d1db2ae423105dca821dee3/icons/nvidia.png</iconUrl>
-    <!--<dependencies>
-      <dependency id="" version="__VERSION__" />
-      <dependency id="" />
-    </dependencies>-->
     <releaseNotes>http://us.download.nvidia.com/Windows/{{PackageVersion}}/{{PackageVersion}}-win10-win8-win7-winvista-desktop-release-notes.pdf</releaseNotes>
-    <!--<provides></provides>-->
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
