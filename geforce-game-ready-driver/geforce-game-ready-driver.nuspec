@@ -33,6 +33,7 @@ GeForce 400 Series:
 GeForce GTX 480, GeForce GTX 470, GeForce GTX 465, GeForce GTX 460 SE v2, GeForce GTX 460 SE, GeForce GTX 460, GeForce GTS 450, GeForce GT 440, GeForce GT 430, GeForce GT 420
   </description>
     <projectUrl>http://www.nvidia.com/Download/index.aspx?lang=en-us</projectUrl>
+    <packageSourceUrl>https://github.com/aronovgj/choco-auto/tree/master/geforce-game-ready-driver</packageSourceUrl>
     <tags>graphics card driver geforce nvidia experience admin</tags>
     <copyright></copyright>
     <licenseUrl>http://www.nvidia.com/content/DriverDownload-March2009/licence.php?lang=us</licenseUrl>
