@@ -1,19 +1,28 @@
 ﻿$packageName = '{{PackageName}}'
-$url = '{{DownloadUrl}}'
+$version = '{{PackageVersion}}'
 $fileType = 'exe'
 $silentArgs = '-s -noreboot'
-$url64 = '{{DownloadUrlx64}}'
+
+$WindowsVersion = (Get-WmiObject -Class Win32_OperatingSystem).Caption
+if ( $WindowsVersion -match 'Windows 10' ) {
+	$url = "http://us.download.nvidia.com/Windows/$version/$version-desktop-win10-32bit-international-whql.exe"
+	$url64 = "http://us.download.nvidia.com/Windows/$version/$version-desktop-win10-64bit-international-whql.exe"
+}
+Else {
+	$url = "http://us.download.nvidia.com/Windows/$version/$version-desktop-win8-win7-winvista-32bit-international-whql.exe"
+	$url64 = "http://us.download.nvidia.com/Windows/$version/$version-desktop-win8-win7-winvista-64bit-international-whql.exe"
+}
 
 $osBitness = Get-ProcessorBits
 if ($osBitness -eq 64) {
 	$url = $url64
 }
 
-new-item "${env:temp}\nvidiadriver" -itemtype directory -Force
-$unpackfile = "${env:temp}\nvidiadriver\nvidiadriver.zip"
-$unpackdir = "${env:temp}\nvidiadriver"
-Get-ChocolateyWebFile $packageName $unpackfile $url
-Get-ChocolateyUnzip $unpackfile $unpackdir
-$file = "${env:temp}\nvidiadriver\setup.exe"
+New-Item "${ENV:TEMP}\nvidiadriver" -ItemType Directory -Force
+$unpackFile = "${ENV:TEMP}\nvidiadriver\nvidiadriver.zip"
+$unpackDir = "${ENV:TEMP}\nvidiadriver"
+Get-ChocolateyWebFile $packageName $unpackFile $url
+Get-ChocolateyUnzip $unpackFile $unpackDir
+$file = "${ENV:TEMP}\nvidiadriver\setup.exe"
 Install-ChocolateyInstallPackage $packageName $fileType $silentArgs $file 
-Remove-Item $unpackdir -Recurse -Force
+Remove-Item $unpackDir -Recurse -Force
