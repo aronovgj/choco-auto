@@ -30,7 +30,7 @@ The following parameter is an example of scanning drive c:\ with Memory, Traces 
 a2cmd.exe /f="c:\" /m /t /a /q="c:\quarantine\"
 	</description>
     <projectUrl>http://www.emsisoft.com</projectUrl>
-    <tags>anti-spyware anti-malware malware-remover real-time-protection virus, emergency kit scanner</tags>
+    <tags>anti-spyware anti-malware malware-remover real-time-protection virus emergency kit scanner</tags>
     <copyright></copyright>
     <licenseUrl>https://my.emsisoft.com/en_us/eula.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>	<iconUrl>https://cdn.rawgit.com/aronovgj/chocolatey/master/icons/emsisoft-anti-malware.png</iconUrl>

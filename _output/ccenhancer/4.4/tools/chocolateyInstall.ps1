@@ -14,7 +14,6 @@ If ($folder){
 }
 Install-ChocolateyZipPackage $packageName $url $unzipLocation
 
-$folder = Get-ChildItem $unzipLocation | Where-Object {$_.Name -match "CCEnhancer*"}
 $installDir = Join-Path $unzipLocation $folder
 $gui = Join-Path $installDir "CCEnhancer.exe.gui"
 New-Item $gui -type file -force

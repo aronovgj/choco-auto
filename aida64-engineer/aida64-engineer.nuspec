@@ -31,9 +31,12 @@ The power user-oriented application requires low-to-moderate memory to work prop
 Note: this is a trial-version.
 	</description>
     <projectUrl>http://www.aida64.com/</projectUrl>
-    <tags>trial-version benchmark aida aida64 diagnostics system information info hardware computer cpu disk memory ram drive gpu fpu acpi dram directx opengl dll hdd usb cache </tags>
+    <tags>trial admin benchmark aida aida64 diagnostics system information info hardware computer cpu disk memory ram drive gpu fpu acpi dram directx opengl dll hdd usb cache </tags>
     <copyright></copyright>
+    <docsUrl>http://www.aida64.com/support/faq</docsUrl>
     <licenseUrl>http://www.aida64.com/licensing-aida64</licenseUrl>
-    <requireLicenseAcceptance>false</requireLicenseAcceptance>	<iconUrl>https://cdn.rawgit.com/aronovgj/chocolatey/master/icons/{{PackageName}}.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>	
+	<iconUrl>https://cdn.rawgit.com/aronovgj/chocolatey/master/icons/{{PackageName}}.png</iconUrl>
+    <packageSourceUrl>https://github.com/aronovgj/choco-auto</packageSourceUrl>
   </metadata>
 </package>

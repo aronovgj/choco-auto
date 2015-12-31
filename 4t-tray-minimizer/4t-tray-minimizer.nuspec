@@ -8,7 +8,7 @@
     <owners>doc</owners>
     <summary>
 4t Tray Minimizer is a lightweight but powerful window manager, which helps you to free up space on the desktop and the taskba
-	</summary>
+    </summary>
     <description>
 4t Tray Minimizer is a lightweight but powerful window manager, which helps you to free up space on the desktop and the taskbar via the following actions:
 
@@ -29,12 +29,14 @@ The Free and the Pro versions let you to customize the hot keys both for the sta
 - Minimize All Windows hot key, Minimize Window and Maximize Window hot keys
 - Minimize To Tray hot key, Hide Window hot key, Minimize All Windows To Tray hot key, Roll Up/Roll Down hot key and more...
 
-	</description>
+    </description>
     <projectUrl>http://www.4t-niagara.com/tray.html</projectUrl>
-    <tags>minimize minimizer tray 4t icon</tags>
+    <tags>minimize minimizer tray 4t icon admin</tags>
+    <releaseNotes>http://www.4t-niagara.com/tray_history.html</releaseNotes>
     <copyright></copyright>
     <licenseUrl>http://www.4t-niagara.com/tray/license.txt</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-	<iconUrl>https://cdn.rawgit.com/aronovgj/chocolatey/08a8155432343282ce6e49d25be125c93f1b25ac/icons/4t-tray-minimizer.png</iconUrl>
+    <packageSourceUrl>https://github.com/aronovgj/choco-auto</packageSourceUrl>
+    <iconUrl>https://cdn.rawgit.com/aronovgj/chocolatey/08a8155432343282ce6e49d25be125c93f1b25ac/icons/4t-tray-minimizer.png</iconUrl>
   </metadata>
 </package>

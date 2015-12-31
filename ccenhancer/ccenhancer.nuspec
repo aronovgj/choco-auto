@@ -22,7 +22,7 @@ The rules were sourced mainly from the Piriform Support Forum, with several sour
 	<dependencies>
 		<dependency id="ccleaner" />
 	</dependencies>
-    <licenseUrl>http://en.wikipedia.org/wiki/Freeware</licenseUrl>
+    <licenseUrl>https://singularlabs.com/legal/</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
 	<iconUrl>https://cdn.rawgit.com/aronovgj/chocolatey/master/icons/{{PackageName}}.png</iconUrl>
   </metadata>

@@ -1,6 +1,6 @@
 $packageName = '{{PackageName}}'
 $url = '{{DownloadUrl}}'
-$destdir = "${env:ChocolateyInstall}\lib\$packageName\tools"
+$destdir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 Install-ChocolateyZipPackage "$packageName" "$url" "$destdir"
 
 #install start menu shortcut

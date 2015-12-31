@@ -12,12 +12,13 @@
 Most of the configuration options it provides can’t be tweaked using the taskbar properties or the registry.
 The tweaker is designed for Windows 7 and Windows 8.</description>
     <projectUrl>http://rammichael.com/7-taskbar-tweaker</projectUrl>
-    <tags>taskbar tweaker 7+</tags>
+    <tags>taskbar tweaker 7+ admin</tags>
     <copyright></copyright>
     <licenseUrl>http://www.gnu.org/licenses/old-licenses/gpl-2.0.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://cdn.rawgit.com/aronovgj/chocolatey/34f87e5f6b8aadb5586cf6a7fcc1eef446688ddc/icons/{{PackageName}}.png</iconUrl>
-    <releaseNotes></releaseNotes>
+    <releaseNotes>http://rammichael.com/downloads/7tt_setup.exe?changelog</releaseNotes>
+    <packageSourceUrl>https://github.com/aronovgj/choco-auto</packageSourceUrl>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
