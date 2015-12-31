@@ -1,13 +1,13 @@
-<?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>{{PackageName}}</id>
     <title>Geforce Game Ready Driver</title>
     <version>{{PackageVersion}}</version>
     <authors>NVIDIA</authors>
     <owners>doc</owners>
-	<iconUrl>https://rawgit.com/aronovgj/chocolatey/49602c5025372cf63d1db2ae423105dca821dee3/icons/nvidia.png</iconUrl>
-        <summary>NVIDIA Geforce Driver</summary>
+    <summary>NVIDIA Geforce Driver</summary>
     <description>GeForce Game Ready Driver
 
 This GeForce Game Ready driver ensures you'll have the best possible gaming experience. With support for GeForce SLI technology and one-click game setting optimizations within GeForce Experience, you'll have the best possible performance and image quality during gameplay.
@@ -33,14 +33,19 @@ GeForce 400 Series:
 GeForce GTX 480, GeForce GTX 470, GeForce GTX 465, GeForce GTX 460 SE v2, GeForce GTX 460 SE, GeForce GTX 460, GeForce GTS 450, GeForce GT 440, GeForce GT 430, GeForce GT 420
   </description>
     <projectUrl>http://www.nvidia.com/Download/index.aspx?lang=en-us</projectUrl>
-    <tags>graphics card driver geforce nvidia experience </tags>
+    <tags>graphics card driver geforce nvidia experience admin</tags>
     <copyright></copyright>
     <licenseUrl>http://www.nvidia.com/content/DriverDownload-March2009/licence.php?lang=us</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <releaseNotes></releaseNotes>
+    <iconUrl>https://rawgit.com/aronovgj/chocolatey/49602c5025372cf63d1db2ae423105dca821dee3/icons/nvidia.png</iconUrl>
+    <!--<dependencies>
+      <dependency id="" version="__VERSION__" />
+      <dependency id="" />
+    </dependencies>-->
+    <releaseNotes>http://us.download.nvidia.com/Windows/{{PackageVersion}}/{{PackageVersion}}-win10-win8-win7-winvista-desktop-release-notes.pdf</releaseNotes>
+    <!--<provides></provides>-->
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
   </files>
 </package>
-<!-- character encoding: “UTF-8” -->
