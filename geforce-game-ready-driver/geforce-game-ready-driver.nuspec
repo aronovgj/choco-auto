@@ -33,6 +33,9 @@ GeForce 400 Series:
 GeForce GTX 480, GeForce GTX 470, GeForce GTX 465, GeForce GTX 460 SE v2, GeForce GTX 460 SE, GeForce GTX 460, GeForce GTS 450, GeForce GT 440, GeForce GT 430, GeForce GT 420
 
 Thanks @Link-Satonaka for Windows 10 Support.
+
+If your GPU is not supported, try this:
+https://chocolatey.org/packages/geforce-driver
   </description>
     <projectUrl>http://www.nvidia.com/Download/index.aspx?lang=en-us</projectUrl>
     <packageSourceUrl>https://github.com/aronovgj/choco-auto/tree/master/geforce-game-ready-driver</packageSourceUrl>

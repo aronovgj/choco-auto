@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>{{PackageName}}</id>
+    <title>Google Books Downloader</title>
+    <version>{{PackageVersion}}</version>
+    <authors>gbooksdownloader.com</authors>
+    <owners>doc</owners>
+    <summary>Google Books Downloader is a little software that allows you to save Google Books in PDF, JPEG or PNG format </summary>
+    <description>Google has announced the launch of its new service; Google Books. Currently, you can purchase books (U.S. only) or download more than 3 million free books from anywhere in the world using this service. 
+As announced by Google, the aim of this project is to provide users with their own bookshelf on hand, no matter where they are. Purchased or downloaded books can be read using a desktop browser, as well as through mobile devices based on the Android operating system or iOS. Additionally, the books can be read on any e-reader with Adobe Digital Editions software.
+As opposed to the Picasa service which provides an access to photos, the Google Books service does not allow users to download free electronic editions without digital copy protection and use them on other devices. Google Books Downloader is a little software that allows you to save these books in PDF, JPEG or PNG format (note: it supports only the books marked as "full view").	
+    </description>
+    <projectUrl>http://www.gbooksdownloader.com/</projectUrl>
+    <tags>google books downloader pdf jpeg png</tags>
+    <licenseUrl>https://googlebookdownloader.codeplex.com/license</licenseUrl>
+    <releaseNotes></releaseNotes>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://googlebookdownloader.codeplex.com/SourceControl/latest</projectSourceUrl>
+    <docsUrl>https://googlebookdownloader.codeplex.com/documentation</docsUrl>
+    <bugTrackerUrl>https://googlebookdownloader.codeplex.com/workitem/list/basic</bugTrackerUrl>
+    <packageSourceUrl>https://github.com/aronovgj/choco-auto</packageSourceUrl>
+    <iconUrl>https://cdn.rawgit.com/aronovgj/chocolatey/0bdc16169fee56719d85ff7ef400fafdc644d222/icons/googlebooksbownloader.jpg</iconUrl>
+  </metadata>
+</package>

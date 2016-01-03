@@ -29,7 +29,7 @@ The following parameter is an example of scanning drive c:\ with Memory, Traces 
 
 a2cmd.exe /f="c:\" /m /t /a /q="c:\quarantine\"
 	</description>
-    <projectUrl>http://www.emsisoft.com</projectUrl>
+    <projectUrl>https://www.emsisoft.com/en/software/eek/</projectUrl>
     <tags>anti-spyware anti-malware malware-remover real-time-protection virus emergency kit scanner</tags>
     <copyright></copyright>
     <licenseUrl>https://my.emsisoft.com/en_us/eula.html</licenseUrl>
