@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
     <metadata>
 		<id>rainmeter</id>
-        <version>{}.0.0.20150816</version>
+        <version>3.3.0.2519</version>
         <title>Rainmeter (Unofficial)</title>
         <authors>Rainmeter</authors>
         <owners>doc</owners>
@@ -15,9 +15,7 @@
 "Unofficial" means that this package is not maintained by the Rainmeter developers. The setup file is the same you would download on the official website.
 		</description>
         <summary>Rainmeter, desktop customization tool.</summary>
-        <releaseNotes>http://rainmeter.net/release-3-1
-http://rainmeter.net/release-3-2
-http://rainmeter.net/beta-3-2
+        <releaseNotes>https://www.rainmeter.net/release-3-3
 		</releaseNotes>
 		<copyright>Rainmeter</copyright>
         <tags>rainmeter customization </tags>		<iconUrl>https://rawgit.com/aronovgj/chocolatey/a4d186f47d8efacaed3cca1b010799566fc9253f/icons/rainmeter.png</iconUrl>
