@@ -18,7 +18,7 @@
         <releaseNotes>https://www.rainmeter.net/release-3-3
 		</releaseNotes>
 		<copyright>Rainmeter</copyright>
-        <tags>rainmeter customization </tags>		<iconUrl>https://rawgit.com/aronovgj/chocolatey/a4d186f47d8efacaed3cca1b010799566fc9253f/icons/rainmeter.png</iconUrl>
+        <tags>admin rainmeter customization </tags>		<iconUrl>https://rawgit.com/aronovgj/chocolatey/a4d186f47d8efacaed3cca1b010799566fc9253f/icons/rainmeter.png</iconUrl>
     </metadata>
   <files>
     <file src="tools\**" target="tools" />

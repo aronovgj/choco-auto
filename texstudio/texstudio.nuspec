@@ -14,7 +14,7 @@
 
 If you want to use MiKTeX make sure to install it before TeXstudio! Unless you don't want to compile documents or you know what you do, you will need MiKTeX.</description>
     <summary>TeXstudio is an integrated writing environment for creating LaTeX documents.</summary>
-    <tags>tex latex texmaker texstudio miktex editor</tags>
+    <tags>admin tex latex texmaker texstudio miktex editor</tags>
     <packageSourceUrl>https://github.com/BenjaminHae/choco-packages</packageSourceUrl>
   </metadata>
 </package>

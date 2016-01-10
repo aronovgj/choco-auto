@@ -1,8 +1,8 @@
 ﻿$packageName   = 'miktex'
-$Url = 'http://ctan.math.washington.edu/tex-archive/systems/win32/miktex/setup/basic-miktex-2.9.5823.exe'
-$Url64 = 'http://ctan.math.washington.edu/tex-archive/systems/win32/miktex/setup/basic-miktex-2.9.5823-x64.exe'
+$Url = 'http://par-epistemen-taksis.de/tex-archive/systems/win32/miktex/setup/basic-miktex-2.9.5823.exe'
+$Url64 = 'http://par-epistemen-taksis.de/tex-archive/systems/win32/miktex/setup/basic-miktex-2.9.5823-x64.exe'
 $fileType = 'EXE'
-$silentArgs = '--unattended --shared --package-set=complete'
+$silentArgs = '--unattended --shared'
 $scriptPath = $(Split-Path -parent $MyInvocation.MyCommand.Definition)
 
 $install32 = Join-Path $scriptPath 'basic-miktex-2.9.5823.exe'

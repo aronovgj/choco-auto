@@ -2,7 +2,7 @@
 $Url = '{{DownloadUrl}}'
 $Url64 = '{{DownloadUrlx64}}'
 $fileType = 'EXE'
-$silentArgs = '--unattended --shared --package-set=complete'
+$silentArgs = '--unattended --shared'
 $scriptPath = $(Split-Path -parent $MyInvocation.MyCommand.Definition)
 
 $install32 = Join-Path $scriptPath 'basic-miktex-{{PackageVersion}}.exe'

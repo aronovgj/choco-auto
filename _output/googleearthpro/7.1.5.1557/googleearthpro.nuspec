@@ -18,7 +18,7 @@ Key:
     <summary>Google Earth lets you fly anywhere on Earth to view satellite imagery, maps, terrain, 3D buildings, from galaxies in outer space to the canyons of the ocean.</summary>
     <copyright>©2015 Google</copyright>
     <dependencies>
-        <dependency id="autohotkey.portable" />
+        <dependency id="autohotkey" />
     </dependencies>
 	<packageSourceUrl>https://github.com/aronovgj/choco-auto</packageSourceUrl>
     <tags>google earth navigation geographic mapping</tags>

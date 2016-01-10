@@ -13,7 +13,7 @@ As announced by Google, the aim of this project is to provide users with their o
 As opposed to the Picasa service which provides an access to photos, the Google Books service does not allow users to download free electronic editions without digital copy protection and use them on other devices. Google Books Downloader is a little software that allows you to save these books in PDF, JPEG or PNG format (note: it supports only the books marked as "full view").	
     </description>
     <projectUrl>http://www.gbooksdownloader.com/</projectUrl>
-    <tags>google books downloader pdf jpeg png</tags>
+    <tags>admin google books downloader pdf jpeg png</tags>
     <licenseUrl>https://googlebookdownloader.codeplex.com/license</licenseUrl>
     <releaseNotes></releaseNotes>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
