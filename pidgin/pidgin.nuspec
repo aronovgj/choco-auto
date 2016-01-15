@@ -17,6 +17,6 @@
 	<bugTrackerUrl>https://developer.pidgin.im/query</bugTrackerUrl>
     <releaseNotes>https://developer.pidgin.im/wiki/ChangeLog</releaseNotes>
     <packageSourceUrl>https://github.com/aronovgj/choco-auto</packageSourceUrl>
-    <tags>chat jabber icq messenger facebook bonjour aim xmpp irc</tags>
+    <tags>admin chat jabber icq messenger facebook bonjour aim xmpp irc</tags>
   </metadata>
 </package>
