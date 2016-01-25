@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id>{{PackageName}}</id>
-    <version>{{PackageVersion}}</version>
+    <id>texstudio</id>
+    <version>2.10.8</version>
     <title>TeXstudio</title>
     <authors>Benito van der Zander, Jan Sundermeyer, Daniel Braun, Tim Hoffmann</authors>
     <owners>doc</owners>

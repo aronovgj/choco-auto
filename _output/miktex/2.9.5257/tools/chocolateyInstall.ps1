@@ -1,6 +1,6 @@
 ﻿$packageName   = 'miktex'
-$Url = '{{DownloadUrl}}'
-$Url64 = '{{DownloadUrlx64}}'
+$Url = 'http://ftp.uni-erlangen.de/mirrors/CTAN/systems/win32/miktex/setup/basic-miktex.exe'
+$Url64 = 'http://ftp.uni-erlangen.de/mirrors/CTAN/systems/win32/miktex/setup/basic-miktex-x64.exe'
 $fileType = 'EXE'
 $silentArgs = '--unattended --shared'
 $scriptPath = $(Split-Path -parent $MyInvocation.MyCommand.Definition)
