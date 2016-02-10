@@ -15,7 +15,7 @@
           <string>LastUpdateCheck</string>
         </key>
         <value>
-          <string>AAEAAAD/////AQAAAAAAAAAEAQAAAA9TeXN0ZW0uRGF0ZVRpbWUCAAAABXRpY2tzCGRhdGVEYXRhAAAJEK/y7CNP/NIIr/LsI0/80ogL</string>
+          <string>AAEAAAD/////AQAAAAAAAAAEAQAAAA9TeXN0ZW0uRGF0ZVRpbWUCAAAABXRpY2tzCGRhdGVEYXRhAAAJEDYFBmXDMdMINgUGZcMx04gL</string>
         </value>
       </item>
       <item>
@@ -249,7 +249,7 @@
           <string>MainForm/Size</string>
         </key>
         <value>
-          <string>System.Drawing.Size:929,1080</string>
+          <string>System.Drawing.Size:960,1080</string>
         </value>
       </item>
       <item>
@@ -257,7 +257,7 @@
           <string>MainForm/Location</string>
         </key>
         <value>
-          <string>System.Drawing.Point:1910,2</string>
+          <string>System.Drawing.Point:1920,0</string>
         </value>
       </item>
       <item>
@@ -353,7 +353,7 @@
           <string>olvJobs/Target:Width</string>
         </key>
         <value>
-          <string>System.Int32:388</string>
+          <string>System.Int32:419</string>
         </value>
       </item>
       <item>
@@ -481,7 +481,7 @@
           <string>EditVariablesDialog/Location</string>
         </key>
         <value>
-          <string>System.Drawing.Point:2133,125</string>
+          <string>System.Drawing.Point:1981,78</string>
         </value>
       </item>
       <item>
@@ -497,7 +497,7 @@
           <string>ApplicationJobDialog/Size</string>
         </key>
         <value>
-          <string>System.Drawing.Size:887,672</string>
+          <string>System.Drawing.Size:879,626</string>
         </value>
       </item>
       <item>
@@ -505,7 +505,7 @@
           <string>ApplicationJobDialog/Location</string>
         </key>
         <value>
-          <string>System.Drawing.Point:2097,276</string>
+          <string>System.Drawing.Point:2140,77</string>
         </value>
       </item>
       <item>
@@ -769,7 +769,7 @@
           <string>ErrorsDialog/Size</string>
         </key>
         <value>
-          <string>System.Drawing.Size:960,294</string>
+          <string>System.Drawing.Size:1346,294</string>
         </value>
       </item>
       <item>
@@ -809,7 +809,7 @@
           <string>olvErrors/Error:Width</string>
         </key>
         <value>
-          <string>System.Int32:774</string>
+          <string>System.Int32:1160</string>
         </value>
       </item>
       <item>

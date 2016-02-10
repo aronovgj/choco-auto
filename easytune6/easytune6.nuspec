@@ -13,7 +13,7 @@
 Note: only for GIGABYTE mainboards and only for those that support it. Read up if it can be used on your system. 
     </description>
     <projectUrl>http://www.gigabyte.de/support-downloads/Utility.aspx</projectUrl>
-    <tags>cpu gpu graphics card gigabyte tune fan</tags>
+    <tags>admin cpu gpu graphics card gigabyte tune fan</tags>
     <licenseUrl>https://en.wikipedia.org/wiki/Freeware</licenseUrl>
     <iconUrl>https://raw.githubusercontent.com/aronovgj/chocolatey/ab0b0f1230e799d54df3b582aeae19b6d5cb9dd2/icons/easytune.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

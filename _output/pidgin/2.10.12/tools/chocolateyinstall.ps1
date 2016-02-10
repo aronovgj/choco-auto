@@ -8,5 +8,5 @@ $packageArgs = @{
   silentArgs    = '/S'
   url           = $url
 }
-Stop-Process -ProcessName pidgin* -ErrorAction SilentlyContinue
+Stop-Process -ProcessName pidgin* -ErrorAction SilentlyContinue -Force
 Install-ChocolateyPackage @packageArgs
