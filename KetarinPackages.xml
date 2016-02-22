@@ -346,12 +346,12 @@
     <UserAgent>Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19</UserAgent>
     <UserNotes />
     <LastFileSize>32694272</LastFileSize>
-    <LastFileDate>2016-01-14T04:05:37.1669984</LastFileDate>
+    <LastFileDate>2016-02-19T21:04:05.9630809</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
     <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
-    <VariableChangeIndicator />
+    <VariableChangeIndicator>version</VariableChangeIndicator>
     <HashVariable />
     <HashType>None</HashType>
     <CanBeShared>true</CanBeShared>
@@ -413,11 +413,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>E:\git\choco-auto\AcroRdrDCUpd1501020056_MUI.msp</PreviousLocation>
+    <PreviousLocation>E:\git\choco-auto\AcroRdrDCUpd1501020059_MUI.msp</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2016-01-14T04:05:37.1669984</LastUpdated>
+    <LastUpdated>2016-02-19T21:04:05.9630809</LastUpdated>
     <TargetPath>E:\git\choco-auto\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>adobereader-update</Name>
@@ -1060,7 +1060,7 @@
     <UserAgent>Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19</UserAgent>
     <UserNotes />
     <LastFileSize>4669119</LastFileSize>
-    <LastFileDate>2016-02-10T16:15:30.6828725</LastFileDate>
+    <LastFileDate>2016-02-15T14:39:19.0268466</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -1116,7 +1116,7 @@
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2016-02-10T16:15:30.6828725</LastUpdated>
+    <LastUpdated>2016-02-15T14:39:19.0268466</LastUpdated>
     <TargetPath>E:\git\choco-auto\</TargetPath>
     <FixedDownloadUrl>http://crystalmark.info/download/zz/CrystalDiskInfo{version:replace:.:_}.zip</FixedDownloadUrl>
     <Name>crystaldiskinfo</Name>
@@ -1734,8 +1734,8 @@
     <WebsiteUrl />
     <UserAgent>Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19</UserAgent>
     <UserNotes />
-    <LastFileSize>314088208</LastFileSize>
-    <LastFileDate>2016-01-27T15:35:53.8108557</LastFileDate>
+    <LastFileSize>264113064</LastFileSize>
+    <LastFileDate>2016-02-15T15:03:46.829514</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -1789,11 +1789,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>E:\git\choco-auto\361.75-desktop-win8-win7-winvista-32bit-international-whql.exe</PreviousLocation>
+    <PreviousLocation>E:\git\choco-auto\361.91-desktop-win8-win7-winvista-32bit-international-whql.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2016-01-27T15:35:53.8108557</LastUpdated>
+    <LastUpdated>2016-02-15T15:03:46.829514</LastUpdated>
     <TargetPath>E:\git\choco-auto\</TargetPath>
     <FixedDownloadUrl>http://us.download.nvidia.com/Windows/{version}/{version}-desktop-win8-win7-winvista-32bit-international-whql.exe</FixedDownloadUrl>
     <Name>geforce-game-ready-driver</Name>
@@ -2037,7 +2037,7 @@
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
     <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
-    <VariableChangeIndicator />
+    <VariableChangeIndicator>version</VariableChangeIndicator>
     <HashVariable />
     <HashType>None</HashType>
     <CanBeShared>true</CanBeShared>
@@ -2232,8 +2232,8 @@
     <WebsiteUrl />
     <UserAgent>chocolatey</UserAgent>
     <UserNotes />
-    <LastFileSize>10344184</LastFileSize>
-    <LastFileDate>2016-01-20T19:09:43.7442501</LastFileDate>
+    <LastFileSize>10459376</LastFileSize>
+    <LastFileDate>2016-02-13T21:30:36.1680692</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -2257,10 +2257,8 @@
             <VariableType>StartEnd</VariableType>
             <Regex />
             <Url>http://www.surfright.nl/en/downloads/</Url>
-            <StartText>&lt;a href="/en/hitmanpro/whatsnew"&gt;
-              </StartText>
-            <EndText>
-            &lt;/a&gt;</EndText>
+            <StartText>"/en/hitmanpro/whatsnew"&gt;</StartText>
+            <EndText>&lt;/a&gt;</EndText>
             <TextualContent />
             <Name>version</Name>
           </UrlVariable>
@@ -2292,7 +2290,7 @@
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2016-01-20T19:09:43.7442501</LastUpdated>
+    <LastUpdated>2016-02-13T21:30:36.1680692</LastUpdated>
     <TargetPath>E:\git\choco-auto\</TargetPath>
     <FixedDownloadUrl>http://dl.surfright.nl/HitmanPro.exe</FixedDownloadUrl>
     <Name>hitmanpro</Name>
@@ -3006,8 +3004,8 @@
     <WebsiteUrl />
     <UserAgent>chocolatey</UserAgent>
     <UserNotes />
-    <LastFileSize>7663428</LastFileSize>
-    <LastFileDate>2016-01-31T23:01:25.8483125</LastFileDate>
+    <LastFileSize>7664569</LastFileSize>
+    <LastFileDate>2016-02-11T20:31:39.9736871</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -3078,11 +3076,11 @@ Latest changes in Praat.&lt;/p&gt;
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>E:\git\choco-auto\praat6013_win32.zip</PreviousLocation>
+    <PreviousLocation>E:\git\choco-auto\praat6014_win32.zip</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2016-01-31T23:01:25.8483125</LastUpdated>
+    <LastUpdated>2016-02-11T20:31:39.9736871</LastUpdated>
     <TargetPath>E:\git\choco-auto\</TargetPath>
     <FixedDownloadUrl>http://www.fon.hum.uva.nl/praat/praat{nodots}.zip</FixedDownloadUrl>
     <Name>praat</Name>
@@ -4340,8 +4338,8 @@ Latest changes in Praat.&lt;/p&gt;
     <WebsiteUrl />
     <UserAgent>Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19</UserAgent>
     <UserNotes />
-    <LastFileSize>2042306</LastFileSize>
-    <LastFileDate>2016-02-01T18:08:01.4552853</LastFileDate>
+    <LastFileSize>2046402</LastFileSize>
+    <LastFileDate>2016-02-15T14:25:40.241771</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -4393,11 +4391,11 @@ Latest changes in Praat.&lt;/p&gt;
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>E:\git\choco-auto\wsusoffline104.zip</PreviousLocation>
+    <PreviousLocation>E:\git\choco-auto\wsusoffline105.zip</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2016-02-01T18:08:01.4552853</LastUpdated>
+    <LastUpdated>2016-02-15T14:25:40.241771</LastUpdated>
     <TargetPath>E:\git\choco-auto\</TargetPath>
     <FixedDownloadUrl>http://download.wsusoffline.net/wsusoffline{version:replace:.:}.zip</FixedDownloadUrl>
     <Name>wsus-offline-update</Name>

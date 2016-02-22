@@ -1,5 +1,5 @@
 $packageName = 'crystaldiskinfo'
-$url = 'http://sourceforge.jp/frs/redir.php?m=jaist&f=/crystaldiskinfo/64337/CrystalDiskInfo6_7_5.zip'
+$url = 'http://crystalmark.info/download/zz/CrystalDiskInfo6_7_5.zip'
 $fileName = "DiskInfo.exe"
 $linkName = "CrystalDiskInfo.lnk"
 $destdir = $(Split-Path -parent $MyInvocation.MyCommand.Definition)
