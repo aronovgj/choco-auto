@@ -13,16 +13,10 @@ Else {
 	$url64 = "http://us.download.nvidia.com/Windows/$version/$version-desktop-win8-win7-winvista-64bit-international-whql.exe"
 }
 
-$osBitness = Get-ProcessorBits
-if ($osBitness -eq 64) {
-	$url = $url64
-}
-
-New-Item "${ENV:TEMP}\nvidiadriver" -ItemType Directory -Force
-$unpackFile = "${ENV:TEMP}\nvidiadriver\nvidiadriver.zip"
-$unpackDir = "${ENV:TEMP}\nvidiadriver"
-Get-ChocolateyWebFile $packageName $unpackFile $url
+$unpackDir = New-Item "${ENV:TEMP}\nvidiadriver" -ItemType Directory -Force
+$unpackFile = Join-Path "$unpackDir" "nvidiadriver.zip"
+Get-ChocolateyWebFile $packageName $unpackFile $url $url64
 Get-ChocolateyUnzip $unpackFile $unpackDir
-$file = "${ENV:TEMP}\nvidiadriver\setup.exe"
+$file = Join-Path "$unpackDir" "setup.exe"
 Install-ChocolateyInstallPackage $packageName $fileType $silentArgs $file 
 Remove-Item $unpackDir -Recurse -Force
