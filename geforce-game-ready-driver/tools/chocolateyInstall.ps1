@@ -1,9 +1,9 @@
-﻿$packageName = '{{PackageName}}'
+$packageName = '{{PackageName}}'
 $version = '{{PackageVersion}}'
 $fileType = 'exe'
 $silentArgs = '-s -noreboot'
 $unpackDir = New-Item "${ENV:TEMP}\nvidiadriver" -ItemType Directory -Force
-$unpackFile = Join-Path "$unpackDir" "nvidiadriver.zip"
+$unpackFile = "${ENV:TEMP}\nvidiadriver.zip"
 $setupFile = Join-Path "$unpackDir" "setup.exe"
 
 $WindowsVersion = (Get-WmiObject -Class Win32_OperatingSystem).Caption
@@ -19,6 +19,7 @@ Else {
 Get-ChocolateyWebFile $packageName $unpackFile $url $url64
 Get-ChocolateyUnzip $unpackFile $unpackDir
 Remove-Item $unpackDir\Update.Core -Recurse -Force
+Remove-Item $unpackDir\Display.Update -Recurse -Force
 Remove-Item $unpackDir\ShadowPlay -Recurse -Force
 Remove-Item $unpackDir\GFExperience* -Recurse -Force
 Install-ChocolateyInstallPackage $packageName $fileType $silentArgs $setupFile
