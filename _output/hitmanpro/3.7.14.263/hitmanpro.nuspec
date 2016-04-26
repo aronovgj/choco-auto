@@ -2,9 +2,9 @@
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id>{{PackageName}}</id>
+    <id>hitmanpro</id>
     <title>HitmanPro</title>
-    <version>{{PackageVersion}}</version>
+    <version>3.7.14.263</version>
     <authors>SurfRight</authors>
     <owners>Doc</owners>
     <summary>HitmanPro is a second opinion scanner, designed to rescue your computer from malware (viruses, trojans, rootkits, etc.) that have infected your computer despite all the security measures you have taken (such as anti virus software, firewalls, etc.).</summary>
@@ -18,7 +18,6 @@ Software is a trial but you can perform one time scans indefinitely.
     <tags>hitman surfright virus malware scan trojan rootkit trial</tags>
     <copyright></copyright>
     <licenseUrl>http://www.surfright.nl/en/support/#en-freetrial</licenseUrl>
-	<packageSourceUrl>https://github.com/aronovgj/choco-auto</packageSourceUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://cdn.rawgit.com/aronovgj/chocolatey/fda2d788eb206af1d99d8e9b28d1de373c629c99/icons/hitmanpro.png</iconUrl>
     <releaseNotes></releaseNotes>

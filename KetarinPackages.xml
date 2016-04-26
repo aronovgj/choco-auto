@@ -217,6 +217,7 @@
     <DownloadDate xsi:nil="true" />
     <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
     <VariableChangeIndicator />
+    <HashVariable />
     <HashType>None</HashType>
     <CanBeShared>true</CanBeShared>
     <ShareApplication>false</ShareApplication>
@@ -270,7 +271,7 @@
     <FileHippoId />
     <LastUpdated>2015-12-04T16:03:48.6209811</LastUpdated>
     <TargetPath>E:\git\choco-auto\</TargetPath>
-    <FixedDownloadUrl>http://www.rammichael.com/downloads/7tt_setup.exe</FixedDownloadUrl>
+    <FixedDownloadUrl>http://rammichael.com/downloads/7tt_setup.exe</FixedDownloadUrl>
     <Name>7-taskbar-tweaker</Name>
   </ApplicationJob>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="c1f90119-42d6-4940-a270-f4f5454d751b">
@@ -345,8 +346,8 @@
     <WebsiteUrl />
     <UserAgent>Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19</UserAgent>
     <UserNotes />
-    <LastFileSize>32694272</LastFileSize>
-    <LastFileDate>2016-02-19T21:04:05.9630809</LastFileDate>
+    <LastFileSize>32714752</LastFileSize>
+    <LastFileDate>2016-03-08T19:10:04.0652379</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -401,7 +402,7 @@
             <VariableType>Textual</VariableType>
             <Regex />
             <Url />
-            <TextualContent>ftp://ftp.adobe.com/pub/adobe/reader/win/AcrobatDC/{version:replace:.:}/AcroRdrDCUpd{version:replace:.:}_MUI.msp</TextualContent>
+            <TextualContent>http://ftp.adobe.com/pub/adobe/reader/win/AcrobatDC/{version:replace:.:}/AcroRdrDCUpd{version:replace:.:}_MUI.msp</TextualContent>
             <Name>url</Name>
           </UrlVariable>
         </value>
@@ -413,11 +414,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>E:\git\choco-auto\AcroRdrDCUpd1501020059_MUI.msp</PreviousLocation>
+    <PreviousLocation>E:\git\choco-auto\AcroRdrDCUpd1501020060_MUI.msp</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2016-02-19T21:04:05.9630809</LastUpdated>
+    <LastUpdated>2016-03-08T19:10:04.0652379</LastUpdated>
     <TargetPath>E:\git\choco-auto\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>adobereader-update</Name>
@@ -496,8 +497,8 @@
     <WebsiteUrl />
     <UserAgent>Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19</UserAgent>
     <UserNotes />
-    <LastFileSize>16826808</LastFileSize>
-    <LastFileDate>2015-12-08T01:01:25.4506779</LastFileDate>
+    <LastFileSize>16593104</LastFileSize>
+    <LastFileDate>2016-04-08T01:01:10.8865482</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -566,11 +567,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>E:\git\choco-auto\aida64engineer560.exe</PreviousLocation>
+    <PreviousLocation>E:\git\choco-auto\aida64engineer570.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-12-08T01:01:25.4506779</LastUpdated>
+    <LastUpdated>2016-04-08T01:01:10.8865482</LastUpdated>
     <TargetPath>E:\git\choco-auto\</TargetPath>
     <FixedDownloadUrl>http://download.aida64.com/aida64engineer{dlversion:replace:.:}.exe</FixedDownloadUrl>
     <Name>aida64-engineer</Name>
@@ -922,8 +923,8 @@
     <WebsiteUrl />
     <UserAgent>Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19</UserAgent>
     <UserNotes />
-    <LastFileSize>1665568</LastFileSize>
-    <LastFileDate>2016-01-26T19:02:47.7951885</LastFileDate>
+    <LastFileSize>1664456</LastFileSize>
+    <LastFileDate>2016-04-21T16:02:37.6880147</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -976,11 +977,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>E:\git\choco-auto\cpu-z_1.75-en.exe</PreviousLocation>
+    <PreviousLocation>E:\git\choco-auto\cpu-z_1.76-en.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2016-01-26T19:02:47.7951885</LastUpdated>
+    <LastUpdated>2016-04-21T16:02:37.6880147</LastUpdated>
     <TargetPath>E:\git\choco-auto\</TargetPath>
     <FixedDownloadUrl>http://download.cpuid.com/cpu-z/cpu-z_{version}-en.exe</FixedDownloadUrl>
     <Name>cpu-z.install</Name>
@@ -1059,13 +1060,13 @@
     <WebsiteUrl />
     <UserAgent>Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19</UserAgent>
     <UserNotes />
-    <LastFileSize>4669119</LastFileSize>
-    <LastFileDate>2016-02-15T14:39:19.0268466</LastFileDate>
+    <LastFileSize>4666855</LastFileSize>
+    <LastFileDate>2016-04-14T14:22:31.4354279</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
     <CheckForUpdatesOnly>false</CheckForUpdatesOnly>
-    <VariableChangeIndicator />
+    <VariableChangeIndicator>version</VariableChangeIndicator>
     <HashVariable />
     <HashType>None</HashType>
     <CanBeShared>true</CanBeShared>
@@ -1105,6 +1106,36 @@
           </UrlVariable>
         </value>
       </item>
+      <item>
+        <key>
+          <string>number</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>StartEnd</VariableType>
+            <Regex />
+            <Url>https://osdn.jp/projects/crystaldiskinfo/releases/</Url>
+            <StartText>release-wrap-</StartText>
+            <EndText>"&gt;</EndText>
+            <Name>number</Name>
+          </UrlVariable>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>url</string>
+        </key>
+        <value>
+          <UrlVariable>
+            <RegexRightToLeft>false</RegexRightToLeft>
+            <VariableType>Textual</VariableType>
+            <Regex />
+            <TextualContent>http://rwthaachen.dl.osdn.jp/crystaldiskinfo/{number}/CrystalDiskInfo{version:replace:.:_}.zip</TextualContent>
+            <Name>url</Name>
+          </UrlVariable>
+        </value>
+      </item>
     </Variables>
     <ExecuteCommand />
     <ExecutePreCommand />
@@ -1112,13 +1143,13 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>E:\git\choco-auto\CrystalDiskInfo6_7_5.zip</PreviousLocation>
+    <PreviousLocation>E:\git\choco-auto\CrystalDiskInfo6_8_1.zip</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2016-02-15T14:39:19.0268466</LastUpdated>
+    <LastUpdated>2016-04-14T14:22:31.4354279</LastUpdated>
     <TargetPath>E:\git\choco-auto\</TargetPath>
-    <FixedDownloadUrl>http://crystalmark.info/download/zz/CrystalDiskInfo{version:replace:.:_}.zip</FixedDownloadUrl>
+    <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>crystaldiskinfo</Name>
   </ApplicationJob>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="1a397ca0-1878-443c-a864-c7b85850b854">
@@ -1734,8 +1765,8 @@
     <WebsiteUrl />
     <UserAgent>Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19</UserAgent>
     <UserNotes />
-    <LastFileSize>264113064</LastFileSize>
-    <LastFileDate>2016-02-15T15:03:46.829514</LastFileDate>
+    <LastFileSize>282524368</LastFileSize>
+    <LastFileDate>2016-03-28T17:10:42.0658139</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -1789,11 +1820,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>E:\git\choco-auto\361.91-desktop-win8-win7-winvista-32bit-international-whql.exe</PreviousLocation>
+    <PreviousLocation>E:\git\choco-auto\364.72-desktop-win8-win7-winvista-32bit-international-whql.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2016-02-15T15:03:46.829514</LastUpdated>
+    <LastUpdated>2016-03-28T17:10:42.0658139</LastUpdated>
     <TargetPath>E:\git\choco-auto\</TargetPath>
     <FixedDownloadUrl>http://us.download.nvidia.com/Windows/{version}/{version}-desktop-win8-win7-winvista-32bit-international-whql.exe</FixedDownloadUrl>
     <Name>geforce-game-ready-driver</Name>
@@ -1876,7 +1907,7 @@
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
     <CheckForUpdatesOnly>true</CheckForUpdatesOnly>
-    <VariableChangeIndicator />
+    <VariableChangeIndicator>version</VariableChangeIndicator>
     <HashVariable />
     <HashType>None</HashType>
     <CanBeShared>true</CanBeShared>
@@ -1918,20 +1949,6 @@
       </item>
       <item>
         <key>
-          <string>nopush</string>
-        </key>
-        <value>
-          <UrlVariable>
-            <RegexRightToLeft>false</RegexRightToLeft>
-            <VariableType>Textual</VariableType>
-            <Regex />
-            <TextualContent>--nopush</TextualContent>
-            <Name>nopush</Name>
-          </UrlVariable>
-        </value>
-      </item>
-      <item>
-        <key>
           <string>url</string>
         </key>
         <value>
@@ -1956,7 +1973,7 @@
     <FileHippoId />
     <LastUpdated>2016-01-03T03:01:59.1183413</LastUpdated>
     <TargetPath>E:\git\choco-auto\</TargetPath>
-    <FixedDownloadUrl>{url}</FixedDownloadUrl>
+    <FixedDownloadUrl />
     <Name>google-books-downloader</Name>
   </ApplicationJob>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="d3b0e203-2806-45c4-9597-0336320c4478">
@@ -2232,8 +2249,8 @@
     <WebsiteUrl />
     <UserAgent>chocolatey</UserAgent>
     <UserNotes />
-    <LastFileSize>10459376</LastFileSize>
-    <LastFileDate>2016-02-13T21:30:36.1680692</LastFileDate>
+    <LastFileSize>10455792</LastFileSize>
+    <LastFileDate>2016-04-26T15:14:22.8650227</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -2290,7 +2307,7 @@
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2016-02-13T21:30:36.1680692</LastUpdated>
+    <LastUpdated>2016-04-26T15:14:22.8650227</LastUpdated>
     <TargetPath>E:\git\choco-auto\</TargetPath>
     <FixedDownloadUrl>http://dl.surfright.nl/HitmanPro.exe</FixedDownloadUrl>
     <Name>hitmanpro</Name>
@@ -2367,8 +2384,8 @@
     <WebsiteUrl />
     <UserAgent>Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19</UserAgent>
     <UserNotes />
-    <LastFileSize>91584298</LastFileSize>
-    <LastFileDate>2015-12-29T12:33:24.526234</LastFileDate>
+    <LastFileSize>90508433</LastFileSize>
+    <LastFileDate>2016-03-28T17:36:59.0950148</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -2422,11 +2439,11 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>E:\git\choco-auto\LanguageTool-3.2.zip</PreviousLocation>
+    <PreviousLocation>E:\git\choco-auto\LanguageTool-3.3.zip</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-12-29T12:33:24.526234</LastUpdated>
+    <LastUpdated>2016-03-28T17:36:59.0950148</LastUpdated>
     <TargetPath>E:\git\choco-auto\</TargetPath>
     <FixedDownloadUrl>https://languagetool.org/download/LanguageTool-{version}.zip</FixedDownloadUrl>
     <Name>languagetool</Name>
@@ -2505,8 +2522,8 @@
     <WebsiteUrl />
     <UserAgent>Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19</UserAgent>
     <UserNotes />
-    <LastFileSize>22908888</LastFileSize>
-    <LastFileDate>2015-10-14T19:01:41.9653586</LastFileDate>
+    <LastFileSize>22851472</LastFileSize>
+    <LastFileDate>2016-03-18T21:31:08.2614936</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -2558,13 +2575,13 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>E:\git\choco-auto\mbam-setup-2.2.0.1024.exe</PreviousLocation>
+    <PreviousLocation>E:\git\choco-auto\mbam-setup-2.2.1.1043.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2015-10-14T19:01:41.9653586</LastUpdated>
+    <LastUpdated>2016-03-18T21:31:08.2614936</LastUpdated>
     <TargetPath>E:\git\choco-auto\</TargetPath>
-    <FixedDownloadUrl>http://data-cdn.mbamupdates.com/v2/mbam/consumer/data/mbam-setup-{version}.exe</FixedDownloadUrl>
+    <FixedDownloadUrl>http://data-cdn.mbamupdates.com/web/mbam-setup-{version}.exe</FixedDownloadUrl>
     <Name>malwarebytes</Name>
   </ApplicationJob>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="a6bcbd27-4cce-4752-acb3-dbc1b14272e6">
@@ -2997,15 +3014,15 @@
     <FileHippoId />
     <LastUpdated>2016-01-14T03:50:33.7390815</LastUpdated>
     <TargetPath>E:\git\choco-auto\</TargetPath>
-    <FixedDownloadUrl>http://netcologne.dl.sourceforge.net/project/pidgin/Pidgin/{version}/pidgin-{version}-offline.exe</FixedDownloadUrl>
+    <FixedDownloadUrl>http://liquidtelecom.dl.sourceforge.net/project/pidgin/Pidgin/{version}/pidgin-{version}-offline.exe</FixedDownloadUrl>
     <Name>pidgin</Name>
   </ApplicationJob>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="067879f0-922c-44d9-b9a7-47b84462cf88">
     <WebsiteUrl />
     <UserAgent>chocolatey</UserAgent>
     <UserNotes />
-    <LastFileSize>7664569</LastFileSize>
-    <LastFileDate>2016-02-11T20:31:39.9736871</LastFileDate>
+    <LastFileSize>7673708</LastFileSize>
+    <LastFileDate>2016-04-21T18:32:06.9430268</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -3076,11 +3093,11 @@ Latest changes in Praat.&lt;/p&gt;
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>E:\git\choco-auto\praat6014_win32.zip</PreviousLocation>
+    <PreviousLocation>E:\git\choco-auto\praat6017_win32.zip</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2016-02-11T20:31:39.9736871</LastUpdated>
+    <LastUpdated>2016-04-21T18:32:06.9430268</LastUpdated>
     <TargetPath>E:\git\choco-auto\</TargetPath>
     <FixedDownloadUrl>http://www.fon.hum.uva.nl/praat/praat{nodots}.zip</FixedDownloadUrl>
     <Name>praat</Name>
@@ -3391,8 +3408,8 @@ Latest changes in Praat.&lt;/p&gt;
     <WebsiteUrl />
     <UserAgent>Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19</UserAgent>
     <UserNotes />
-    <LastFileSize>2415576</LastFileSize>
-    <LastFileDate>2016-01-04T02:49:46.6887726</LastFileDate>
+    <LastFileSize>2403384</LastFileSize>
+    <LastFileDate>2016-03-22T02:34:16.89458</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -3444,7 +3461,7 @@ Latest changes in Praat.&lt;/p&gt;
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
-            <Regex>&lt;b&gt;(\d\.\d)\sFinal\sRelease</Regex>
+            <Regex>&lt;b&gt;(\d\.\d.\d?)\sFinal\sRelease</Regex>
             <Url>http://rainmeter.net/</Url>
             <StartText>Final Release&lt;/b&gt; (r</StartText>
             <EndText>):&lt;br&gt;</EndText>
@@ -3459,11 +3476,11 @@ Latest changes in Praat.&lt;/p&gt;
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>E:\git\choco-auto\Rainmeter-3.3.exe</PreviousLocation>
+    <PreviousLocation>E:\git\choco-auto\Rainmeter-3.3.1.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2016-01-04T02:49:46.6887726</LastUpdated>
+    <LastUpdated>2016-03-22T02:34:16.89458</LastUpdated>
     <TargetPath>E:\git\choco-auto\</TargetPath>
     <FixedDownloadUrl>https://github.com/rainmeter/rainmeter/releases/download/v{version}/Rainmeter-{release}.exe</FixedDownloadUrl>
     <Name>rainmeter</Name>
@@ -3780,7 +3797,7 @@ Latest changes in Praat.&lt;/p&gt;
     <FileHippoId />
     <LastUpdated>2016-02-10T23:17:30.9328402</LastUpdated>
     <TargetPath>E:\git\choco-auto\</TargetPath>
-    <FixedDownloadUrl>http://netcologne.dl.sourceforge.net/project/texstudio/texstudio/TeXstudio%20{version}/texstudio-{version}-win-qt{url64}.exe</FixedDownloadUrl>
+    <FixedDownloadUrl>http://ufpr.dl.sourceforge.net/project/texstudio/texstudio/TeXstudio%20{version}/texstudio-{version}-win-qt{url64}.exe</FixedDownloadUrl>
     <Name>texstudio</Name>
   </ApplicationJob>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="d4a1ccac-5a2a-4d1e-8e36-131169d5a8b5">
@@ -4338,8 +4355,8 @@ Latest changes in Praat.&lt;/p&gt;
     <WebsiteUrl />
     <UserAgent>Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19</UserAgent>
     <UserNotes />
-    <LastFileSize>2046402</LastFileSize>
-    <LastFileDate>2016-02-15T14:25:40.241771</LastFileDate>
+    <LastFileSize>2049814</LastFileSize>
+    <LastFileDate>2016-04-21T15:01:55.0447414</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -4391,11 +4408,11 @@ Latest changes in Praat.&lt;/p&gt;
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>E:\git\choco-auto\wsusoffline105.zip</PreviousLocation>
+    <PreviousLocation>E:\git\choco-auto\wsusoffline1062.zip</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2016-02-15T14:25:40.241771</LastUpdated>
+    <LastUpdated>2016-04-21T15:01:55.0447414</LastUpdated>
     <TargetPath>E:\git\choco-auto\</TargetPath>
     <FixedDownloadUrl>http://download.wsusoffline.net/wsusoffline{version:replace:.:}.zip</FixedDownloadUrl>
     <Name>wsus-offline-update</Name>

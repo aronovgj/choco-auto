@@ -1,13 +1,8 @@
-$packageName = '{{PackageName}}'
-$forward = 'http://crystalmark.info/redirect.php?product=CrystalDiskInfo'
+$packageName = 'crystaldiskinfo'
+$url = 'http://rwthaachen.dl.osdn.jp/crystaldiskinfo/65606/CrystalDiskInfo6_8_0.zip'
 $fileName = "DiskInfo.exe"
 $linkName = "CrystalDiskInfo.lnk"
 $destdir = $(Split-Path -parent $MyInvocation.MyCommand.Definition)
- 
-$url = ((Invoke-WebRequest -Uri $forward).Links | Where-Object {$_.href -like "/frs/redir.php*"} ).href[0] -replace 'amp;', ''
-
-$url = 'http://osdn.jp' + $url
-
 Install-ChocolateyZipPackage "$packageName" "$url" "$destdir"
 
 #install start menu shortcut
