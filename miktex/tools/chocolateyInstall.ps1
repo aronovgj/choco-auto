@@ -11,11 +11,11 @@ Function Get-RedirectedUrl {
    Param ([Parameter(Mandatory=$true)][String]$url)
 
    $request = [System.Net.WebRequest]::Create($url)
-   $request.AllowAutoRedirect=$true
+   $request.AllowAutoRedirect=$false
 
    try {
       $response=$request.GetResponse()
-      $response.ResponseUri.AbsoluteUri
+      $response.Headers["Location"]
       $response.Close()
    } catch {
       throw $_.Exception 
