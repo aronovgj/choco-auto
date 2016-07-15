@@ -33,6 +33,7 @@ a2cmd.exe /f="c:\" /m /t /a /q="c:\quarantine\"
     <tags>admin anti-spyware anti-malware malware-remover real-time-protection virus emergency kit scanner</tags>
     <copyright></copyright>
     <licenseUrl>https://my.emsisoft.com/en_us/eula.html</licenseUrl>
+	<packageSourceUrl>https://github.com/aronovgj/choco-auto</packageSourceUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>	<iconUrl>https://cdn.rawgit.com/aronovgj/chocolatey/master/icons/emsisoft-anti-malware.png</iconUrl>
   </metadata>
 </package>

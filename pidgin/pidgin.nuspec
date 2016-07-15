@@ -6,7 +6,7 @@
     <title>Pidgin</title>
     <authors>John Bailey et al.</authors>
     <owners>doc</owners>
-    <licenseUrl>http://sourceforge.net/directory/license:osi-approved-open-source/gnu-general-public-license-gpl/</licenseUrl>
+    <licenseUrl>https://hg.pidgin.im/pidgin/main/file/f02ebb71b5e3/COPYING</licenseUrl>
     <projectUrl>http://pidgin.im/</projectUrl>
     <iconUrl>https://cdn.rawgit.com/aronovgj/chocolatey/1161fabf55c0beec4b0357f937c3a08bad348553/icons/pidgin.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>

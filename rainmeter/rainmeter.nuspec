@@ -19,6 +19,7 @@
 		</releaseNotes>
 		<copyright>Rainmeter</copyright>
         <tags>admin rainmeter customization </tags>		<iconUrl>https://rawgit.com/aronovgj/chocolatey/a4d186f47d8efacaed3cca1b010799566fc9253f/icons/rainmeter.png</iconUrl>
+		<packageSourceUrl>https://github.com/aronovgj/choco-auto</packageSourceUrl>
     </metadata>
   <files>
     <file src="tools\**" target="tools" />
