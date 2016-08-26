@@ -12,7 +12,7 @@ If ($folder){
 		Remove-Item $folder
 	}
 }
-Install-ChocolateyZipPackage $packageName $url $unzipLocation
+Install-ChocolateyZipPackage $packageName $url $unzipLocation -Checksum {{checksum}} -ChecksumType 'sha256'
 
 $installDir = Join-Path $unzipLocation $folder
 $gui = Join-Path $installDir "CCEnhancer.exe.gui"

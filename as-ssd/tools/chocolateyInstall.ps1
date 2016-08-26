@@ -3,7 +3,7 @@ $url = '{{DownloadUrl}}'
 $fileName = "AS SSD Benchmark.exe"
 $linkName = "AS SSD.lnk"
 $destdir = $(Split-Path -parent $MyInvocation.MyCommand.Definition)
-Install-ChocolateyZipPackage "$packageName" "$url" "$destdir"
+Install-ChocolateyZipPackage "$packageName" "$url" "$destdir" -Checksum {{checksum}} -ChecksumType 'sha256'
 
 #install start menu shortcut
 $programs = [environment]::GetFolderPath([environment+specialfolder]::Programs)

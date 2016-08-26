@@ -8,6 +8,8 @@ $packageArgs = @{
   fileType      = 'EXE'
   silentArgs    = ''
   url           = $url
+  checksum 		= '{{checksum}}'
+  ChecksumType 	= 'sha256'
 }
 
 Start-Process 'AutoHotkey' $ahkFile

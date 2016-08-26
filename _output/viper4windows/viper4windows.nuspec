@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>viper4windows</id>
+    <title>ViPER4Windows</title>
+    <version>1.0.5.1</version>
+    <authors>Euphy Wong, Jasper Loo</authors>
+    <owners>doc</owners>
+    <summary>ViPER4Windows is an “APO”. APO stands for “Audio Processing Object”. APO is designed by Microsoft. It is an audio processing framework that can be loaded onto any sound card.</summary>
+    <description>ViPER4Windows is an “APO”. APO stands for “Audio Processing Object”. APO is designed by Microsoft. It is an audio processing framework that can be loaded onto any sound card.
+    ViPER4Windows ViPER’s Audio audio driver for Windows PC OS.
+    It comes with many audio effects such as Gain Control, Equalizer, Convolver, Surround, Reverb, Compressor and Limiter.</description>
+    <projectUrl>http://vipersaudio.com/blog/?page_id=59</projectUrl>
+    <tags>viper sound card audio volume compressor equalizer bass reverb reverberation surround convolver</tags>
+    <copyright></copyright>
+    <licenseUrl>http://www.gnu.org/copyleft/gpl.html</licenseUrl>
+	<dependencies>
+        <dependency id="autohotkey.portable" />
+    </dependencies>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>    <iconUrl>https://rawgit.com/aronovgj/chocolatey/d5516237e910ee8ed3ce95ed4b0a3e3a49c90dc4/icons/viper4windows.png</iconUrl>
+    <releaseNotes></releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

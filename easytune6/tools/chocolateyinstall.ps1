@@ -9,7 +9,7 @@ $fileLocation = Join-Path $folderLocation 'setup.exe'
 $silentArgs = '/S /v/qn'
 $fileType = 'exe'
 
-Get-ChocolateyWebFile $packageName $archiveLocation $url
+Get-ChocolateyWebFile $packageName $archiveLocation $url -Checksum {{checksum}} -ChecksumType 'sha256'
 Get-ChocolateyUnzip $archiveLocation $toolsDir
 Install-ChocolateyInstallPackage $packageName $fileType $silentArgs $fileLocation 
 Remove-Item $fileLocation -Force

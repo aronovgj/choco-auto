@@ -8,6 +8,8 @@ $packageArgs = @{
   fileType      = 'EXE' 
   silentArgs    = '/s' 
   url           = $url
+  checksum 		= '{{checksum}}'
+  checksumType	= 'sha256'
 }
 
 Install-ChocolateyPackage @packageArgs

@@ -1,1 +1,0 @@
-﻿#Install-VirtualPackage 'cpu-z.portable' 'cpu-z.install'

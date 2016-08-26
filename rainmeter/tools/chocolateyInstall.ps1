@@ -7,4 +7,4 @@ if ($osBitness -eq 64) {
 }
 $fileType = 'exe'
 
-Install-ChocolateyPackage $packageName $fileType $silentArgs $url
+Install-ChocolateyPackage $packageName $fileType $silentArgs $url -Checksum {{checksum}} -ChecksumType 'sha256'

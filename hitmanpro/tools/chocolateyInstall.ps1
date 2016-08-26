@@ -5,8 +5,7 @@ $linkName = 'hitmanpro.lnk'
 $fileName = 'hitmanpro.exe'
 $destDir = $(Split-Path -parent $MyInvocation.MyCommand.Definition)
 $filePath = Join-Path $destDir $fileName
-Get-ChocolateyWebFile $packageName $filePath $url $url64
-
+Get-ChocolateyWebFile $packageName $filePath $url $url64 -Checksum {{checksum}} -ChecksumType 'sha256' -Checksum64 {{checksumx64}} -ChecksumType64 'sha256'
 
 #install start menu shortcut
 $targetPath = (Get-ChildItem -Path $destDir | Where-Object {$_.Name -eq 'hitmanpro.exe'}).fullname

@@ -3,4 +3,4 @@ if($ProcessActive -ne $null)
 {
     Stop-Process -ProcessName sumatraPDF*
 }
-Install-ChocolateyPackage '{{PackageName}}' 'exe' '/S' '{{DownloadUrl}}' -validExitCodes @(0)
+Install-ChocolateyPackage '{{PackageName}}' 'exe' '/S' '{{DownloadUrl}}' -Checksum {{checksum}} -ChecksumType 'sha256' -validExitCodes @(0)

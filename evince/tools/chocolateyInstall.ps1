@@ -8,4 +8,4 @@ if($ProcessActive -ne $null)
 {
     Stop-Process -ProcessName evince*
 }
-Install-ChocolateyPackage $packageName $fileType $silentArgs $url
+Install-ChocolateyPackage $packageName $fileType $silentArgs $url -Checksum {{checksum}} -ChecksumType 'sha256'

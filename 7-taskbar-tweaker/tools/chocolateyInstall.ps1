@@ -2,4 +2,4 @@ $packageName = '{{PackageName}}'
 $fileType = 'exe'
 $silentArgs = '/S'
 $url = '{{DownloadUrl}}' 
-Install-ChocolateyPackage $packageName $fileType $silentArgs $url
+Install-ChocolateyPackage $packageName $fileType $silentArgs $url -Checksum {{checksum}} -ChecksumType 'sha256'

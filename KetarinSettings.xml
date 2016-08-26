@@ -15,7 +15,7 @@
           <string>LastUpdateCheck</string>
         </key>
         <value>
-          <string>AAEAAAD/////AQAAAAAAAAAEAQAAAA9TeXN0ZW0uRGF0ZVRpbWUCAAAABXRpY2tzCGRhdGVEYXRhAAAJENtrG9w5btMI22sb3Dlu04gL</string>
+          <string>AAEAAAD/////AQAAAAAAAAAEAQAAAA9TeXN0ZW0uRGF0ZVRpbWUCAAAABXRpY2tzCGRhdGVEYXRhAAAJEFDWLZsnytMIUNYtmyfK04gL</string>
         </value>
       </item>
       <item>
@@ -23,7 +23,7 @@
           <string>PreUpdateCommand</string>
         </key>
         <value>
-          <string>System.String:chocopkgup "{nopush}" /p {appname} /v {version} /u "{preupdate-url}" /u64 "{url64}" /pp "{file}" </string>
+          <string>System.String:chocopkgup "{nopush}" /p {appname} /v {version} /u "{preupdate-url}" /u64 "{url64}" /pp "{file}" /c "{checksum}" </string>
         </value>
       </item>
       <item>
@@ -47,6 +47,22 @@
     &lt;/key&gt;
     &lt;value&gt;
       &lt;string&gt;{version}&lt;/string&gt;
+    &lt;/value&gt;
+  &lt;/item&gt;
+  &lt;item&gt;
+    &lt;key&gt;
+      &lt;string&gt;checksum&lt;/string&gt;
+    &lt;/key&gt;
+    &lt;value&gt;
+      &lt;string&gt;{checksum}&lt;/string&gt;
+    &lt;/value&gt;
+  &lt;/item&gt;
+  &lt;item&gt;
+    &lt;key&gt;
+      &lt;string&gt;cscript&lt;/string&gt;
+    &lt;/key&gt;
+    &lt;value&gt;
+      &lt;string&gt;{cscript}&lt;/string&gt;
     &lt;/value&gt;
   &lt;/item&gt;
 &lt;/dictionary&gt;</string>
@@ -353,7 +369,7 @@
           <string>olvJobs/Target:Width</string>
         </key>
         <value>
-          <string>System.Int32:419</string>
+          <string>System.Int32:327</string>
         </value>
       </item>
       <item>
@@ -481,7 +497,7 @@
           <string>EditVariablesDialog/Location</string>
         </key>
         <value>
-          <string>System.Drawing.Point:2048,77</string>
+          <string>System.Drawing.Point:2205,80</string>
         </value>
       </item>
       <item>
@@ -497,7 +513,7 @@
           <string>ApplicationJobDialog/Size</string>
         </key>
         <value>
-          <string>System.Drawing.Size:879,626</string>
+          <string>System.Drawing.Size:879,881</string>
         </value>
       </item>
       <item>
@@ -505,7 +521,7 @@
           <string>ApplicationJobDialog/Location</string>
         </key>
         <value>
-          <string>System.Drawing.Point:2291,30</string>
+          <string>System.Drawing.Point:2395,146</string>
         </value>
       </item>
       <item>
@@ -529,7 +545,7 @@
           <string>olvJobs/Version:Width</string>
         </key>
         <value>
-          <string>System.Int32:93</string>
+          <string>System.Int32:65</string>
         </value>
       </item>
       <item>
@@ -1057,7 +1073,7 @@
           <string>LogDialog/Size</string>
         </key>
         <value>
-          <string>System.Drawing.Size:1522,608</string>
+          <string>System.Drawing.Size:1934,1069</string>
         </value>
       </item>
       <item>
@@ -1065,7 +1081,7 @@
           <string>LogDialog/Location</string>
         </key>
         <value>
-          <string>System.Drawing.Point:380,268</string>
+          <string>System.Drawing.Point:127,4</string>
         </value>
       </item>
       <item>
@@ -1081,7 +1097,26 @@
           <string>PostUpdateCommand</string>
         </key>
         <value>
-          <string>System.String:</string>
+          <string>System.String:/*
+  Enter a custom C# script here. C# is case sensitive.
+  "app" references the current application.
+  Example:
+  MessageBox.Show(app.Name);
+  
+  = Notable methods =
+  app.PreviousLocation
+    Corresponds to the variable {file}
+
+  app.Variables.ReplaceAllInString("Any {text} with variables.")
+    Replaces all known variables in a given string.
+    Example: string new = app.Variables.ReplaceAllInString("{file}")
+
+  return;
+    Exits the script.
+
+  Abort("Error text");
+    Exits the script with a given error.
+*/</string>
         </value>
       </item>
       <item>
@@ -1089,7 +1124,7 @@
           <string>PostUpdateCommandType</string>
         </key>
         <value>
-          <string>System.String:Batch</string>
+          <string>System.String:CS</string>
         </value>
       </item>
       <item>
@@ -1097,7 +1132,26 @@
           <string>DefaultCommand</string>
         </key>
         <value>
-          <string>System.String:</string>
+          <string>System.String:/*
+  Enter a custom C# script here. C# is case sensitive.
+  "app" references the current application.
+  Example:
+  MessageBox.Show(app.Name);
+  
+  = Notable methods =
+  app.PreviousLocation
+    Corresponds to the variable {file}
+
+  app.Variables.ReplaceAllInString("Any {text} with variables.")
+    Replaces all known variables in a given string.
+    Example: string new = app.Variables.ReplaceAllInString("{file}")
+
+  return;
+    Exits the script.
+
+  Abort("Error text");
+    Exits the script with a given error.
+*/</string>
         </value>
       </item>
       <item>
@@ -1105,7 +1159,7 @@
           <string>DefaultCommandType</string>
         </key>
         <value>
-          <string>System.String:Batch</string>
+          <string>System.String:CS</string>
         </value>
       </item>
       <item>
@@ -1140,9 +1194,107 @@
           <string>System.Drawing.Size:392,152</string>
         </value>
       </item>
+      <item>
+        <key>
+          <string>olvJobs/SaveDir:Visibility</string>
+        </key>
+        <value>
+          <string>System.Boolean:True</string>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>olvJobs/SaveDir:Width</string>
+        </key>
+        <value>
+          <string>System.Int32:60</string>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>olvJobs/SaveDir:LastDisplayIndex</string>
+        </key>
+        <value>
+          <string>System.Int32:-1</string>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>olvJobs/saveDir:Visibility</string>
+        </key>
+        <value>
+          <string>System.Boolean:True</string>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>olvJobs/saveDir:Width</string>
+        </key>
+        <value>
+          <string>System.Int32:60</string>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>olvJobs/saveDir:LastDisplayIndex</string>
+        </key>
+        <value>
+          <string>System.Int32:-1</string>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>olvJobs/checksum:Visibility</string>
+        </key>
+        <value>
+          <string>System.Boolean:True</string>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>olvJobs/checksum:Width</string>
+        </key>
+        <value>
+          <string>System.Int32:60</string>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>olvJobs/checksum:LastDisplayIndex</string>
+        </key>
+        <value>
+          <string>System.Int32:-1</string>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>olvJobs/cscript:Visibility</string>
+        </key>
+        <value>
+          <string>System.Boolean:True</string>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>olvJobs/cscript:Width</string>
+        </key>
+        <value>
+          <string>System.Int32:60</string>
+        </value>
+      </item>
+      <item>
+        <key>
+          <string>olvJobs/cscript:LastDisplayIndex</string>
+        </key>
+        <value>
+          <string>System.Int32:-1</string>
+        </value>
+      </item>
     </dictionary>
   </Settings>
-  <GlobalVariables />
+  <GlobalVariables>
+    <Variable Name="saveDir" Content="E:\git\choco-auto" />
+  </GlobalVariables>
   <CodeSnippets />
   <SetupLists />
 </Ketarin>

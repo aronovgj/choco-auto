@@ -7,6 +7,8 @@ $packageArgs = @{
   fileType      = 'EXE'
   silentArgs    = '/S'
   url           = $url
+  Checksum 		= '{{checksum}}'
+  ChecksumType 	= 'sha256'
 }
 Stop-Process -ProcessName pidgin* -ErrorAction SilentlyContinue -Force
 Install-ChocolateyPackage @packageArgs

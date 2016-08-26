@@ -34,7 +34,8 @@ $Url64 = Get-RedirectedURL http://mirrors.ctan.org/systems/win32/miktex/setup/ba
 # will be fixed when issue is resolved:
 # https://github.com/chocolatey/choco/issues/435
 
-Get-ChocolateyWebFile $packageName $filePath $Url $Url64
+Get-ChocolateyWebFile $packageName $filePath $Url $Url64 -Checksum {{checksum}} -ChecksumType 'sha256' -Checksum64 {{checksumx64}} -ChecksumType64 'sha256'
+
 
 Install-ChocolateyInstallPackage $packageName $fileType $silentArgs $filePath
 
