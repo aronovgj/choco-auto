@@ -40,3 +40,13 @@ Get-ChocolateyWebFile $packageName $filePath $Url $Url64 -Checksum 533a7532201da
 Install-ChocolateyInstallPackage $packageName $fileType $silentArgs $filePath
 
 Remove-Item $filePath -Force
+
+#add AutoInstall=1
+
+[array]$key = Get-UninstallRegistryKey -SoftwareName "miktex*"
+$uninstallPath = $key.UninstallString 
+$installLocation = ($uninstallPath -Split("internal"))[0]
+$installLocation = ($installLocation -Split("`""))[1]
+$installLocation = $installLocation -replace '/','\'
+$autoInstall = Join-Path $installLocation "initexmf.exe"
+& $autoInstall --set-config-value=[MPM]AutoInstall=1 

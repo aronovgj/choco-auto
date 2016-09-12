@@ -10,7 +10,7 @@ if($ProcessActive -ne $null)
 {
 	Stop-Process -ProcessName MSIAfterburner*
 }
-Get-ChocolateyWebFile $packageName $unpackFile $url -Checksum 5917a840f214c9e1757eede98a594d12e987dc525cd0adb1e2a5cfb4d08fa1c3 -ChecksumType 'sha256'
+Get-ChocolateyWebFile $packageName $unpackFile $url -Checksum 940923ae2f994ec40c28bceaf03202e7172e42b7b728a93ceeece9e7c6c6d853 -ChecksumType 'sha256'
 Get-ChocolateyUnzip $unpackFile $unpackDir
 $file = (Get-ChildItem -Path $unpackDir | Where-Object {$_.Name -match "MSIAfterburnerSetup[0-9]{3}.exe$"}).fullname
 

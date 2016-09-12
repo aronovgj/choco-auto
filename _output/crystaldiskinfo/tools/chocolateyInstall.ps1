@@ -1,6 +1,7 @@
 $packageName = 'crystaldiskinfo'
 $forward = 'http://crystalmark.info/redirect.php?product=CrystalDiskInfo'
-$fileName = "DiskInfo.exe"
+$fileName32 = "DiskInfo32.exe"
+$fileName64 = "DiskInfo64.exe"
 $linkName = "CrystalDiskInfo.lnk"
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
@@ -13,13 +14,19 @@ $packageArgs = @{
   fileType      = 'zip'
   url           = $url
   softwareName  = $packageName
-  checksum      = 'd603c9a15b2f9da0fd6c069061e5ce0caba1aa94e180928544a7bbed4eb74145'
+  checksum      = 'ffaa58732b0a12fef934f7bfcc7660986490f444b112e24f3112483a44eefe0c'
   checksumType  = 'sha256'
 }
 
 Install-ChocolateyZipPackage @packageArgs
 
 #install start menu shortcut
+$fileName = $fileName32
+$is64bit = Get-ProcessorBits 64
+if ($is64bit) {
+  $fileName = $fileName64
+}
+
 $programs = [environment]::GetFolderPath([environment+specialfolder]::Programs)
 $shortcutFilePath = Join-Path $programs $linkName 
 $targetPath = Join-Path $toolsDir $fileName

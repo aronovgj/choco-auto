@@ -21,6 +21,6 @@ Key:
         <dependency id="autohotkey" />
     </dependencies>
 	<packageSourceUrl>https://github.com/aronovgj/choco-auto</packageSourceUrl>
-    <tags>google earth navigation geographic mapping</tags>
+    <tags>google earth navigation geographic mapping admin</tags>
   </metadata>
 </package>

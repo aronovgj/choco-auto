@@ -8,7 +8,7 @@ $packageArgs = @{
   fileType      = 'EXE'
   silentArgs    = ''
   url           = $url
-  checksum 		= '9f88ab96b64e73ff4ace1033c3d1d3a63771ea8129e06903318d3c22eb001772'
+  checksum 		= 'a547fc1282f97790b6060df1e43e0dae184d69c743d424ae03a34ad4d59a0030'
   ChecksumType 	= 'sha256'
 }
 

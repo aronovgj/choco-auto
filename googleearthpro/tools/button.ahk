@@ -1,2 +1,5 @@
-WinWait, ahk_class #32770, , 300
-ControlClick, Button2, ahk_class #32770
+WinWait, Google Earth Pro, , 300
+ControlClick, Button6, Google Earth Pro
+
+WinWait, Google Earth, , 300
+ControlClick, Button1, Google Earth
