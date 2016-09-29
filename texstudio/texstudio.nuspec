@@ -20,6 +20,6 @@ If you want to use MiKTeX make sure to install it before TeXstudio! Unless you d
 	<projectSourceUrl>http://sourceforge.net/p/texstudio/hg/ci/default/tree/</projectSourceUrl>
     <mailingListUrl>http://sourceforge.net/p/texstudio/mailman/</mailingListUrl>
     <bugTrackerUrl>http://sourceforge.net/p/texstudio/bugs/</bugTrackerUrl>
-    <packageSourceUrl>https://github.com/BenjaminHae/choco-packages</packageSourceUrl>
+    <packageSourceUrl>https://github.com/aronovgj/choco-auto</packageSourceUrl>
   </metadata>
 </package>

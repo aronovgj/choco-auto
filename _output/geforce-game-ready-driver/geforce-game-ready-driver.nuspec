@@ -10,7 +10,12 @@
     <summary>NVIDIA Geforce Driver</summary>
     <description>GeForce Game Ready Driver
 
-Currently, auto-maintaining packages with more than two links is hard due to limited abilities of Ketarin. There are now two new packages: geforce-game-ready-driver-win7 and geforce-game-ready-driver-win10. Please install one of these instead.
+Currently, auto-maintaining packages with more than two links is hard due to limited abilities of Ketarin. There are now two new packages: `geforce-game-ready-driver-win7` and `geforce-game-ready-driver-win10`. Please install one of these instead.
+
+You can find them here:
+https://chocolatey.org/packages/geforce-game-ready-driver-win7
+
+https://chocolatey.org/packages/geforce-game-ready-driver-win10
 
   </description>
     <projectUrl>http://www.nvidia.com/Download/index.aspx?lang=en-us</projectUrl>
@@ -21,6 +26,9 @@ Currently, auto-maintaining packages with more than two links is hard due to lim
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://rawgit.com/aronovgj/chocolatey/49602c5025372cf63d1db2ae423105dca821dee3/icons/nvidia.png</iconUrl>
     <releaseNotes>http://us.download.nvidia.com/Windows/372.70/372.70-win10-win8-win7-winvista-desktop-release-notes.pdf</releaseNotes>
+	<dependencies>
+        <dependency id="geforce-game-ready-driver-win10" />
+    </dependencies>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />

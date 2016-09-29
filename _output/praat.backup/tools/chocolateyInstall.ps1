@@ -1,10 +1,10 @@
 $packageName = 'praat'
-$url = 'http://www.fon.hum.uva.nl/praat/praat6019_win32.zip'
-$url64 = 'http://www.fon.hum.uva.nl/praat/praat6019_win64.zip'
+$url = 'http://www.fon.hum.uva.nl/praat/praat6020_win32.zip'
+$url64 = 'http://www.fon.hum.uva.nl/praat/praat6020_win64.zip'
 $fileName = "Praat.exe"
 $linkName = "Praat.lnk"
 $destdir = $(Split-Path -parent $MyInvocation.MyCommand.Definition)
-Install-ChocolateyZipPackage "$packageName" "$url" "$destdir" "$url64" -Checksum 0843bdde247b1ed01c68f740c95b5852d03a89fe8dff20893f0e144d4699a6db -ChecksumType 'sha256' -Checksum64 bf234acdc9a8ab6c7c3674d220c581853b16d84860776fc1b67a631800b38786 -ChecksumType64 'sha256'
+Install-ChocolateyZipPackage "$packageName" "$url" "$destdir" "$url64" -Checksum 743cbcf111d345f229310ab231847612745eedf5a54edda50c5b175be2e62c73 -ChecksumType 'sha256' -Checksum64 51522821a5a0b7792aa9c05a2a8d8003c331aecb57469f4b673e0e32f3329799 -ChecksumType64 'sha256'
 
 #install start menu shortcut
 $programs = [environment]::GetFolderPath([environment+specialfolder]::Programs)

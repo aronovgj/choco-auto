@@ -1,14 +1,14 @@
 $ErrorActionPreference = 'Stop';
 $packageName= 'texstudio'
 # misusing DownloadUrlx64 as qt version
-$url = 'http://sourceforge.net/projects/texstudio/files/texstudio/TeXstudio%202.11.0/texstudio-2.11.0-win-qt5.5.1.exe/download' 
+$url = 'http://netix.dl.sourceforge.net/project/texstudio/texstudio/TeXstudio 2.11.2/texstudio-2.11.2-win-qt5.6.1.exe'
 
 $packageArgs = @{
   packageName   = $packageName
   fileType      = 'EXE'
   silentArgs    = '/VERYSILENT'
   url           = $url
-  Checksum 		= '8281e8b932958e9f0347e24e33992d786488285b12536bf6589739c452a438d5' 
+  Checksum 		= '1b352349bb13d7ed0eff74822d1e71b4168b3f5c26ae000d9e97a3784d7cf4ae' 
   ChecksumType  = 'sha256'
 
 }

@@ -3,8 +3,8 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>geforce-game-ready-driver-win7</id>
-    <title>Geforce Game Ready Driver for Win 7 and 8</title>
-    <version>372.70</version>
+    <title>Geforce Game Ready Driver for Windows 7 and 8</title>
+    <version>372.90</version>
     <authors>NVIDIA</authors>
     <owners>doc</owners>
     <summary>NVIDIA Geforce Driver</summary>
@@ -45,7 +45,7 @@ https://chocolatey.org/packages/geforce-driver
     <licenseUrl>http://www.nvidia.com/content/DriverDownload-March2009/licence.php?lang=us</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://rawgit.com/aronovgj/chocolatey/49602c5025372cf63d1db2ae423105dca821dee3/icons/nvidia.png</iconUrl>
-    <releaseNotes>http://us.download.nvidia.com/Windows/372.70/372.70-win10-win8-win7-desktop-release-notes.pdf</releaseNotes>
+    <releaseNotes>http://us.download.nvidia.com/Windows/372.90/372.90-win10-win8-win7-desktop-release-notes.pdf</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />

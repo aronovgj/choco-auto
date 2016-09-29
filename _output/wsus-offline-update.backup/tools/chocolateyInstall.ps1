@@ -1,7 +1,7 @@
 $packageName = 'wsus-offline-update'
-$url = 'http://download.wsusoffline.net/wsusoffline108.zip'
+$url = 'http://download.wsusoffline.net/wsusoffline1074.zip'
 $destdir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-Install-ChocolateyZipPackage "$packageName" "$url" "$destdir" -Checksum 1e37a89799719305ece0c331e1d7d1b9531722bd77cbad780c01f625fb9dd91e -ChecksumType 'sha256'
+Install-ChocolateyZipPackage "$packageName" "$url" "$destdir" -Checksum 1c1172c7f38555f1d63d0013c40759b1f7c02e762dcfc522af68442243120203 -ChecksumType 'sha256'
 
 #install start menu shortcut
 $fileNameGen = "UpdateGenerator.exe"
