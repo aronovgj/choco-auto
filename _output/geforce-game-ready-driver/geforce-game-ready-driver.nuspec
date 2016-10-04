@@ -3,14 +3,14 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>geforce-game-ready-driver</id>
-    <title>[DEPRECATED] Geforce Game Ready Driver</title>
+    <title>Geforce Game Ready Driver</title>
     <version>372.70</version>
     <authors>NVIDIA</authors>
     <owners>doc</owners>
     <summary>NVIDIA Geforce Driver</summary>
     <description>GeForce Game Ready Driver
 
-Currently, auto-maintaining packages with more than two links is hard due to limited abilities of Ketarin. There are now two new packages: `geforce-game-ready-driver-win7` and `geforce-game-ready-driver-win10`. Please install one of these instead.
+Currently, auto-maintaining packages with more than two links is hard due to limited abilities of Ketarin. The current package is deprecated. There are now two new packages: `geforce-game-ready-driver-win7` and `geforce-game-ready-driver-win10`. Please use them instead.
 
 You can find them here:
 https://chocolatey.org/packages/geforce-game-ready-driver-win7
@@ -25,10 +25,6 @@ https://chocolatey.org/packages/geforce-game-ready-driver-win10
     <licenseUrl>http://www.nvidia.com/content/DriverDownload-March2009/licence.php?lang=us</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://rawgit.com/aronovgj/chocolatey/49602c5025372cf63d1db2ae423105dca821dee3/icons/nvidia.png</iconUrl>
-    <releaseNotes>http://us.download.nvidia.com/Windows/372.70/372.70-win10-win8-win7-winvista-desktop-release-notes.pdf</releaseNotes>
-	<dependencies>
-        <dependency id="geforce-game-ready-driver-win10" />
-    </dependencies>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />

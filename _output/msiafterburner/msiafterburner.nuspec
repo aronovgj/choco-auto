@@ -4,7 +4,7 @@
   <metadata>
     <id>msiafterburner</id>
     <title>MSI Afterburner</title>
-    <version>{}.0.0.20160909</version>
+    <version>4.2.0.7826</version>
     <authors>MSI</authors>
     <owners>doc</owners>
     <summary>MSI Afterburner is ultimate graphics card utility, co-developed by MSI and RivaTuner teams.</summary>
@@ -18,6 +18,7 @@
     <dependencies>
         <dependency id="autohotkey.portable" />
     </dependencies>
+    <packageSourceUrl>https://github.com/aronovgj/choco-auto</packageSourceUrl>
     <releaseNotes></releaseNotes>
   </metadata>
   <files>
