@@ -15,6 +15,5 @@ Get-ChocolateyUnzip $unpackFile $unpackDir
 Remove-Item $unpackDir\Update.Core -Recurse -Force
 Remove-Item $unpackDir\Display.Update -Recurse -Force
 Remove-Item $unpackDir\ShadowPlay -Recurse -Force
-Remove-Item $unpackDir\GFExperience* -Recurse -Force
 Install-ChocolateyInstallPackage $packageName $fileType $silentArgs $setupFile
 Remove-Item $unpackDir -Recurse -Force
