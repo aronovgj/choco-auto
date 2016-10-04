@@ -1,6 +1,5 @@
 ﻿$ErrorActionPreference = 'Stop';
 $packageName= '{{PackageName}}'
-# misusing DownloadUrlx64 as qt version
 $url = '{{DownloadUrl}}'
 
 $packageArgs = @{
