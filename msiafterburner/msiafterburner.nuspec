@@ -18,6 +18,7 @@
     <dependencies>
         <dependency id="autohotkey.portable" />
     </dependencies>
+    <packageSourceUrl>https://github.com/aronovgj/choco-auto</packageSourceUrl>
     <releaseNotes></releaseNotes>
   </metadata>
   <files>
