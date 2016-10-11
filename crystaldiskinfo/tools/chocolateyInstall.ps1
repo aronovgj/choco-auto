@@ -1,12 +1,9 @@
 $packageName = '{{PackageName}}'
-$forward = 'http://crystalmark.info/redirect.php?product=CrystalDiskInfo'
+$url = '{{DownloadUrl}}' 
 $fileName32 = "DiskInfo32.exe"
 $fileName64 = "DiskInfo64.exe"
 $linkName = "CrystalDiskInfo.lnk"
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-
-$url = ((Invoke-WebRequest -Uri $forward -UseBasicParsing).Links | Where-Object {$_.href -like "/frs/redir.php*"} ).href[0] -replace 'amp;', ''
-$url = 'http://osdn.jp' + $url
 
 $packageArgs = @{
   packageName   = $packageName
