@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
     <id>googleearthpro</id>
-    <version>7.1.7.2606</version>
+    <version>7.1.7.2600</version>
     <title>Google Earth Pro</title>
     <authors>Google Inc.</authors>
     <owners>doc</owners>

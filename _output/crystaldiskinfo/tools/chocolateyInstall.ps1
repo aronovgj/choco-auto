@@ -1,12 +1,9 @@
 $packageName = 'crystaldiskinfo'
-$forward = 'http://crystalmark.info/redirect.php?product=CrystalDiskInfo'
+$url = 'https://en.osdn.net/dl/crystaldiskinfo/CrystalDiskInfo7_0_4.zip' 
 $fileName32 = "DiskInfo32.exe"
 $fileName64 = "DiskInfo64.exe"
 $linkName = "CrystalDiskInfo.lnk"
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-
-$url = ((Invoke-WebRequest -Uri $forward -UseBasicParsing).Links | Where-Object {$_.href -like "/frs/redir.php*"} ).href[0] -replace 'amp;', ''
-$url = 'http://osdn.jp' + $url
 
 $packageArgs = @{
   packageName   = $packageName
@@ -14,7 +11,7 @@ $packageArgs = @{
   fileType      = 'zip'
   url           = $url
   softwareName  = $packageName
-  checksum      = 'ffaa58732b0a12fef934f7bfcc7660986490f444b112e24f3112483a44eefe0c'
+  checksum      = 'df47330383d3355101c583a3c59fe4f57fdfcd8466a51cc96585988b9781c4e0'
   checksumType  = 'sha256'
 }
 

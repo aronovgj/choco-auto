@@ -1,4 +1,4 @@
-﻿$packageName   = 'miktex'
+$packageName   = 'miktex'
 $fileType = 'EXE'
 $silentArgs = '--unattended --shared'
 $scriptPath = $(Split-Path -parent $MyInvocation.MyCommand.Definition)
@@ -34,7 +34,7 @@ $Url64 = Get-RedirectedURL http://mirrors.ctan.org/systems/win32/miktex/setup/ba
 # will be fixed when issue is resolved:
 # https://github.com/chocolatey/choco/issues/435
 
-Get-ChocolateyWebFile $packageName $filePath $Url $Url64 -Checksum {checksum} -ChecksumType 'sha256' -Checksum64 {checksumx64} -ChecksumType64 'sha256'
+Get-ChocolateyWebFile $packageName $filePath $Url $Url64 -Checksum 533a7532201da6a23a0a4fc53574b68a21de6c90aa4f9d962788b1d19ae6f1cb -ChecksumType 'sha256' -Checksum64 b379a3f1cbc20d8c3bf21d64d1a4db89e313301a1f186a0d01c7f4d689e9f705 -ChecksumType64 'sha256'
 
 
 Install-ChocolateyInstallPackage $packageName $fileType $silentArgs $filePath

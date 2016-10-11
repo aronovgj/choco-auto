@@ -1,12 +1,12 @@
 $packageName = 'nextcloud-client'
-$url = 'https://download.nextcloud.com/desktop/releases/Windows/Nextcloud-2.2.4.2-setup.exe'
+$url = 'https://download.nextcloud.com/desktop/releases/Windows/Nextcloud-2.2.3.4-setup.exe'
 
 $packageArgs = @{
   packageName   = $packageName
   fileType      = 'EXE'
   silentArgs    = '/S'
   url           = $url
-  checksum 		= '9dfd37a5f0a8afbc516002a9193596d7f323d19bb8169c99354afd7fe0a0d714'
+  checksum 		= '08254af4d21b5853c228508823963dd5f2885957fda45a6abfee527831f19593'
   ChecksumType 	= 'sha256'
 }
 
