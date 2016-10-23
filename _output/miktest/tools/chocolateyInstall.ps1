@@ -1,3 +1,4 @@
+param($first_flag, $usr_url, $usr_url64)
 $packageName   = 'miktex'
 $fileType = 'EXE'
 $silentArgs = '--unattended --shared'
@@ -18,13 +19,26 @@ Function Get-RedirectedUrl {
       $response.Headers["Location"]
       $response.Close()
    } catch {
-      throw $_.Exception 
+      throw $_.Exception
    }
 }
-$Url = Get-RedirectedURL http://mirrors.ctan.org/systems/win32/miktex/setup/basic-miktex.exe
-
-$Url64 = Get-RedirectedURL http://mirrors.ctan.org/systems/win32/miktex/setup/basic-miktex-x64.exe
-
+# if no optional parameters are given retrieve the link from CTAN mirror
+if ($PSBoundParameters.Keys.Count -eq 0)
+{
+	$Url = Get-RedirectedURL http://mirrors.ctan.org/systems/win32/miktex/setup/basic-miktex.exe
+	$Url64 = Get-RedirectedURL http://mirrors.ctan.org/systems/win32/miktex/setup/basic-miktex-x64.exe
+}
+# Optional flag - for indicating a custom mirror from which to download MiKTeX.
+# use the flag '--a' and afterwards write the url for x86 and then for x64 
+elseif($PSBoundParameters.Keys.Count -eq 3 -And $PSBoundParameters["first_flag"] -eq '--a')
+{
+	$Url = $PSBoundParameters["usr_url"]
+	$Url64 = $PSBoundParameters["usr_url64"]
+}
+else
+{
+	throw "IO Error: Input variables aren't in correct format." 
+}
 
 
 # The package installer is very picky about its own file name and silent 
@@ -34,7 +48,7 @@ $Url64 = Get-RedirectedURL http://mirrors.ctan.org/systems/win32/miktex/setup/ba
 # will be fixed when issue is resolved:
 # https://github.com/chocolatey/choco/issues/435
 
-Get-ChocolateyWebFile $packageName $filePath $Url $Url64 -Checksum 533a7532201da6a23a0a4fc53574b68a21de6c90aa4f9d962788b1d19ae6f1cb -ChecksumType 'sha256' -Checksum64 b379a3f1cbc20d8c3bf21d64d1a4db89e313301a1f186a0d01c7f4d689e9f705 -ChecksumType64 'sha256'
+Get-ChocolateyWebFile $packageName $filePath $Url $Url64 -Checksum {{checksum}} -ChecksumType 'sha256' -Checksum64 {{checksumx64}} -ChecksumType64 'sha256'
 
 
 Install-ChocolateyInstallPackage $packageName $fileType $silentArgs $filePath

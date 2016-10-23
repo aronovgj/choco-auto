@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>adobereader-update</id>
-    <version>15.020.20039</version>
+    <version>15.017.20053.1</version>
     <title>Adobe Reader DC Update</title>
     <authors>Adobe</authors>
     <owners>doc</owners>
