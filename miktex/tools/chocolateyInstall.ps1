@@ -43,10 +43,15 @@ Remove-Item $filePath -Force
 
 #add AutoInstall=1
 
-[array]$key = Get-UninstallRegistryKey -SoftwareName "miktex*"
-$uninstallPath = $key.UninstallString 
-$installLocation = ($uninstallPath -Split("internal"))[0]
+$uninstallPath = Get-ChildItem -Path HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall, 
+HKLM:\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall  |
+    Get-ItemProperty |
+        Where-Object {$_.DisplayName -match "miktex" } |
+            Select-Object -Property DisplayName, UninstallString
+			
+$temp=($uninstallPath.uninstallstring -split "`" `"")[0]
+$installLocation = ($temp -Split("internal"))[0]
 $installLocation = ($installLocation -Split("`""))[1]
 $installLocation = $installLocation -replace '/','\'
 $autoInstall = Join-Path $installLocation "initexmf.exe"
-& $autoInstall --set-config-value=[MPM]AutoInstall=1 
+& $autoInstall --set-config-value=[MPM]AutoInstall=1
