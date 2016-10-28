@@ -1,5 +1,5 @@
 $packageName = 'geforce-game-ready-driver-win7'
-$version = '375.57'
+$version = '375.63'
 $fileType = 'exe'
 $silentArgs = '-s -noreboot'
 $unpackDir = New-Item "${ENV:TEMP}\nvidiadriver" -ItemType Directory -Force
@@ -10,7 +10,7 @@ $url = "http://us.download.nvidia.com/Windows/$version/$version-desktop-win8-win
 $url64 = "http://us.download.nvidia.com/Windows/$version/$version-desktop-win8-win7-64bit-international-whql.exe"
 
 
-Get-ChocolateyWebFile $packageName $unpackFile $url $url64 -Checksum 4ee03d5b35b03960841b4918328da238ad4fac2c7b85a560fd3f802d356b7e7a -ChecksumType 'sha256' -Checksum64 2bd46de3198db50a33275b20d0e687748aa4d2c4390ec881771f6f976aa29170 -ChecksumType64 'sha256'
+Get-ChocolateyWebFile $packageName $unpackFile $url $url64 -Checksum d321e68f796ccdb49125ff6b369a156d66faa788d287c9a82a0f01a9c11566a8 -ChecksumType 'sha256' -Checksum64 0308385cb6e1136001cd585b5354c779ee22d5906878e45589a0966d76f05497 -ChecksumType64 'sha256'
 Get-ChocolateyUnzip $unpackFile $unpackDir
 Remove-Item $unpackDir\Update.Core -Recurse -Force
 Remove-Item $unpackDir\Display.Update -Recurse -Force
