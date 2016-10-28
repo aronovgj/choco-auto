@@ -1,7 +1,7 @@
 $packageName = '{{PackageName}}'
 $version = '{{PackageVersion}}'
 $fileType = 'exe'
-$silentArgs = '-s -noreboot'
+$silentArgs = '-s -noreboot -clean'
 $unpackDir = New-Item "${ENV:TEMP}\nvidiadriver" -ItemType Directory -Force
 $unpackFile = "${ENV:TEMP}\nvidiadriver.zip"
 $setupFile = Join-Path "$unpackDir" "setup.exe"
