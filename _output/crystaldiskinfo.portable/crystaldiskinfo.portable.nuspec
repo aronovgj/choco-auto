@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id>crystaldiskinfo</id>
-    <title>CrystalDiskInfo</title>
+    <id>crystaldiskinfo.portable</id>
+    <title>CrystalDiskInfo (Portable)</title>
     <version>7.0.4</version>
     <authors>hiyohiyo</authors>
     <owners>doc</owners>
@@ -19,10 +19,8 @@ If it increases over time or is very high already, the hard drive may need to be
     <copyright></copyright>
     <licenseUrl>http://crystalmark.info/software/CrystalDiskInfo/manual-en/License.html</licenseUrl>
     <packageSourceUrl>https://github.com/aronovgj/choco-auto</packageSourceUrl>
-    <dependencies>
-      <dependency id="crystaldiskinfo.portable" version="7.0.4" />
-    </dependencies>
+
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-	<iconUrl>https://cdn.rawgit.com/aronovgj/chocolatey/master/icons/crystaldiskinfo.png</iconUrl>
+	<iconUrl>https://cdn.rawgit.com/aronovgj/chocolatey/master/icons/crystaldiskinfo.portable.png</iconUrl>
   </metadata>
 </package>
