@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>{{PackageName}}</id>
-    <title>CrystalDiskInfo</title>
+    <title>CrystalDiskInfo (Install)</title>
     <version>{{PackageVersion}}</version>
     <authors>hiyohiyo</authors>
     <owners>doc</owners>
@@ -15,13 +15,11 @@ The "Function / Graph" is especially interesting for the "Reallocated Sectors Co
 If it increases over time or is very high already, the hard drive may need to be replaced.
 	</description>
     <projectUrl>http://crystalmark.info/software/CrystalDiskInfo/index-e.html</projectUrl>
-    <tags>disk diagnostic hdd ssd</tags>
+    <tags>disk diagnostic hdd ssd admin</tags>
     <copyright></copyright>
     <licenseUrl>http://crystalmark.info/software/CrystalDiskInfo/manual-en/License.html</licenseUrl>
     <packageSourceUrl>https://github.com/aronovgj/choco-auto</packageSourceUrl>
-    <dependencies>
-      <dependency id="crystaldiskinfo.portable" version="{{PackageVersion}}" />
-    </dependencies>
+
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
 	<iconUrl>https://cdn.rawgit.com/aronovgj/chocolatey/master/icons/{{PackageName}}.png</iconUrl>
   </metadata>
