@@ -21,6 +21,6 @@ If it increases over time or is very high already, the hard drive may need to be
     <packageSourceUrl>https://github.com/aronovgj/choco-auto</packageSourceUrl>
 
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-	<iconUrl>https://cdn.rawgit.com/aronovgj/chocolatey/master/icons/crystaldiskinfo.portable.png</iconUrl>
+	<iconUrl>https://cdn.rawgit.com/aronovgj/chocolatey/master/icons/crystaldiskinfo.png</iconUrl>
   </metadata>
 </package>

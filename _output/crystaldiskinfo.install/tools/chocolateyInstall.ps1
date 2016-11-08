@@ -1,5 +1,5 @@
 $packageName = 'crystaldiskinfo.install'
-$url = 'http://rwthaachen.dl.osdn.jp/crystaldiskinfo/65980/CrystalDiskInfo7_0_4-en.exe' 
+$url = 'https://osdn.net/projects/crystaldiskinfo/downloads/65980/CrystalDiskInfo7_0_4-en.exe/' 
 
 $packageArgs = @{
   packageName   = $packageName
