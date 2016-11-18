@@ -3,7 +3,7 @@
   <metadata>
     <id>{{PackageName}}</id>
     <version>{{PackageVersion}}</version>
-    <title>MiKTeX (Portable)</title>
+    <title>MiKTeX</title>
     <authors>Christian Schenk</authors>
     <owners>doc</owners>
     <licenseUrl>http://miktex.org/copying</licenseUrl>
