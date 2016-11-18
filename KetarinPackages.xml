@@ -1464,7 +1464,7 @@ Connection:</EndText>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <TextualContent>ftp://download.gigabyte.ru/utility/motherboard_utility_gbttools_gbt_et6.exe</TextualContent>
+            <TextualContent>http://download.gigabyte.ru/utility/motherboard_utility_gbttools_gbt_et6.exe</TextualContent>
             <Name>url</Name>
           </UrlVariable>
         </value>
@@ -1557,8 +1557,8 @@ Connection:</EndText>
     <WebsiteUrl />
     <UserAgent>Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19</UserAgent>
     <UserNotes />
-    <LastFileSize>269104544</LastFileSize>
-    <LastFileDate>2016-10-16T21:03:15.7627693</LastFileDate>
+    <LastFileSize>257862312</LastFileSize>
+    <LastFileDate>2016-11-14T11:42:32.1638777</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -1612,7 +1612,7 @@ Connection:</EndText>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <TextualContent>http://download.emsisoft.com/EmsisoftEmergencyKit.exe</TextualContent>
+            <TextualContent>http://dl.emsisoft.com/EmsisoftEmergencyKit.exe</TextualContent>
             <Name>url</Name>
           </UrlVariable>
         </value>
@@ -1628,7 +1628,7 @@ Connection:</EndText>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2016-10-16T21:03:15.7627693</LastUpdated>
+    <LastUpdated>2016-11-14T11:42:32.1638777</LastUpdated>
     <TargetPath>E:\git\choco-auto\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>emsisoft-emergency-kit</Name>
@@ -1855,8 +1855,8 @@ Connection:</EndText>
     <WebsiteUrl />
     <UserAgent>Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19</UserAgent>
     <UserNotes />
-    <LastFileSize>391438192</LastFileSize>
-    <LastFileDate>2016-10-28T17:49:39.5391395</LastFileDate>
+    <LastFileSize>391048600</LastFileSize>
+    <LastFileDate>2016-11-15T16:15:59.7846015</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -1910,11 +1910,11 @@ Connection:</EndText>
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>E:\git\choco-auto\375.70-desktop-win10-64bit-international-whql.exe</PreviousLocation>
+    <PreviousLocation>E:\git\choco-auto\375.86-desktop-win10-64bit-international-whql.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2016-10-28T17:49:39.5391395</LastUpdated>
+    <LastUpdated>2016-11-15T16:15:59.7846015</LastUpdated>
     <TargetPath>E:\git\choco-auto\</TargetPath>
     <FixedDownloadUrl>http://us.download.nvidia.com/Windows/{version}/{version}-desktop-win10-64bit-international-whql.exe</FixedDownloadUrl>
     <Name>geforce-game-ready-driver-win10</Name>
@@ -1991,8 +1991,8 @@ Connection:</EndText>
     <WebsiteUrl />
     <UserAgent>Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19</UserAgent>
     <UserNotes />
-    <LastFileSize>316181808</LastFileSize>
-    <LastFileDate>2016-10-28T17:49:23.4292181</LastFileDate>
+    <LastFileSize>315905112</LastFileSize>
+    <LastFileDate>2016-11-15T16:13:40.9276593</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -2046,11 +2046,11 @@ Connection:</EndText>
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>E:\git\choco-auto\375.70-desktop-win8-win7-32bit-international-whql.exe</PreviousLocation>
+    <PreviousLocation>E:\git\choco-auto\375.86-desktop-win8-win7-32bit-international-whql.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2016-10-28T17:49:23.4292181</LastUpdated>
+    <LastUpdated>2016-11-15T16:13:40.9276593</LastUpdated>
     <TargetPath>E:\git\choco-auto\</TargetPath>
     <FixedDownloadUrl>http://us.download.nvidia.com/Windows/{version}/{version}-desktop-win8-win7-32bit-international-whql.exe</FixedDownloadUrl>
     <Name>geforce-game-ready-driver-win7</Name>
@@ -3046,7 +3046,7 @@ Connection:</EndText>
           <UrlVariable>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>RegularExpression</VariableType>
-            <Regex>Malwarebytes Anti-Malware (\d+.\d+.\d+.\d*)?\s+-\sFree</Regex>
+            <Regex>Malwarebytes Anti-Malware (\d+.\d+.\d+.\d*)?\s</Regex>
             <Url>http://www.softpedia.com/get/Antivirus/Malwarebytes-Anti-Malware.shtml</Url>
             <StartText>description" content="Malwarebytes Anti-Malware </StartText>
             <EndText> - Free anti-malware </EndText>
@@ -3078,7 +3078,7 @@ Connection:</EndText>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <TextualContent>http://data-cdn.mbamupdates.com/web/mbam-setup-{version}.exe</TextualContent>
+            <TextualContent>https://data-cdn.mbamupdates.com/web/mbam-setup-{version}.exe</TextualContent>
             <Name>url</Name>
           </UrlVariable>
         </value>
@@ -3171,8 +3171,8 @@ Connection:</EndText>
     <WebsiteUrl />
     <UserAgent>chocolatey command line</UserAgent>
     <UserNotes />
-    <LastFileSize>191954184</LastFileSize>
-    <LastFileDate>2016-10-12T02:17:07.7433562</LastFileDate>
+    <LastFileSize>188282120</LastFileSize>
+    <LastFileDate>2016-11-15T10:04:56.4645756</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -3228,7 +3228,7 @@ Connection:</EndText>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2016-10-12T02:17:07.7433562</LastUpdated>
+    <LastUpdated>2016-11-15T10:04:56.4645756</LastUpdated>
     <TargetPath>E:\git\choco-auto\</TargetPath>
     <FixedDownloadUrl>http://ftp.uni-erlangen.de/mirrors/CTAN/systems/win32/miktex/setup/basic-miktex.exe</FixedDownloadUrl>
     <Name>miktex</Name>
@@ -3305,8 +3305,8 @@ Connection:</EndText>
     <WebsiteUrl />
     <UserAgent>chocolatey command line</UserAgent>
     <UserNotes />
-    <LastFileSize>191954184</LastFileSize>
-    <LastFileDate>2016-11-01T00:40:12.0440203</LastFileDate>
+    <LastFileSize>188282120</LastFileSize>
+    <LastFileDate>2016-11-13T22:05:17+01:00</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -3346,7 +3346,7 @@ Connection:</EndText>
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>Textual</VariableType>
             <Regex />
-            <TextualContent>http://ftp.uni-erlangen.de/mirrors/CTAN/systems/win32/miktex/setup/basic-miktex-x64.exe</TextualContent>
+            <TextualContent>http://ftp.uni-erlangen.de/mirrors/CTAN/systems/win32/miktex/setup/basic-miktex-{version}-x64.exe</TextualContent>
             <Name>url64</Name>
           </UrlVariable>
         </value>
@@ -3358,13 +3358,13 @@ Connection:</EndText>
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>E:\git\choco-auto\basic-miktex.exe</PreviousLocation>
+    <PreviousLocation>E:\git\choco-auto\basic-miktex-2.9.6161.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2016-11-01T00:40:12.0440203</LastUpdated>
+    <LastUpdated>2016-11-18T01:03:38.9668446+01:00</LastUpdated>
     <TargetPath>E:\git\choco-auto\</TargetPath>
-    <FixedDownloadUrl>http://ftp.uni-erlangen.de/mirrors/CTAN/systems/win32/miktex/setup/basic-miktex.exe</FixedDownloadUrl>
+    <FixedDownloadUrl>http://ftp.uni-erlangen.de/mirrors/CTAN/systems/win32/miktex/setup/basic-miktex-{version}.exe</FixedDownloadUrl>
     <Name>miktex.install</Name>
   </ApplicationJob>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="b4e44ce7-69c8-446f-980f-01c4ad8faa4b">
@@ -3439,8 +3439,8 @@ Connection:</EndText>
     <WebsiteUrl />
     <UserAgent>chocolatey command line</UserAgent>
     <UserNotes />
-    <LastFileSize>197783243</LastFileSize>
-    <LastFileDate>2016-10-31T23:46:59.5189017</LastFileDate>
+    <LastFileSize>189192237</LastFileSize>
+    <LastFileDate>2016-11-15T18:43:52+01:00</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -3478,13 +3478,13 @@ Connection:</EndText>
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>E:\git\choco-auto\miktex-portable.exe</PreviousLocation>
+    <PreviousLocation>E:\git\choco-auto\miktex-portable-2.9.6161.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2016-10-31T23:46:59.5189017</LastUpdated>
+    <LastUpdated>2016-11-18T01:03:29.5103037+01:00</LastUpdated>
     <TargetPath>E:\git\choco-auto\</TargetPath>
-    <FixedDownloadUrl>http://ftp.uni-erlangen.de/mirrors/CTAN/systems/win32/miktex/setup/miktex-portable.exe</FixedDownloadUrl>
+    <FixedDownloadUrl>http://ftp.uni-erlangen.de/mirrors/CTAN/systems/win32/miktex/setup/miktex-portable-{version}.exe</FixedDownloadUrl>
     <Name>miktex.portable</Name>
   </ApplicationJob>
   <ApplicationJob xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Guid="7ced81ef-7398-409f-b6c4-cc10b7993a36">
@@ -3830,7 +3830,7 @@ Connection:</EndText>
     <UserAgent>Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19</UserAgent>
     <UserNotes />
     <LastFileSize>35259992</LastFileSize>
-    <LastFileDate>2016-08-23T01:15:19.2960655</LastFileDate>
+    <LastFileDate>2016-11-08T22:33:50.9349865</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -3901,7 +3901,7 @@ Connection:</EndText>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2016-08-23T01:15:19.2960655</LastUpdated>
+    <LastUpdated>2016-11-08T22:33:50.9349865</LastUpdated>
     <TargetPath>E:\git\choco-auto\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>pidgin</Name>
@@ -3910,8 +3910,8 @@ Connection:</EndText>
     <WebsiteUrl />
     <UserAgent>chocolatey</UserAgent>
     <UserNotes />
-    <LastFileSize>8794810</LastFileSize>
-    <LastFileDate>2016-10-08T18:41:49.9745821</LastFileDate>
+    <LastFileSize>8915797</LastFileSize>
+    <LastFileDate>2016-11-16T21:34:09.1168747</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -4011,11 +4011,11 @@ Latest changes in Praat.&lt;/p&gt;
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>E:\git\choco-auto\praat6021_win32.zip</PreviousLocation>
+    <PreviousLocation>E:\git\choco-auto\praat6022_win32.zip</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2016-10-08T18:41:49.9745821</LastUpdated>
+    <LastUpdated>2016-11-16T21:34:09.1168747</LastUpdated>
     <TargetPath>E:\git\choco-auto\</TargetPath>
     <FixedDownloadUrl>{url}</FixedDownloadUrl>
     <Name>praat</Name>
