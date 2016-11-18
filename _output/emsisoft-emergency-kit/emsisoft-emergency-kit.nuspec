@@ -3,7 +3,7 @@
   <metadata>
     <id>emsisoft-emergency-kit</id>
     <title>Emsisoft Emergency Kit Scanner</title>
-    <version>11.9.0.6508 </version>
+    <version>{}.0.0.20161114</version>
     <authors>Emsisoft</authors>
     <owners>doc</owners>
     <summary>The Emsisoft Emergency Kit Scanner includes the powerful Emsisoft Scanner complete with graphical user interface. Scan the infected PC for Viruses, Trojans, Spyware, Adware, Worms, Dialers, Keyloggers and other malicious programs.</summary>

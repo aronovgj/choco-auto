@@ -17,7 +17,7 @@ Function Get-RedirectedUrl {
    }
 }
 
-$url = Get-RedirectedURL http://mirrors.ctan.org/systems/win32/miktex/setup/miktex-portable.exe
+$url = Get-RedirectedURL http://mirrors.ctan.org/systems/win32/miktex/setup/miktex-portable-2.9.6161.exe
 
 $packageArgs = @{
   packageName   = $packageName
@@ -25,7 +25,7 @@ $packageArgs = @{
   fileType      = 'exe'
   url           = $url
   softwareName  = $packageName
-  checksum      = 'b6773ba988007a88c361f63d27833e63fefdb8011238f0ca843135a3c4ffded9'
+  checksum      = 'cc7d67f481e009e5eece8b531b9a86c1f47c7dd107cf8bc36b7ee1689c5b3811'
   checksumType  = 'sha256'
 }
 

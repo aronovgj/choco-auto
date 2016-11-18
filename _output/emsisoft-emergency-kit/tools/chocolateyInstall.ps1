@@ -1,14 +1,14 @@
 $ErrorActionPreference = 'Stop';
 $packageName= 'emsisoft-emergency-kit'
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'http://download.emsisoft.com/EmsisoftEmergencyKit.exe' 
+$url        = 'http://dl.emsisoft.com/EmsisoftEmergencyKit.exe' 
 
 $packageArgs = @{
   packageName   = $packageName
   fileType      = 'EXE' 
   silentArgs    = '/s' 
   url           = $url
-  checksum 		= 'f10dcb3996947b7bfc0e3292f539f47866a4cf26540669b6992d7bd5ef96c38a'
+  checksum 		= 'c2c5ea0afa011923c777929fdc222d17210217f141b004ad4ea950dfbe500bf0'
   checksumType	= 'sha256'
 }
 
