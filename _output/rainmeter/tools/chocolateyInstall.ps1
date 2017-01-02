@@ -1,10 +1,11 @@
 $packageName = 'rainmeter'
-$url = 'https://github.com/rainmeter/rainmeter/releases/download/v3.3.2.2609/Rainmeter-3.3.2.exe'
+$url = 'https://github.com/rainmeter/rainmeter/releases/download/v4.0.0.2746/Rainmeter-4.0.exe'
 $silentArgs = '/S /PORTABLE=0 /STARTUP=1'
 $osBitness = Get-ProcessorBits
-if ($osBitness -eq 64) {
-  $silentArgs = '/S /VERSION=64 /PORTABLE=0 /STARTUP=1'
-}
+$toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
+$ahkFile = "$toolsDir\button.ahk"
 $fileType = 'exe'
 
-Install-ChocolateyPackage $packageName $fileType $silentArgs $url -Checksum 2d4a8ad16a6959e3b0915a643d767f1b24e13ec6d071a40d0c62d5dce9db94ca -ChecksumType 'sha256'
+Start-Process 'AutoHotkey' $ahkFile
+
+Install-ChocolateyPackage $packageName $fileType $silentArgs $url -Checksum 31b9d58b65c6ffac9450c33469dbec2e6463b6855b6d917daa8ee51c5d6d4753 -ChecksumType 'sha256'

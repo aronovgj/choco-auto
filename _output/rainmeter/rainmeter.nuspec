@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
     <metadata>
 		<id>rainmeter</id>
-        <version>3.3.2.2609001</version>
+        <version>4.0.0.2746</version>
         <title>Rainmeter (Unofficial)</title>
         <authors>Rainmeter</authors>
         <owners>doc</owners>

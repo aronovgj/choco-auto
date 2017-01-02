@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>miktex</id>
-    <version>2.9.6161.01</version>
+    <version>{}.0.0.20161120</version>
     <title>MiKTeX</title>
     <authors>Christian Schenk</authors>
     <owners>doc</owners>

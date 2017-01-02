@@ -3,7 +3,7 @@
   <metadata>
     <id>crystaldiskinfo</id>
     <title>CrystalDiskInfo</title>
-    <version>7.0.4</version>
+    <version>7.0.5</version>
     <authors>hiyohiyo</authors>
     <owners>doc</owners>
     <summary>
@@ -20,7 +20,7 @@ If it increases over time or is very high already, the hard drive may need to be
     <licenseUrl>http://crystalmark.info/software/CrystalDiskInfo/manual-en/License.html</licenseUrl>
     <packageSourceUrl>https://github.com/aronovgj/choco-auto</packageSourceUrl>
     <dependencies>
-      <dependency id="crystaldiskinfo.portable" version="7.0.4" />
+      <dependency id="crystaldiskinfo.portable" version="7.0.5" />
     </dependencies>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
 	<iconUrl>https://cdn.rawgit.com/aronovgj/chocolatey/master/icons/crystaldiskinfo.png</iconUrl>

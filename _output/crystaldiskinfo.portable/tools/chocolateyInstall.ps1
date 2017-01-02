@@ -1,5 +1,5 @@
 $packageName = 'crystaldiskinfo.portable'
-$url = 'https://en.osdn.net/dl/crystaldiskinfo/CrystalDiskInfo7_0_4.zip' 
+$url = 'https://en.osdn.net/dl/crystaldiskinfo/CrystalDiskInfo7_0_5.zip' 
 $fileName32 = "DiskInfo32.exe"
 $fileName64 = "DiskInfo64.exe"
 $linkName = "CrystalDiskInfo.lnk"
@@ -11,7 +11,7 @@ $packageArgs = @{
   fileType      = 'zip'
   url           = $url
   softwareName  = $packageName
-  checksum      = 'df47330383d3355101c583a3c59fe4f57fdfcd8466a51cc96585988b9781c4e0'
+  checksum      = '5fdace2311bb73b04368653071742ebf4a0752affdbc4b1ed7d389b4d72b9b63'
   checksumType  = 'sha256'
 }
 

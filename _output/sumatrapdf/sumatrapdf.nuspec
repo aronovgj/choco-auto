@@ -3,7 +3,7 @@
   <metadata>
     <id>sumatrapdf</id>
     <title>Sumatra PDF (Pre-release)</title>
-    <version>3.2.10551-preview</version>
+    <version>3.2.10569-preview</version>
     <authors>Krzysztof Kowalczyk</authors>
     <owners>doc</owners>
 	<iconUrl>https://cdn.rawgit.com/aronovgj/chocolatey/master/icons/sumatrapdf.png</iconUrl>
