@@ -17,3 +17,4 @@ Remove-Item $unpackDir\Display.Update -Recurse -Force
 Remove-Item $unpackDir\ShadowPlay -Recurse -Force
 Install-ChocolateyInstallPackage $packageName $fileType $silentArgs $setupFile
 Remove-Item $unpackDir -Recurse -Force
+Remove-Item $unpackFile -Recurse -Force
