@@ -17,6 +17,9 @@
         <summary>Rainmeter, desktop customization tool.</summary>
         <releaseNotes>https://www.rainmeter.net/release-3-3
 		</releaseNotes>
+		<dependencies>
+		    <dependency id="autohotkey.portable" />
+		</dependencies>
 		<copyright>Rainmeter</copyright>
         <tags>admin rainmeter customization </tags>		<iconUrl>https://rawgit.com/aronovgj/chocolatey/a4d186f47d8efacaed3cca1b010799566fc9253f/icons/rainmeter.png</iconUrl>
 		<packageSourceUrl>https://github.com/aronovgj/choco-auto</packageSourceUrl>
