@@ -16,6 +16,7 @@
 		</description>
         <summary>Rainmeter, desktop customization tool.</summary>
         <releaseNotes>https://www.rainmeter.net/release-3-3
+		https://www.rainmeter.net/release-4-0
 		</releaseNotes>
 		<dependencies>
 		    <dependency id="autohotkey.portable" />
