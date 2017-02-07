@@ -1,7 +1,7 @@
 $ErrorActionPreference = 'Stop';
 $packageName= 'texstudio'
 # misusing DownloadUrlx64 as qt version
-$url = 'http://netix.dl.sourceforge.net/project/texstudio/texstudio/TeXstudio 2.11.2/texstudio-2.11.2-win-qt5.6.1.exe'
+$url = 'https://downloads.sourceforge.net/project/texstudio/texstudio/TeXstudio 2.11.2/texstudio-2.11.2-win-qt5.6.1.exe'
 
 $packageArgs = @{
   packageName   = $packageName
