@@ -1,1 +1,0 @@
-Write-Host "Currently, auto-maintaining packages with more than two links is hard due to limited abilities of Ketarin. The current package is deprecated. There are now two new packages: geforce-game-ready-driver-win7 and geforce-game-ready-driver-win10. Please use them instead."
