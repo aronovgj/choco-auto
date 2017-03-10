@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>{{PackageName}}</id>
+    <title>LanXchange</title>
+    <version>{{PackageVersion}}</version>
+    <authors>tfg13</authors>
+    <owners>doc</owners>
+    <summary>
+A simple tool for spontaneous, local network file transfers. Supports Windows, Mac and Linux PCs and Android phones.
+	</summary>
+    <description>
+A simple tool for spontaneous, local network file transfers. Supports Windows, Mac and Linux PCs and Android phones.
+
+Features:
+    No setup required
+    Automatically detects files offered by other computers and displays them
+    Can transfer single files, folders or a combination of both
+    Allows transfers between different platforms/operating systems
+    Transfers files as fast as your home network allows to
+
+Requirements:
+    Runs on Windows, OS X and Linux PCs with Java 7 installed.
+    Runs on Android >= 4.0 (Ice Cream Sandwich)
+	</description>
+    <projectUrl>https://github.com/tfg13/LanXchange</projectUrl>
+    <tags>file transfer android lan network</tags>
+    <copyright></copyright>
+    <licenseUrl>https://www.gnu.org/licenses/gpl-3.0.en.html</licenseUrl>
+    <packageSourceUrl>https://github.com/aronovgj/choco-auto</packageSourceUrl>
+
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+	<iconUrl>https://cdn.rawgit.com/aronovgj/chocolatey/e445931e9a614ea96820762b4f5dd80c47f94796/icons/lanxchange.png</iconUrl>
+  </metadata>
+</package>
