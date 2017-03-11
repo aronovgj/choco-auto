@@ -12,21 +12,22 @@ A simple tool for spontaneous, local network file transfers. Supports Windows, M
     <description>
 A simple tool for spontaneous, local network file transfers. Supports Windows, Mac and Linux PCs and Android phones.
 
-Features:
-    No setup required
-    Automatically detects files offered by other computers and displays them
-    Can transfer single files, folders or a combination of both
-    Allows transfers between different platforms/operating systems
-    Transfers files as fast as your home network allows to
+## Features:
+    - No setup required
+    - Automatically detects files offered by other computers and displays them
+    - Can transfer single files, folders or a combination of both
+    - Allows transfers between different platforms/operating systems
+    - Transfers files as fast as your home network allows to
 
-Requirements:
-    Runs on Windows, OS X and Linux PCs with Java 7 installed.
-    Runs on Android >= 4.0 (Ice Cream Sandwich)
+## Requirements:
+    - Runs on Windows, OS X and Linux PCs with Java 7 installed.
+    - Runs on Android >= 4.0 (Ice Cream Sandwich)	
 	</description>
     <projectUrl>https://github.com/tfg13/LanXchange</projectUrl>
     <tags>file transfer android lan network</tags>
     <copyright></copyright>
     <licenseUrl>https://www.gnu.org/licenses/gpl-3.0.en.html</licenseUrl>
+    <projectSourceUrl>https://github.com/tfg13/LanXchange</projectSourceUrl>
     <packageSourceUrl>https://github.com/aronovgj/choco-auto</packageSourceUrl>
 
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
