@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>myhotkey</id>
+    <title>MyHotkey</title>
+    <version>{{PackageVersion}}</version>
+    <authors>Horst Scheuer</authors>
+    <owners>doc</owners>
+    <summary>Provides some Hotkeys. E.g. allows you to drag or resize a window with Alt + right mouse button or Alt + left mouse button</summary>
+    <description>Provides some Hotkeys. E.g. allows you to drag or resize a window with Alt + right mouse button or Alt + left mouse button. The software is only available in German.</description>
+    <projectUrl>https://horstscheuer.net/win-x-menue-windows-7/</projectUrl>
+    <tags>MyHotkey hotkey</tags>
+    <copyright></copyright>
+    <licenseUrl>http://creativecommons.org/licenses/by-nc-sa/3.0/deed.de</licenseUrl>
+	<packageSourceUrl>https://github.com/aronovgj/choco-auto</packageSourceUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://cdn.rawgit.com/aronovgj/chocolatey/master/icons/myhotkey.png</iconUrl>
+    <releaseNotes></releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
+
