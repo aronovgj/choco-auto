@@ -1,0 +1,5 @@
+$packageName = '7-taskbar-tweaker'
+$fileType = 'exe'
+$silentArgs = '/S'
+$url = 'http://rammichael.com/downloads/7tt_setup.exe' 
+Install-ChocolateyPackage $packageName $fileType $silentArgs $url -Checksum 6780c009a73ef1930306cefc1d7c3610572c3cdbdd04776fb164bcb2bce81445 -ChecksumType 'sha256'
