@@ -18,7 +18,7 @@ I don't know if this package will work or for how long it will work. Adobe made 
     <summary>Adobe Reader - View and interact with PDF files</summary>
     <tags>adobereader pdf reader admin</tags>
     <dependencies>
-        <dependency id="adobereader" version="2015.007.20033" />
+        <dependency id="adobereader"/>
     </dependencies>
     <packageSourceUrl>https://github.com/aronovgj/choco-auto</packageSourceUrl>
     <docsUrl>https://helpx.adobe.com/reader.html</docsUrl>
