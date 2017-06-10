@@ -1,5 +1,5 @@
 ﻿$packageName = '{{PackageName}}'
-$installerPath = $(Split-Path -parent $MyInvocation.MyCommand.Definition)
+$installerPath = $env:TEMP
 $filePath = Join-Path $installerPath 'acroreadupdater.msp'
 $args = "/p $filePath /quiet"
 $url = '{{DownloadUrl}}'
