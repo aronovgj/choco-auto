@@ -3,24 +3,26 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>inssider</id>
-    <title>inSSIDer</title>
-    <version>3.1.2.12</version>
+    <title>[Deprecated]inSSIDer</title>
+    <version>3.1.2.13</version>
     <authors>metageek</authors>
     <owners>doc</owners>
     <summary>inSSIDer for Home gives you visibility into your Wi-Fi environment, showing you the security, signal strength, MAC address, and channel of all access points in your area.</summary>
-    <description>inSSIDer for Home gives you visibility into your Wi-Fi environment, showing you the security, signal strength, MAC address, and channel of all access points in your area. Since 2008 inSSIDer has been the standard Wi-Fi discovery tool for millions of Wi-Fi users worldwide.
-
-Note: The program is not free anymore. 3.1.2.1 is the last free version.
+    <description>
+	New packages are:
+	https://chocolatey.org/packages/inssider-office
+	https://chocolatey.org/packages/inssider-personal
+	https://chocolatey.org/packages/inssider-home
+	This package depends on `inssider-home`
 	</description>
     <projectUrl>http://www.inssider.com/</projectUrl>
     <tags>ssid wlan network band frequency signal channel mac security</tags>
     <copyright></copyright>
     <licenseUrl>https://en.wikipedia.org/wiki/Freeware</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-	<iconUrl>https://cdn.rawgit.com/aronovgj/chocolatey/master/icons/inssider.png</iconUrl>
 	<packageSourceUrl>https://github.com/aronovgj/choco-auto</packageSourceUrl>
 	<dependencies>
-        <dependency id="autohotkey.portable" />
+        <dependency id="inssider-home" />
     </dependencies>	
     <releaseNotes></releaseNotes>
   </metadata>
