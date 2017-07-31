@@ -6,11 +6,10 @@ $ahkFile = "$toolsDir\button.ahk"
 $packageArgs = @{
   packageName   = $packageName
   fileType      = 'EXE'
-  silentArgs    = ''
+  silentArgs    = 'OMAHA=1'
   url           = $url
   checksum 		= '{{checksum}}'
   ChecksumType 	= 'sha256'
 }
 
-Start-Process 'AutoHotkey' $ahkFile
 Install-ChocolateyPackage @packageArgs
