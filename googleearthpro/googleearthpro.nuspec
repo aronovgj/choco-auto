@@ -11,16 +11,18 @@
     <iconUrl>https://cdn.rawgit.com/aronovgj/chocolatey/4b19b72cdcde1babe693bafea0a0e8fa06b9a66f/icons/googleearthpro.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Google Earth lets you fly anywhere on Earth to view satellite imagery, maps, terrain, 3D buildings, from galaxies in outer space to the canyons of the ocean.
-	
-Key: 	
+  
+Key:  
 `GEPFREE`
-	</description>
+    </description>
     <summary>Google Earth lets you fly anywhere on Earth to view satellite imagery, maps, terrain, 3D buildings, from galaxies in outer space to the canyons of the ocean.</summary>
     <copyright>©2015 Google</copyright>
     <dependencies>
-        <dependency id="autohotkey.portable" />
     </dependencies>
-	<packageSourceUrl>https://github.com/aronovgj/choco-auto</packageSourceUrl>
+    <packageSourceUrl>https://github.com/aronovgj/choco-auto</packageSourceUrl>
     <tags>google earth navigation geographic mapping admin</tags>
   </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
 </package>
