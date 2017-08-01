@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>texstudio</id>
+    <version>2.12.6</version>
+    <title>TeXstudio</title>
+    <authors>Benito van der Zander, Jan Sundermeyer, Daniel Braun, Tim Hoffmann</authors>
+    <owners>doc</owners>
+    <licenseUrl>http://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html</licenseUrl>
+    <projectUrl>http://texstudio.sourceforge.net/</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/aronovgj/chocolatey/d4a105d0e58c0293b1008b9964bed5f4eea75407/icons/texstudio.png</iconUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>TeXstudio is an integrated writing environment for creating LaTeX documents. Our goal is to make writing LaTeX as easy and comfortable as possible. Therefore TeXstudio has numerous features like syntax-highlighting, integrated viewer, reference checking and various assistants.
+
+If you want to use MiKTeX make sure to install it before TeXstudio! Unless you don't want to compile documents or you know what you do, you will need MiKTeX.</description>
+    <summary>TeXstudio is an integrated writing environment for creating LaTeX documents.</summary>
+    <tags>admin tex latex texmaker texstudio miktex editor</tags>
+    <releaseNotes>http://texstudio.sourceforge.net/manual/current/CHANGELOG.txt</releaseNotes>
+	<docsUrl>http://texstudio.sourceforge.net/manual/current/usermanual_en.html</docsUrl>
+	<projectSourceUrl>http://sourceforge.net/p/texstudio/hg/ci/default/tree/</projectSourceUrl>
+    <mailingListUrl>http://sourceforge.net/p/texstudio/mailman/</mailingListUrl>
+    <bugTrackerUrl>http://sourceforge.net/p/texstudio/bugs/</bugTrackerUrl>
+    <packageSourceUrl>https://github.com/aronovgj/choco-auto</packageSourceUrl>
+  </metadata>
+</package>
