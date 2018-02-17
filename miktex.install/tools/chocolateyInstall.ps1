@@ -21,9 +21,9 @@ Function Get-RedirectedUrl {
       throw $_.Exception 
    }
 }
-$Url = Get-RedirectedURL http://mirrors.ctan.org/systems/win32/miktex/setup/basic-miktex-{{PackageVersion}}.exe
+$Url = Get-RedirectedURL http://mirrors.ctan.org/systems/win32/miktex/setup/windows-x86/basic-miktex-{{PackageVersion}}.exe
 
-$Url64 = Get-RedirectedURL http://mirrors.ctan.org/systems/win32/miktex/setup/basic-miktex-{{PackageVersion}}-x64.exe
+$Url64 = Get-RedirectedURL http://mirrors.ctan.org/systems/win32/miktex/setup/windows-x64/basic-miktex-{{PackageVersion}}-x64.exe
 
 
 
