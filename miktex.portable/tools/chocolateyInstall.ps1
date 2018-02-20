@@ -17,7 +17,7 @@ Function Get-RedirectedUrl {
    }
 }
 
-$url = Get-RedirectedURL http://mirrors.ctan.org/systems/win32/miktex/setup/miktex-portable-{{PackageVersion}}.exe
+$url = Get-RedirectedURL http://mirrors.ctan.org/systems/win32/miktex/setup/windows-x86/miktex-portable-{{PackageVersion}}.exe
 
 $packageArgs = @{
   packageName   = $packageName
