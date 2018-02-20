@@ -12,7 +12,7 @@ if($ProcessActive -ne $null)
 }
 Get-ChocolateyWebFile $packageName $unpackFile $url -Checksum {{checksum}} -ChecksumType 'sha256'
 Get-ChocolateyUnzip -fileFullPath $unpackFile -destination $unpackDir
-$file = (Get-ChildItem -Path $unpackDir | Where-Object {$_.Name -match "MSIAfterburnerSetup.*.exe$"}).fullname
+$file = (Get-ChildItem -Path $unpackDir -Recurse | Where-Object {$_.Name -match "MSIAfterburnerSetup.*.exe$"}).fullname
 
 Install-ChocolateyInstallPackage $packageName $fileType $silentArgs $file 
 Remove-Item $unpackFile -Recurse -Force
